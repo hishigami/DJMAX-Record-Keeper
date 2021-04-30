@@ -65,6 +65,14 @@ namespace DJMAX_Record_Keeper
             }
         }
 
+        //Open folders window
+        private void folder_Click(object sender, RoutedEventArgs e)
+        {
+            FolderWindow folder = new FolderWindow();
+            folder.Owner = this;
+            folder.Show();
+        }
+
         //Add score
         private void add_Click(object sender, RoutedEventArgs e)
         {

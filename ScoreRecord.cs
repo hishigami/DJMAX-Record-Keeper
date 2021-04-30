@@ -22,55 +22,19 @@ namespace DJMAX_Record_Keeper
         private int _score;
         private double _rate;
         private string _rank;
-        private int _break;
+        private int _breaks;
         private DateTime _date;
 
         //Properties
-        public string SongName
-        {
-            get { return _songName; }
-            private set { _songName = value; }
-        }
-        public string Mode
-        {
-            get { return _mode; }
-            private set { _mode = value; }
-        }
-        public string Difficulty
-        {
-            get { return _difficulty; }
-            private set { _difficulty = value; }
-        }
-        public string PatternName
-        {
-            get { return _patternName; }
-            private set { _patternName = value; }
-        }
-        public int Score
-        {
-            get { return _score; }
-            private set { _score = value; }
-        }
-        public double Rate
-        {
-            get { return _rate; }
-            private set { _rate = value; }
-        }
-        public string Rank
-        {
-            get { return _rank; }
-            private set { _rank = value; }
-        }
-        public int Breaks
-        {
-            get { return _break; }
-            private set { _break = value; }
-        }
-        public DateTime Date
-        {
-            get { return _date; }
-            private set { _date = value; }
-        }
+        public string SongName { get => _songName; set => _songName = value; }
+        public string Mode { get => _mode; set => _mode = value; }
+        public string Difficulty { get => _difficulty; set => _difficulty = value; }
+        public string PatternName { get => _patternName; set => _patternName = value; }
+        public int Score { get => _score; set => _score = value; }
+        public double Rate { get => _rate; set => _rate = value; }
+        public string Rank { get => _rank; set => _rank = value; }
+        public int Breaks { get => _breaks; set => _breaks = value; }
+        public DateTime Date { get => _date; set => _date = value; }
 
         //Constructor
         public ScoreRecord(string songName, string mode, string difficulty, int score, double rate, int breaks, DateTime date)

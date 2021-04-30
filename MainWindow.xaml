@@ -80,13 +80,17 @@
                                     <RowDefinition Height="Auto" />
                                     <RowDefinition Height="Auto" />
                                     <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
+                                    <RowDefinition Height="Auto" />
                                 </Grid.RowDefinitions>
 
-                                <TextBlock Text="{Binding PatternName}" FontWeight="Bold" Grid.ColumnSpan="2" />
-                                <TextBlock Text="Breaks: " FontWeight="Bold" Grid.Row="1" />
-                                <TextBlock Text="{Binding Breaks}" Grid.Column="1" Grid.Row="1" />
-                                <TextBlock Text="Rank: " FontWeight="Bold" Grid.Row="2" />
-                                <TextBlock Text="{Binding Rank}" Grid.Column="1" Grid.Row="2" />
+                                <TextBlock Text="{Binding Title}" FontWeight="Bold" Grid.ColumnSpan="2" />
+                                <TextBlock Text="{Binding Artist}" FontWeight="Bold" Grid.ColumnSpan="2" Grid.Row="1" />
+                                <TextBlock Text="{Binding Series}" FontWeight="Bold" Grid.ColumnSpan="2" Grid.Row="2" />
+                                <TextBlock Text="Breaks: " FontWeight="Bold" Grid.Row="3" />
+                                <TextBlock Text="{Binding Breaks}" Grid.Column="1" Grid.Row="3" />
+                                <TextBlock Text="Rank: " FontWeight="Bold" Grid.Row="4" />
+                                <TextBlock Text="{Binding Rank}" Grid.Column="1" Grid.Row="4" />
                             </Grid>
                         </DataTemplate>
                     </DataGrid.RowDetailsTemplate>

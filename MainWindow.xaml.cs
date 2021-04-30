@@ -157,17 +157,23 @@ namespace DJMAX_Record_Keeper
             }
 
             //Variable definitions
-            string song = ComboTitle.Text;
+            string title = ComboTitle.Text;
             //Here we probe for the radio option selected in both stack groups and ensure they have values
             string selMode = StackMode.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value).Content.ToString();
             string selDiff = StackDifficulty.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value).Content.ToString();
+            //Generate pattern string
+            string pattern = title + " " + selMode + selDiff;
+
+            //filterSongCollection was never sorted, so we need to query the right metadata via LINQ
+            string artist = filterSongCollection.FirstOrDefault(s => s.Title == title).Artist;
+            string series = filterSongCollection.FirstOrDefault(s => s.Title == title).Series;
             int score = (int)(IntegerScore.Value);
             double rate = (double)(DoubleRate.Value);
             int breaks = (int)(IntegerBreak.Value);
             DateTime scoreDate = (DateTime)(PickedDate.Value);
 
             //Create ScoreRecord object and add to scoreCollection
-            ScoreRecord record = new(song, selMode, selDiff, score, rate, breaks, scoreDate);
+            ScoreRecord record = new(title, pattern, artist, series, score, rate, breaks, scoreDate);
             scoreCollection.Add(record);
             TextMessage.Text = ("Record successfully added.");
         }

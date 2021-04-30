@@ -15,10 +15,10 @@ namespace DJMAX_Record_Keeper
         private const double sMin = 97.0;
 
         //Fields
-        private string _songName;
-        private string _mode;
-        private string _difficulty;
+        private string _title;
         private string _patternName;
+        private string _artist;
+        private string _series;
         private int _score;
         private double _rate;
         private string _rank;
@@ -26,23 +26,24 @@ namespace DJMAX_Record_Keeper
         private DateTime _date;
 
         //Properties
-        public string SongName { get => _songName; set => _songName = value; }
-        public string Mode { get => _mode; set => _mode = value; }
-        public string Difficulty { get => _difficulty; set => _difficulty = value; }
+        public string Title { get => _title; set => _title = value; }
         public string PatternName { get => _patternName; set => _patternName = value; }
+        public string Artist { get => _artist; set => _artist = value; }
+        public string Series { get => _series; set => _series = value; }
         public int Score { get => _score; set => _score = value; }
         public double Rate { get => _rate; set => _rate = value; }
         public string Rank { get => _rank; set => _rank = value; }
         public int Breaks { get => _breaks; set => _breaks = value; }
         public DateTime Date { get => _date; set => _date = value; }
+        
 
         //Constructor
-        public ScoreRecord(string songName, string mode, string difficulty, int score, double rate, int breaks, DateTime date)
+        public ScoreRecord(string title, string patternName, string artist, string series, int score, double rate, int breaks, DateTime date)
         {
-            SongName = songName;
-            Mode = mode;
-            Difficulty = difficulty;
-            PatternName = SongName + " " + Mode + Difficulty;
+            Title = title;
+            PatternName = patternName;
+            Artist = artist;
+            Series = series;
             Score = score;
             Rate = rate;
             Rank = measureRank(rate, breaks);

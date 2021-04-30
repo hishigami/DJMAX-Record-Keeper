@@ -9,9 +9,9 @@
     <Canvas x:Name="CanvasFolder">
         <GroupBox Header="Base Game" Height="125" Width="135" Canvas.Left="22" Canvas.Top="10">
             <StackPanel x:Name="StackBase" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
-                <CheckBox x:Name="CheckRespect" Content="Respect" Margin="23 5" IsChecked="{Binding Path=checkedRespect}"/>
-                <CheckBox x:Name="CheckPortable1" Content="Portable 1" Margin="23 5"/>
-                <CheckBox x:Name="CheckPortable2" Content="Portable 2" Margin="23 5"/>
+                <CheckBox x:Name="CheckRespect" Content="Respect" Margin="23 5" IsChecked="True"/>
+                <CheckBox x:Name="CheckPortable1" Content="Portable 1" Margin="23 5" IsChecked="True"/>
+                <CheckBox x:Name="CheckPortable2" Content="Portable 2" Margin="23 5" IsChecked="True"/>
             </StackPanel>
         </GroupBox>
 

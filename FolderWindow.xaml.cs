@@ -50,7 +50,7 @@ namespace DJMAX_Record_Keeper
             checkCollection.Add(CheckChunithm);
 
             //Load user settings from memory
-            loadSettings();
+            LoadSettings();
         }
 
         //Select all checkboxes
@@ -89,7 +89,7 @@ namespace DJMAX_Record_Keeper
                 MainWindow.getSongs(MainWindow.folderList[c], (bool)checkCollection[c].IsChecked);
 
             //Save all set checkboxes
-            saveSettings();
+            SaveSettings();
 
             MessageBoxResult confirmUpdate = MessageBox.Show("Successfully updated song title filters.", 
                 "Update filters", MessageBoxButton.OK, MessageBoxImage.Information);
@@ -105,14 +105,14 @@ namespace DJMAX_Record_Keeper
         }
 
         //Apply settings to each checkbox
-        private void loadSettings()
+        private void LoadSettings()
         {
             for (int c = 0; c < checkCollection.Count(); c += 1)
                 checkCollection[c].IsChecked = MainWindow.settingList[c];
         }
 
         //Save checked settings
-        private void saveSettings()
+        private void SaveSettings()
         {
             for (int c = 0; c < checkCollection.Count(); c += 1)
                 MainWindow.settingList[c] = (bool)checkCollection[c].IsChecked;

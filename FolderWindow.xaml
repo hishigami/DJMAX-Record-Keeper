@@ -31,7 +31,7 @@
 
         <GroupBox Header="Collabs" Height="101" Width="285" Canvas.Left="185" Canvas.Top="210">
             <WrapPanel x:Name="WrapCollabs" Orientation="Vertical" VerticalAlignment="Center" Width="260">
-                <CheckBox x:Name="CheckGuiltyGear" Content="Guilty Gear" Margin="23 5"/>
+                <CheckBox x:Name="CheckGuiltyGear" Content="Guilty Gear" Margin="23 5" IsChecked="True"/>
                 <CheckBox x:Name="CheckGrooveCoaster" Content="Groove Coaster" Margin="23 5"/>
                 <CheckBox x:Name="CheckDeemo" Content="Deemo" Margin="23 5"/>
                 <CheckBox x:Name="CheckCytus" Content="Cytus" Margin="23 5"/>

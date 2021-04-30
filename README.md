@@ -8,6 +8,7 @@ translate Korean titles into their English translations as they appear in Respec
 
 Currently a work in progress.
 In addition to adding actual help into the program and improving its aesthetics,
-other features such as dynamically disabling difficulties that don't exist for a specific song and mode combination are in planning.
+other features such as dynamically disabling non-existent difficulties for a specific song and mode combination,
+remembering saved folders instead of defaulting to base game's, and singling out DLC songs in Respect's folder are in planning.
 
 The .NET Core Runtime must be installed to run this app.

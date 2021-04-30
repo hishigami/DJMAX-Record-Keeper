@@ -110,7 +110,25 @@
             </Canvas>
         </TabItem>
         <TabItem Header="Help">
-
+            <DockPanel>
+                <TextBlock FontSize="16" TextWrapping="Wrap" Width="600">
+                    <Bold>Record Entry</Bold><LineBreak/>
+                    Set your folder filters on the top right to update the songlist selection. <LineBreak/>
+                    There might be slight lag in loading song entries if you include a bunch/all of the folders,
+                    so if you want to reduce load times, you can try including only folders containing songs you <Italic>really</Italic>
+                    want to track. <LineBreak/>
+                    Search by title is also enabled when choosing a song. Just type your query in to jump to the closest entry.<LineBreak/>
+                    For reference, Respect V's rank cutlines are: S: 97%, A: 90%, B: 80%.<LineBreak/>
+                    <Bold>View Records</Bold><LineBreak/>
+                    Click on any record to view more information about that entry. <LineBreak/>
+                    All record save/loads are performed locally through Records.json.
+                    If an update happens to touch the song record's structure, you may need to move/delete that file
+                    if the program won't start after updating. I don't believe the record structure needs anymore changes, however.<LineBreak/>
+                    <LineBreak/>
+                    Created by Pyonta/Hishigami for non-commercial use. All images belong to their respective copyright holders, etcetc.
+                </TextBlock>
+                <Image Source="/images/VExtension.png" DockPanel.Dock="Right" Height="150" />
+            </DockPanel>
         </TabItem>
     </TabControl>
 </Window>

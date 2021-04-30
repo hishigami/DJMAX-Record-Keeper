@@ -7,8 +7,7 @@ I've fed AllTrackData.csv into a Python script that converted the csv's data int
 translate Korean titles into their English translations as they appear in Respect and to mark (the lack of) charts for each song.
 
 Currently a work in progress.
-In addition to adding actual help into the program and improving its aesthetics,
-other features such as dynamically disabling non-existent difficulties for a specific song and mode combination,
-remembering saved folders instead of defaulting to base game's, and singling out DLC songs in Respect's folder are in planning.
+In addition to improving the program's aesthetics, other features such as dynamically disabling non-existent difficulties for a specific song and mode combination,
+(properly) remembering saved folders instead of defaulting to base game's, and singling out DLC songs in Respect's folder are in planning.
 
 The .NET Core Runtime must be installed to run this app.

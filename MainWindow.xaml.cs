@@ -76,7 +76,7 @@ namespace DJMAX_Record_Keeper
             scoreList.Filter = patternFilter;
             DataGridRecords.ItemsSource = scoreList;
             //Bind ComboTitle
-            ComboTitle.ItemsSource = masterSongCollection;
+            ComboTitle.ItemsSource = filterSongCollection;
         }
 
         //Enforce non-null values for date by defaulting to EA start date

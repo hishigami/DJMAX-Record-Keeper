@@ -42,7 +42,7 @@
 
         <Button Canvas.Left="40" Canvas.Top="160" Height="30" Width="100" Content="Select All" Click="SelectClick"/>
         <Button Canvas.Left="40" Canvas.Top="210" Height="30" Width="100" Content="Deselect All" Click="DeselectClick"/>
-        <Button Canvas.Left="60" Canvas.Top="262" Height="30" Width="60">
+        <Button Canvas.Left="60" Canvas.Top="262" Height="30" Width="60" Click="UpdateClick">
             <TextBlock FontWeight="Bold">Update</TextBlock>
         </Button>
         <Button Canvas.Left="65" Canvas.Top="313" Height="30" Width="50" Content="Cancel" Click="CancelClick">

@@ -20,7 +20,7 @@ namespace DJMAX_Record_Keeper
     /// </summary>
     public partial class FolderWindow : Window
     {
-        //All folders constant
+        //Folders constants
         public const int completeCheck = 18;
 
         public FolderWindow()
@@ -59,20 +59,31 @@ namespace DJMAX_Record_Keeper
         //Update filterSongCollection based on the chosen entries
         private void UpdateClick(object sender, RoutedEventArgs e)
         {
-            //Purge previous list
-            MainWindow.filterSongCollection.Clear();
-
             //Count all checked checkboxes
             var baseChecked = StackBase.Children.OfType<CheckBox>().Where(x => x.IsChecked == true);
             var dlcChecked = WrapDLC.Children.OfType<CheckBox>().Where(x => x.IsChecked == true);
             var collabChecked = WrapCollabs.Children.OfType<CheckBox>().Where(x => x.IsChecked == true);
 
-            //If everything is checked, treat filterSongCollection as a copy of the master
-            if(baseChecked.Count() + dlcChecked.Count() + collabChecked.Count() == completeCheck)
+            //Prevent user from updating if none of the checkboxes are selected
+            if (baseChecked.Count() + dlcChecked.Count() + collabChecked.Count() == 0)
             {
-                foreach (Song s in MainWindow.masterSongCollection)
-                    MainWindow.filterSongCollection.Add(s);
+                MessageBoxResult noChecked = MessageBox.Show("Please select at least one folder to include.",
+                "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                return;
             }
+
+            //Purge previous list
+            MainWindow.filterSongCollection.Clear();
+            
+            //Add songs from master to filter based on selected check boxes
+            foreach (Song s in MainWindow.masterSongCollection) if (s.Series == "RP" && (bool)CheckRespect.IsChecked)
+                    MainWindow.filterSongCollection.Add(s);
+
+            MessageBoxResult confirmUpdate = MessageBox.Show("Successfully updated song title filters.", 
+                "Update filters", MessageBoxButton.OK, MessageBoxImage.Information);
+
+            Owner.Activate();
+            Close();
         }
 
         //Discard changes

@@ -30,12 +30,35 @@ namespace DJMAX_Record_Keeper
         ICollectionView filterList;
         const string recordsFile = "Records.json";
         const string songsFile = "SongData.json";
+        public static List<string> folderList = new() {"RP", "P1", "P2", "VE", "ES", "TR", "CE", "BS", "T1", "T2", "T3", "P3", "GG", "GC", "DM", "CY", "GF", "CHU"};
+        public static List<bool> settingList = new()
+        {
+            Folder.Default.Respect,
+            Folder.Default.Portable1,
+            Folder.Default.Portable2,
+            Folder.Default.VExtension,
+            Folder.Default.EmotionalSense,
+            Folder.Default.Trilogy,
+            Folder.Default.Clazziquai,
+            Folder.Default.BlackSquare,
+            Folder.Default.Technika1,
+            Folder.Default.Technika2,
+            Folder.Default.Technika3,
+            Folder.Default.Portable3,
+            Folder.Default.GuiltyGear,
+            Folder.Default.GrooveCoaster,
+            Folder.Default.Deemo,
+            Folder.Default.Cytus,
+            Folder.Default.Frontline,
+            Folder.Default.Chunithm
+        };
         public static ObservableCollection<Song> masterSongCollection = new();
         public static ObservableCollection<Song> filterSongCollection = new();
 
         public MainWindow()
         {
             InitializeComponent();
+
             //Attempt to deserialize Records.json if it exists in base folder directory
             if (File.Exists(recordsFile))
             {
@@ -47,6 +70,7 @@ namespace DJMAX_Record_Keeper
                 }
                 TextMessage.Text = ("Successfully read saved records from disk.\n");
             }
+
             //Deserialize SongData.json to masterSongCollection
             if (File.Exists(songsFile))
             {
@@ -64,7 +88,9 @@ namespace DJMAX_Record_Keeper
                 "The program will now terminate.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
                 Close();
             }
-            
+
+            //Load folder settings to filterSongCollection
+            loadFilters();
 
             //Set default date
             PickedDate.Value = new DateTime(2019, 12, 18);
@@ -83,6 +109,20 @@ namespace DJMAX_Record_Keeper
             //Set sorting by song title, then bind ComboTitle
             filterList.SortDescriptions.Add(new SortDescription("Title", ListSortDirection.Ascending));
             ComboTitle.ItemsSource = filterList;
+        }
+
+        //Retrieve songs from the specified series in masterSongCollection if the other condition is satisfied
+        public static void getSongs(string series, bool condition)
+        {
+            foreach (Song s in MainWindow.masterSongCollection) if (s.Series == series && condition)
+                    MainWindow.filterSongCollection.Add(s);
+        }
+
+        //Add songs from masterSongCollection based on previous settings
+        private void loadFilters()
+        {
+            for (int i = 0; i < folderList.Count; i += 1)
+                getSongs(folderList[i], settingList[i]);
         }
 
         //Enforce non-null values for date by defaulting to EA start date

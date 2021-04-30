@@ -22,4 +22,19 @@
     <PackageReference Include="Extended.Wpf.Toolkit" Version="4.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Compile Update="Folder.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Folder.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Folder.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Folder.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
 </Project>

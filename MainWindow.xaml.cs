@@ -24,9 +24,12 @@ namespace DJMAX_Record_Keeper
     /// </summary>
     public partial class MainWindow : Window
     {
+        //Globals
         public ObservableCollection<ScoreRecord> scoreCollection = new ObservableCollection<ScoreRecord>();
         ICollectionView ScoreList;
         const string recordsFile = "records.json";
+        const string songsFile = "SongData.json";
+        public ObservableCollection<Song> masterSongCollection = new ObservableCollection<Song>();
 
         public MainWindow()
         {
@@ -42,6 +45,24 @@ namespace DJMAX_Record_Keeper
                 }
                 txtMsg.Text = ("Successfully read saved records from disk.");
             }
+            //Deserialize SongData.json to masterSongCollection
+            if (File.Exists(songsFile))
+            {
+                string songs = File.ReadAllText(songsFile);
+                var songsMaster = JsonSerializer.Deserialize<ObservableCollection<Song>>(songs);
+                foreach (var song in songsMaster)
+                {
+                    masterSongCollection.Add(song);
+                }
+            }
+            else
+            {
+                MessageBoxResult songDataNotFound = MessageBox.Show("SongData.json was not found. Please do not touch that file.\n" +
+                "If you deleted it, redownload it from the github repo.\n" +
+                "The program will now terminate.", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                Close();
+            }
+            
 
             //Set defaults to song name and date
             txtName.Text = "Ask to Wind";

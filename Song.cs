@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DJMAX_Record_Keeper
 {
-    class Song
+    public class Song
     {
         //Fields
         private string _title;

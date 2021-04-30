@@ -25,11 +25,12 @@ namespace DJMAX_Record_Keeper
     public partial class MainWindow : Window
     {
         //Globals
-        public ObservableCollection<ScoreRecord> scoreCollection = new ObservableCollection<ScoreRecord>();
-        ICollectionView ScoreList;
+        public ObservableCollection<ScoreRecord> scoreCollection = new();
+        ICollectionView scoreList;
         const string recordsFile = "records.json";
         const string songsFile = "SongData.json";
-        public ObservableCollection<Song> masterSongCollection = new ObservableCollection<Song>();
+        public static ObservableCollection<Song> masterSongCollection = new();
+        public static ObservableCollection<Song> filterSongCollection = new();
 
         public MainWindow()
         {
@@ -43,7 +44,7 @@ namespace DJMAX_Record_Keeper
                 {
                     scoreCollection.Add(record);
                 }
-                txtMsg.Text = ("Successfully read saved records from disk.");
+                TextMessage.Text = ("Successfully read saved records from disk.");
             }
             //Deserialize SongData.json to masterSongCollection
             if (File.Exists(songsFile))
@@ -64,88 +65,89 @@ namespace DJMAX_Record_Keeper
             }
             
 
-            //Set defaults to song name and date
-            txtName.Text = "Ask to Wind";
-            dpDate.Value = new DateTime(2019, 12, 18);
+            //Set default date
+            PickedDate.Value = new DateTime(2019, 12, 18);
 
             //Set-up collection views
             var scoreSourceList = new CollectionViewSource { Source = scoreCollection };
-            ScoreList = scoreSourceList.View;
+            scoreList = scoreSourceList.View;
             //Create Predicate and add to ScoreList before binding it to DataGrid
-            var patternFilter = new Predicate<object>(pattern => ((ScoreRecord)pattern).PatternName.ToLower().Contains(txtSearch.Text.ToLower()));
-            ScoreList.Filter = patternFilter;
-            dgRecords.ItemsSource = ScoreList;
+            var patternFilter = new Predicate<object>(pattern => ((ScoreRecord)pattern).PatternName.ToLower().Contains(TextSearch.Text.ToLower()));
+            scoreList.Filter = patternFilter;
+            DataGridRecords.ItemsSource = scoreList;
+            //Bind ComboTitle
+            ComboTitle.ItemsSource = masterSongCollection;
         }
 
         //Enforce non-null values for date by defaulting to EA start date
-        private void check_Date(object sender, RoutedEventArgs e)
+        private void CheckDate(object sender, RoutedEventArgs e)
         {
-            if (dpDate.Value == null)
+            if (PickedDate.Value == null)
             {
-                dpDate.Value = new DateTime(2019, 12, 18);
+                PickedDate.Value = new DateTime(2019, 12, 18);
             }
         }
 
         //Open folders window
-        private void folder_Click(object sender, RoutedEventArgs e)
+        private void FolderClick(object sender, RoutedEventArgs e)
         {
-            FolderWindow folder = new FolderWindow();
+            FolderWindow folder = new();
             folder.Owner = this;
             folder.Show();
         }
 
         //Add score
-        private void add_Click(object sender, RoutedEventArgs e)
+        private void AddClick(object sender, RoutedEventArgs e)
         {
             //Null value check
-            if (txtName.Text == "" || dpDate.Value == null)
+            if (ComboTitle.Text == "" || PickedDate.Value == null)
             {
-                txtMsg.Text = ("A blank field was detected.\n" +
+                TextMessage.Text = ("A blank field was detected.\n" +
                     "Please fill in the blank(s) with a value.");
                 return;
             }
 
             //Variable definitions
-            string song = txtName.Text;
+            string song = ComboTitle.Text;
             //Here we probe for the radio option selected in both stack groups and ensure they have values
-            string selMode = stkMode.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value).Content.ToString();
-            string selDiff = stkDiff.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value).Content.ToString();
-            int score = (int)(intScore.Value);
-            double rate = (double)(dblRate.Value);
-            int breaks = (int)(intBreak.Value);
-            DateTime scoreDate = (DateTime)(dpDate.Value);
+            string selMode = StackMode.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value).Content.ToString();
+            string selDiff = StackDifficulty.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value).Content.ToString();
+            int score = (int)(IntegerScore.Value);
+            double rate = (double)(DoubleRate.Value);
+            int breaks = (int)(IntegerBreak.Value);
+            DateTime scoreDate = (DateTime)(PickedDate.Value);
 
             //Create ScoreRecord object and add to scoreCollection
-            ScoreRecord record = new ScoreRecord(song, selMode, selDiff, score, rate, breaks, scoreDate);
+            ScoreRecord record = new(song, selMode, selDiff, score, rate, breaks, scoreDate);
             scoreCollection.Add(record);
-            txtMsg.Text = ("Record successfully added.");
+            TextMessage.Text = ("Record successfully added.");
         }
 
         //Reset all fields to default values
-        private void reset_Click(object sender, RoutedEventArgs e)
+        private void ResetClick(object sender, RoutedEventArgs e)
         {
-            txtName.Text = "Ask to Wind";
+            ComboTitle.SelectedIndex = 0;
 
-            rdo4.IsChecked = true;
-            rdoNm.IsChecked = true;
+            Radio4.IsChecked = true;
+            RadioNM.IsChecked = true;
 
-            intScore.Value = 0;
-            dblRate.Value = 0.0;
-            intBreak.Value = 0;
+            IntegerScore.Value = 0;
+            DoubleRate.Value = 0.0;
+            IntegerBreak.Value = 0;
 
-            dpDate.Value = new DateTime(2019, 12, 18);
+            PickedDate.Value = new DateTime(2019, 12, 18);
 
-            txtMsg.Text = ("All fields have been reset to their defaults.");
+            TextMessage.Text = ("All fields have been reset to their defaults.");
         }
 
         //Refresh list for search queries
-        private void searchRecords(object sender, RoutedEventArgs e)
+        private void SearchRecords(object sender, RoutedEventArgs e)
         {
-            ScoreList.Refresh();
+            scoreList.Refresh();
         }
 
         //Save all records to JSON
-        private void save_Click(object sender, RoutedEventArgs e)
+        private void SaveClick(object sender, RoutedEventArgs e)
         {
             var options = new JsonSerializerOptions
             {
@@ -153,19 +155,19 @@ namespace DJMAX_Record_Keeper
             };
             string json = JsonSerializer.Serialize(scoreCollection, options);
             File.WriteAllText(recordsFile, json);
-            txtNotif.Text = "Records have been saved to disk.";
+            TextNotification.Text = "Records have been saved to disk.";
         }
 
         //Delete record after accepting warning
-        private void delete_Click(object sender, RoutedEventArgs e)
+        private void DeleteClick(object sender, RoutedEventArgs e)
         {
             MessageBoxResult confirmDel = MessageBox.Show("Are you sure you want to delete this record?\n" +
                 "This cannot be undone!", "Confirm Record Delete", MessageBoxButton.YesNo, MessageBoxImage.Warning);
             if(confirmDel == MessageBoxResult.Yes)
             {
-                scoreCollection.Remove(dgRecords.SelectedItem as ScoreRecord);
+                scoreCollection.Remove(DataGridRecords.SelectedItem as ScoreRecord);
             }
-            txtNotif.Text = "Record has been deleted.";
+            TextNotification.Text = "Record has been deleted.";
         }
         
     }

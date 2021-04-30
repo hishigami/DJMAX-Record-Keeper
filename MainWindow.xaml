@@ -11,55 +11,56 @@
         <TabItem Header="Record Entry">
             <Canvas>
                 <GroupBox Header="Record Information" Height="350" Width="375" Canvas.Left="22" Canvas.Top="10"/>
-                <Label Content="Song Name:" Canvas.Left="40" Canvas.Top="36" />
-                <TextBox x:Name="txtName" TextWrapping="Wrap" Width="200" Canvas.Left="175" Canvas.Top="40"/>
+                <Label Content="Song Title:" Canvas.Left="40" Canvas.Top="36" />
+                <ComboBox x:Name="ComboTitle" Width="200" Canvas.Left="175" Canvas.Top="40" SelectedIndex="0" DisplayMemberPath="Title"
+                          IsTextSearchEnabled="True"/>
                 <GroupBox Header="Game Mode" Height="55" Width="335" Canvas.Left="40" Canvas.Top="80">
-                    <StackPanel x:Name="stkMode" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
-                        <RadioButton x:Name="rdo4" Content="4B" IsChecked="True" Margin="25 5"/>
-                        <RadioButton x:Name="rdo5" Content="5B" Margin="25 5"/>
-                        <RadioButton x:Name="rdo6" Content="6B" Margin="25 5"/>
-                        <RadioButton x:Name="rdo8" Content="8B" Margin="25 5"/>
+                    <StackPanel x:Name="StackMode" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                        <RadioButton x:Name="Radio4" Content="4B" IsChecked="True" Margin="25 5"/>
+                        <RadioButton x:Name="Radio5" Content="5B" Margin="25 5"/>
+                        <RadioButton x:Name="Radio6" Content="6B" Margin="25 5"/>
+                        <RadioButton x:Name="Radio8" Content="8B" Margin="25 5"/>
                     </StackPanel>
                 </GroupBox>
                 <GroupBox Header="Pattern Difficulty" Height="55" Width="335" Canvas.Left="40" Canvas.Top="160">
-                    <StackPanel x:Name="stkDiff" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
-                        <RadioButton x:Name="rdoNm" Content="NM" IsChecked="True" Margin="23 5"/>
-                        <RadioButton x:Name="rdoHd" Content="HD" Margin="23 5"/>
-                        <RadioButton x:Name="rdoMx" Content="MX" Margin="23 5"/>
-                        <RadioButton x:Name="rdoSc" Content="SC" Margin="23 5"/>
+                    <StackPanel x:Name="StackDifficulty" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
+                        <RadioButton x:Name="RadioNM" Content="NM" IsChecked="True" Margin="23 5"/>
+                        <RadioButton x:Name="RadioHD" Content="HD" Margin="23 5"/>
+                        <RadioButton x:Name="RadioMX" Content="MX" Margin="23 5"/>
+                        <RadioButton x:Name="RadioSC" Content="SC" Margin="23 5"/>
                     </StackPanel>
                 </GroupBox>
                 <Label Content="Score:" Canvas.Left="40" Canvas.Top="221" />
-                <xctk:IntegerUpDown x:Name="intScore" Width="70" Canvas.Left="45" Canvas.Top="252" Text="0" Value="0" Minimum="0"
+                <xctk:IntegerUpDown x:Name="IntegerScore" Width="70" Canvas.Left="45" Canvas.Top="252" Text="0" Value="0" Minimum="0"
                                     DefaultValue="0" DisplayDefaultValueOnEmptyText="True"/>
                 <Label Content="Rate (%):" Canvas.Left="174" Canvas.Top="221" />
-                <xctk:DoubleUpDown x:Name="dblRate" Width="60" Canvas.Left="180" Canvas.Top="252" Text="0" Value="0.0" Minimum="0.0" 
+                <xctk:DoubleUpDown x:Name="DoubleRate" Width="60" Canvas.Left="180" Canvas.Top="252" Text="0" Value="0.0" Minimum="0.0" 
                                    Maximum="100.0" DefaultValue="0.0" DisplayDefaultValueOnEmptyText="True"/>
                 <Label Content="Breaks:" Canvas.Left="313" Canvas.Top="221" />
-                <xctk:IntegerUpDown x:Name="intBreak" Width="60" Canvas.Left="315" Canvas.Top="252" Text="0" Value="0" Minimum="0"
+                <xctk:IntegerUpDown x:Name="IntegerBreak" Width="60" Canvas.Left="315" Canvas.Top="252" Text="0" Value="0" Minimum="0"
                                     DefaultValue="0" DisplayDefaultValueOnEmptyText="True"/>
                 <Label Content="Date:" Canvas.Left="45" Canvas.Top="296" />
-                <xctk:DateTimePicker x:Name="dpDate" Width="235" Canvas.Left="140" Canvas.Top="302" Format="ShortDate"
-                                      ValueChanged="check_Date"/>
+                <xctk:DateTimePicker x:Name="PickedDate" Width="235" Canvas.Left="140" Canvas.Top="302" Format="ShortDate"
+                                      ValueChanged="CheckDate"/>
 
-                <Button Canvas.Left="450" Canvas.Top="24" Height="50" Width="300" Click="folder_Click">
+                <Button Canvas.Left="450" Canvas.Top="24" Height="50" Width="300" Click="FolderClick">
                     <TextBlock FontWeight="Bold">Update Selectable Song Filtering</TextBlock>
                 </Button>
-                <Button Canvas.Left="450" Canvas.Top="110" Height="50" Width="100" Click="add_Click">
+                <Button Canvas.Left="450" Canvas.Top="110" Height="50" Width="100" Click="AddClick">
                     <TextBlock FontWeight="Bold">Add Record</TextBlock>
                 </Button>
-                <Button Foreground="Red" Canvas.Left="650" Canvas.Top="110" Height="50" Width="100" Click="reset_Click">
+                <Button Foreground="Red" Canvas.Left="650" Canvas.Top="110" Height="50" Width="100" Click="ResetClick">
                     <TextBlock FontWeight="Bold">Reset Fields</TextBlock>
                 </Button>
 
                 <GroupBox Header="Message" Height="160" Width="350" Canvas.Left="424" Canvas.Top="200">
-                    <TextBlock x:Name="txtMsg" TextWrapping="Wrap" Height="130" />
+                    <TextBlock x:Name="TextMessage" TextWrapping="Wrap" Height="130" />
                 </GroupBox>
             </Canvas>
         </TabItem>
         <TabItem Header="View Records">
             <Canvas>
-                <DataGrid x:Name="dgRecords" AutoGenerateColumns="False" Canvas.Left="114" Canvas.Top="20" Width="566" Height="300"
+                <DataGrid x:Name="DataGridRecords" AutoGenerateColumns="False" Canvas.Left="114" Canvas.Top="20" Width="566" Height="300"
                           SelectionMode="Single" SelectionUnit="FullRow" CanUserReorderColumns="False" CanUserResizeColumns="False"
                           CanUserResizeRows="False" CanUserSortColumns="True">
                     <DataGrid.Columns>
@@ -90,17 +91,17 @@
                         </DataTemplate>
                     </DataGrid.RowDetailsTemplate>
                 </DataGrid>
-                <xctk:WatermarkTextBox x:Name="txtSearch" Watermark="Enter search query" Canvas.Top="340" Canvas.Left="20" 
-                                       Width="200" TextWrapping="Wrap" TextChanged="searchRecords" />
-                <Button Canvas.Left="290" Canvas.Top="340" Height="27" Width="100" Content="Save Records" Click="save_Click" 
-                        IsEnabled="{Binding ElementName=dgRecords, Path=Items.Count}">
+                <xctk:WatermarkTextBox x:Name="TextSearch" Watermark="Enter search query" Canvas.Top="340" Canvas.Left="20" 
+                                       Width="200" TextWrapping="Wrap" TextChanged="SearchRecords" />
+                <Button Canvas.Left="290" Canvas.Top="340" Height="27" Width="100" Content="Save Records" Click="SaveClick" 
+                        IsEnabled="{Binding ElementName=DataGridRecords, Path=Items.Count}">
                 </Button>
-                <Button Foreground="Red" Canvas.Left="460" Canvas.Top="340" Height="27" Width="100" Click="delete_Click" 
-                        IsEnabled="{Binding ElementName=dgRecords, Path=SelectedItems.Count}">
+                <Button Foreground="Red" Canvas.Left="460" Canvas.Top="340" Height="27" Width="100" Click="DeleteClick" 
+                        IsEnabled="{Binding ElementName=DataGridRecords, Path=SelectedItems.Count}">
                     <TextBlock FontWeight="Bold">Delete Record</TextBlock>
                 </Button>
                 <GroupBox Header="Notification" Height="55" Width="200" Canvas.Left="575" Canvas.Top="326">
-                    <TextBlock x:Name="txtNotif" TextWrapping="Wrap" Height="28" />
+                    <TextBlock x:Name="TextNotification" TextWrapping="Wrap" Height="28" />
                 </GroupBox>
             </Canvas>
         </TabItem>

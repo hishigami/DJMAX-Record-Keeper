@@ -27,7 +27,8 @@ namespace DJMAX_Record_Keeper
         //Globals
         public ObservableCollection<ScoreRecord> scoreCollection = new();
         ICollectionView scoreList;
-        const string recordsFile = "records.json";
+        ICollectionView filterList;
+        const string recordsFile = "Records.json";
         const string songsFile = "SongData.json";
         public static ObservableCollection<Song> masterSongCollection = new();
         public static ObservableCollection<Song> filterSongCollection = new();
@@ -35,7 +36,7 @@ namespace DJMAX_Record_Keeper
         public MainWindow()
         {
             InitializeComponent();
-            //Attempt to deserialize json if it exists in base folder directory
+            //Attempt to deserialize Records.json if it exists in base folder directory
             if (File.Exists(recordsFile))
             {
                 string json = File.ReadAllText(recordsFile);
@@ -44,7 +45,7 @@ namespace DJMAX_Record_Keeper
                 {
                     scoreCollection.Add(record);
                 }
-                TextMessage.Text = ("Successfully read saved records from disk.");
+                TextMessage.Text = ("Successfully read saved records from disk.\n");
             }
             //Deserialize SongData.json to masterSongCollection
             if (File.Exists(songsFile))
@@ -71,12 +72,17 @@ namespace DJMAX_Record_Keeper
             //Set-up collection views
             var scoreSourceList = new CollectionViewSource { Source = scoreCollection };
             scoreList = scoreSourceList.View;
-            //Create Predicate and add to ScoreList before binding it to DataGrid
+            var songFilterList = new CollectionViewSource { Source = filterSongCollection };
+            filterList = songFilterList.View;
+            
+            //Create Predicate and add to ScoreList before binding it to DataGridRecords
             var patternFilter = new Predicate<object>(pattern => ((ScoreRecord)pattern).PatternName.ToLower().Contains(TextSearch.Text.ToLower()));
             scoreList.Filter = patternFilter;
             DataGridRecords.ItemsSource = scoreList;
-            //Bind ComboTitle
-            ComboTitle.ItemsSource = filterSongCollection;
+
+            //Set sorting by song title, then bind ComboTitle
+            filterList.SortDescriptions.Add(new SortDescription("Title", ListSortDirection.Ascending));
+            ComboTitle.ItemsSource = filterList;
         }
 
         //Enforce non-null values for date by defaulting to EA start date
@@ -93,7 +99,10 @@ namespace DJMAX_Record_Keeper
         {
             FolderWindow folder = new();
             folder.Owner = this;
-            folder.Show();
+            folder.ShowDialog();
+
+            //Reset ComboTitle to first item
+            ComboTitle.SelectedIndex = 0;
         }
 
         //Add score

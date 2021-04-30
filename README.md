@@ -5,7 +5,6 @@ This can be used for PS4 Respect as well if you don't mind the differing rank th
 Song and pattern information sourced from [DJMAX Random Selector.](https://github.com/wowvv0w/DJMAX_Random_Selector)
 I've fed AllTrackData.csv into a Python script that converted the csv's data into JSON, then editted that output to both
 translate Korean titles into their English translations as they appear in Respect and to mark (the lack of) charts for each song.
-Since this script currently does not resort the entries after translating, a side effect is that originally hangul-titled songs will be sorted above 2Nite.
 
 Currently a work in progress.
 In addition to adding actual help into the program and improving its aesthetics,

@@ -20,8 +20,29 @@ namespace DJMAX_Record_Keeper
     /// </summary>
     public partial class FolderWindow : Window
     {
-        //Global
+        //Globals
         public ObservableCollection<CheckBox> checkCollection = new();
+        public static List<bool> settingList = new()
+        {
+            Folder.Default.Respect,
+            Folder.Default.Portable1,
+            Folder.Default.Portable2,
+            Folder.Default.VExtension,
+            Folder.Default.EmotionalSense,
+            Folder.Default.Trilogy,
+            Folder.Default.Clazziquai,
+            Folder.Default.BlackSquare,
+            Folder.Default.Technika1,
+            Folder.Default.Technika2,
+            Folder.Default.Technika3,
+            Folder.Default.Portable3,
+            Folder.Default.GuiltyGear,
+            Folder.Default.GrooveCoaster,
+            Folder.Default.Deemo,
+            Folder.Default.Cytus,
+            Folder.Default.Frontline,
+            Folder.Default.Chunithm
+        };
 
         public FolderWindow()
         {
@@ -86,14 +107,15 @@ namespace DJMAX_Record_Keeper
 
             //Add songs from master to filter based on selected check boxes
             for(int c = 0; c < checkCollection.Count(); c += 1)
-                MainWindow.getSongs(MainWindow.folderList[c], (bool)checkCollection[c].IsChecked);
+                MainWindow.GetSongs(MainWindow.folderList[c], (bool)checkCollection[c].IsChecked);
 
             //Save all set checkboxes
             SaveSettings();
 
             MessageBoxResult confirmUpdate = MessageBox.Show("Successfully updated song title filters.", 
                 "Update filters", MessageBoxButton.OK, MessageBoxImage.Information);
-
+            
+            MainWindow.isRefresh = true;
             Owner.Activate();
             Close();
         }
@@ -108,14 +130,30 @@ namespace DJMAX_Record_Keeper
         private void LoadSettings()
         {
             for (int c = 0; c < checkCollection.Count(); c += 1)
-                checkCollection[c].IsChecked = MainWindow.settingList[c];
+                checkCollection[c].IsChecked = settingList[c];
         }
 
         //Save checked settings
         private void SaveSettings()
         {
-            for (int c = 0; c < checkCollection.Count(); c += 1)
-                MainWindow.settingList[c] = (bool)checkCollection[c].IsChecked;
+            Folder.Default.Respect = (bool)checkCollection[0].IsChecked;
+            Folder.Default.Portable1 = (bool)checkCollection[1].IsChecked;
+            Folder.Default.Portable2 = (bool)checkCollection[2].IsChecked;
+            Folder.Default.VExtension = (bool)checkCollection[3].IsChecked;
+            Folder.Default.EmotionalSense = (bool)checkCollection[4].IsChecked;
+            Folder.Default.Trilogy = (bool)checkCollection[5].IsChecked;
+            Folder.Default.Clazziquai = (bool)checkCollection[6].IsChecked;
+            Folder.Default.BlackSquare = (bool)checkCollection[7].IsChecked;
+            Folder.Default.Technika1 = (bool)checkCollection[8].IsChecked;
+            Folder.Default.Technika2 = (bool)checkCollection[9].IsChecked;
+            Folder.Default.Technika3 = (bool)checkCollection[10].IsChecked;
+            Folder.Default.Portable3 = (bool)checkCollection[11].IsChecked;
+            Folder.Default.GuiltyGear = (bool)checkCollection[12].IsChecked;
+            Folder.Default.GrooveCoaster = (bool)checkCollection[13].IsChecked;
+            Folder.Default.Deemo = (bool)checkCollection[14].IsChecked;
+            Folder.Default.Cytus = (bool)checkCollection[15].IsChecked;
+            Folder.Default.Frontline = (bool)checkCollection[16].IsChecked;
+            Folder.Default.Chunithm = (bool)checkCollection[17].IsChecked;
 
             Folder.Default.Save();
         }

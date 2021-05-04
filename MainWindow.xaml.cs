@@ -30,28 +30,8 @@ namespace DJMAX_Record_Keeper
         ICollectionView filterList;
         const string recordsFile = "Records.json";
         const string songsFile = "SongData.json";
+        public static bool isRefresh = false;
         public static List<string> folderList = new() {"RP", "P1", "P2", "VE", "ES", "TR", "CE", "BS", "T1", "T2", "T3", "P3", "GG", "GC", "DM", "CY", "GF", "CHU"};
-        public static List<bool> settingList = new()
-        {
-            Folder.Default.Respect,
-            Folder.Default.Portable1,
-            Folder.Default.Portable2,
-            Folder.Default.VExtension,
-            Folder.Default.EmotionalSense,
-            Folder.Default.Trilogy,
-            Folder.Default.Clazziquai,
-            Folder.Default.BlackSquare,
-            Folder.Default.Technika1,
-            Folder.Default.Technika2,
-            Folder.Default.Technika3,
-            Folder.Default.Portable3,
-            Folder.Default.GuiltyGear,
-            Folder.Default.GrooveCoaster,
-            Folder.Default.Deemo,
-            Folder.Default.Cytus,
-            Folder.Default.Frontline,
-            Folder.Default.Chunithm
-        };
         public static ObservableCollection<Song> masterSongCollection = new();
         public static ObservableCollection<Song> filterSongCollection = new();
 
@@ -90,7 +70,7 @@ namespace DJMAX_Record_Keeper
             }
 
             //Load folder settings to filterSongCollection
-            loadFilters();
+            LoadFilters();
 
             //Set default date
             PickedDate.Value = new DateTime(2019, 12, 18);
@@ -112,17 +92,17 @@ namespace DJMAX_Record_Keeper
         }
 
         //Retrieve songs from the specified series in masterSongCollection if the other condition is satisfied
-        public static void getSongs(string series, bool condition)
+        public static void GetSongs(string series, bool condition)
         {
             foreach (Song s in MainWindow.masterSongCollection) if (s.Series == series && condition)
                     MainWindow.filterSongCollection.Add(s);
         }
 
         //Add songs from masterSongCollection based on previous settings
-        private void loadFilters()
+        private void LoadFilters()
         {
             for (int i = 0; i < folderList.Count; i += 1)
-                getSongs(folderList[i], settingList[i]);
+                GetSongs(folderList[i], FolderWindow.settingList[i]);
         }
 
         //Enforce non-null values for date by defaulting to EA start date
@@ -141,8 +121,12 @@ namespace DJMAX_Record_Keeper
             folder.Owner = this;
             folder.ShowDialog();
 
-            //Reset ComboTitle to first item
-            ComboTitle.SelectedIndex = 0;
+            //Reset ComboTitle to first item if folders were updated
+            if (isRefresh)
+            {
+                ComboTitle.SelectedIndex = 0;
+                isRefresh = false;
+            }
         }
 
         //Add score

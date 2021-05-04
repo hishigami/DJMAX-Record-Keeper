@@ -30,6 +30,7 @@ namespace DJMAX_Record_Keeper
         ICollectionView filterList;
         const string recordsFile = "Records.json";
         const string songsFile = "SongData.json";
+        public static bool isRefresh = false;
         public static List<string> folderList = new() {"RP", "P1", "P2", "VE", "ES", "TR", "CE", "BS", "T1", "T2", "T3", "P3", "GG", "GC", "DM", "CY", "GF", "CHU"};
         public static List<bool> settingList = new()
         {
@@ -141,8 +142,12 @@ namespace DJMAX_Record_Keeper
             folder.Owner = this;
             folder.ShowDialog();
 
-            //Reset ComboTitle to first item
-            ComboTitle.SelectedIndex = 0;
+            //Reset ComboTitle to first item if folders were updated
+            if (isRefresh)
+            {
+                ComboTitle.SelectedIndex = 0;
+                isRefresh = false;
+            }
         }
 
         //Add score

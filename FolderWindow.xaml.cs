@@ -93,7 +93,8 @@ namespace DJMAX_Record_Keeper
 
             MessageBoxResult confirmUpdate = MessageBox.Show("Successfully updated song title filters.", 
                 "Update filters", MessageBoxButton.OK, MessageBoxImage.Information);
-
+            
+            MainWindow.isRefresh = true;
             Owner.Activate();
             Close();
         }

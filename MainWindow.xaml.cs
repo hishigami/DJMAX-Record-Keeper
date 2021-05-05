@@ -119,8 +119,57 @@ namespace DJMAX_Record_Keeper
         //Retrieve songs from the specified series in masterSongCollection if the other condition is satisfied
         public static void GetSongs(string series, bool condition)
         {
-            foreach (Song s in MainWindow.masterSongCollection) if (s.Series == series && condition)
-                    MainWindow.filterSongCollection.Add(s);
+            foreach (Song s in masterSongCollection) if (s.Series == series && condition)
+                    filterSongCollection.Add(s);
+        }
+
+        //Remove Respect/Link Disc songs if their conditions are not satisfied
+        private void FilterSpecialSongs()
+        {
+            //Respect originals
+            if (!Folder.Default.Trilogy)
+            {
+                filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "Nevermind"));
+            }
+            if (!Folder.Default.Clazziquai)
+            {
+                filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "Rising The Sonic"));
+            }
+            if (!Folder.Default.BlackSquare)
+            {
+                filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "ANALYS"));
+            }
+            if (!Folder.Default.Technika1)
+            {
+                filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "Do you want it"));
+            }
+            if (!Folder.Default.Technika2)
+            {
+                filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "End of Mythology"));
+            }
+            if (!Folder.Default.Technika3)
+            {
+                filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "ALiCE"));
+            }
+            if (!Folder.Default.Portable3)
+            {
+                filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "glory day (Mintorment Remix)"));
+                filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "glory day -JHS Remix-"));
+            }
+
+            //Link Disc
+            if (!Folder.Default.BlackSquare && !Folder.Default.Technika1)
+            {
+                filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "Here in the Moment ~Extended Mix~"));
+            }
+            if (!Folder.Default.Clazziquai && !Folder.Default.Technika1)
+            {
+                filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "Airwave ~Extended Mix~"));
+            }
+            if (!Folder.Default.BlackSquare && !Folder.Default.Clazziquai)
+            {
+                filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "SON OF SUN ~Extended Mix~"));
+            }
         }
 
         //Add songs from masterSongCollection based on previous settings
@@ -128,6 +177,7 @@ namespace DJMAX_Record_Keeper
         {
             for (int i = 0; i < folderList.Count; i += 1)
                 GetSongs(folderList[i], settingList[i]);
+            FilterSpecialSongs();
         }
 
         //Reset selected difficulty to NM after changing songs and update selectable difficulties
@@ -224,6 +274,7 @@ namespace DJMAX_Record_Keeper
              */
             if (isRefresh)
             {
+                FilterSpecialSongs();
                 ComboTitle.SelectedIndex = 0;
                 RadioNM.IsChecked = true;
                 CheckDifficulties(StackMode.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value));

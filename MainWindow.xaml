@@ -113,7 +113,9 @@
             <DockPanel>
                 <TextBlock FontSize="16" TextWrapping="Wrap" Width="600">
                     <Bold>Record Entry</Bold><LineBreak/>
-                    Set your folder filters on the top right to update the songlist selection. <LineBreak/>
+                    Set your folder filters on the top right to update the songlist selection.<LineBreak/>
+                    Note that this program also adheres to Respect's DLC restrictions on special songs
+                    (e.g. no Trilogy = can't select Nevermind).<LineBreak/>
                     There might be slight lag in loading song entries if you include a bunch/all of the folders,
                     so if you want to reduce load times, you can try including only folders containing songs you <Italic>really</Italic>
                     want to track. <LineBreak/>

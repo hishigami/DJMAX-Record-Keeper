@@ -94,8 +94,8 @@ namespace DJMAX_Record_Keeper
             //Load folder settings to filterSongCollection
             LoadFilters();
 
-            //Set default date
-            PickedDate.Value = new DateTime(2019, 12, 18);
+            //Set date on load to today
+            PickedDate.Value = DateTime.Today;
 
             //Set-up collection views
             var scoreSourceList = new CollectionViewSource { Source = scoreCollection };
@@ -172,7 +172,7 @@ namespace DJMAX_Record_Keeper
             }
         }
 
-        //Add songs from masterSongCollection based on previous settings
+        //Add songs from masterSongCollection based on previous settings, then remove special songs as necessary
         private void LoadFilters()
         {
             for (int i = 0; i < folderList.Count; i += 1)
@@ -269,7 +269,7 @@ namespace DJMAX_Record_Keeper
             folder.Owner = this;
             folder.ShowDialog();
 
-            /* Reset ComboTitle to first item if folders were updated
+            /* Reset ComboTitle to first item if folders were updated after checking on special songs
              * Difficulty also needs to be reset to NM and selectable difficulties are to be verified for the updated list's top item
              */
             if (isRefresh)
@@ -328,7 +328,7 @@ namespace DJMAX_Record_Keeper
             DoubleRate.Value = 0.0;
             IntegerBreak.Value = 0;
 
-            PickedDate.Value = new DateTime(2019, 12, 18);
+            PickedDate.Value = DateTime.Today;
 
             CheckDifficulties(StackMode.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value));
 

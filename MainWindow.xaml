@@ -6,10 +6,13 @@
         xmlns:local="clr-namespace:DJMAX_Record_Keeper"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d"
-        Title="DJMAX Respect V Record Keeper" Height="450" Width="800" ResizeMode="NoResize">
+        Title="DJMAX Respect V Record Keeper" Height="450" Width="800" ResizeMode="NoResize" Icon=".\icon.ico">
     <TabControl>
         <TabItem Header="Record Entry">
             <Canvas>
+                <Canvas.Background>
+                    <ImageBrush ImageSource="images/dreamit.jpg" Opacity="0.3"/>
+                </Canvas.Background>
                 <GroupBox Header="Record Information" Height="350" Width="375" Canvas.Left="22" Canvas.Top="10"/>
                 <Label Content="Song Title:" Canvas.Left="40" Canvas.Top="36" />
                 <ComboBox x:Name="ComboTitle" Width="200" Canvas.Left="175" Canvas.Top="40" SelectedIndex="0" DisplayMemberPath="Title"
@@ -60,6 +63,9 @@
         </TabItem>
         <TabItem Header="View Records">
             <Canvas>
+                <Canvas.Background>
+                    <ImageBrush ImageSource="images/analys.jpg" Opacity="0.3"/>
+                </Canvas.Background>
                 <DataGrid x:Name="DataGridRecords" AutoGenerateColumns="False" Canvas.Left="114" Canvas.Top="20" Width="566" Height="300"
                           SelectionMode="Single" SelectionUnit="FullRow" CanUserReorderColumns="False" CanUserResizeColumns="False"
                           CanUserResizeRows="False" CanUserSortColumns="True">
@@ -111,6 +117,9 @@
         </TabItem>
         <TabItem Header="Help">
             <DockPanel>
+                <DockPanel.Background>
+                    <ImageBrush ImageSource="images/raisemeup.jpg" Opacity="0.25"/>
+                </DockPanel.Background>
                 <TextBlock FontSize="16" TextWrapping="Wrap" Width="600">
                     <Bold>Record Entry</Bold><LineBreak/>
                     Set your folder filters on the top right to update the songlist selection.<LineBreak/>

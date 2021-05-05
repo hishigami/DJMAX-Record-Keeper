@@ -6,14 +6,32 @@
     <TargetFramework>net5.0-windows</TargetFramework>
 	<SatelliteResourceLanguages>en-US</SatelliteResourceLanguages>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="icon.ico" />
+    <None Remove="images\analys.jpg" />
+    <None Remove="images\dreamit.jpg" />
+    <None Remove="images\misty.jpg" />
+    <None Remove="images\raisemeup.jpg" />
     <None Remove="images\VExtension.png" />
     <None Remove="SongData.json" />
   </ItemGroup>
 
   <ItemGroup>
+    <Content Include="images\analys.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\dreamit.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\misty.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\raisemeup.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="images\VExtension.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -24,6 +42,10 @@
 
   <ItemGroup>
     <PackageReference Include="Extended.Wpf.Toolkit" Version="4.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icon.ico" />
   </ItemGroup>
 
   <ItemGroup>

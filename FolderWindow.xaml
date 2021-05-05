@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="Select Folders" Height="400" Width="500">
     <Canvas x:Name="CanvasFolder">
+        <Canvas.Background>
+            <ImageBrush ImageSource="images/misty.jpg" Opacity="0.3"/>
+        </Canvas.Background>
         <GroupBox Header="Base Game" Height="125" Width="135" Canvas.Left="22" Canvas.Top="10">
             <StackPanel x:Name="StackBase" Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center">
                 <CheckBox x:Name="CheckRespect" Content="Respect" Margin="23 5" IsChecked="True"/>

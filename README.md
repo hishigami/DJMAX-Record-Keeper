@@ -7,6 +7,6 @@ I've fed AllTrackData.csv [into a Python script](https://github.com/hishigami/DJ
 translate Korean titles into their English translations as they appear in Respect, mark (the lack of) charts for each song, and rename the difficulty keys so they don't start with a number.
 
 Currently a work in progress.
-In addition to improving the program's aesthetics, other features such as dynamically disabling non-existent difficulties for a specific song and mode combination and singling out DLC songs in Respect's folder are in planning.
+In addition to improving the program's aesthetics, other features such as singling out DLC songs in Respect's folder are in planning.
 
 The .NET Core Runtime must be installed to run this app.

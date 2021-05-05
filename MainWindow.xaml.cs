@@ -31,6 +31,28 @@ namespace DJMAX_Record_Keeper
         const string recordsFile = "Records.json";
         const string songsFile = "SongData.json";
         public static bool isRefresh = false;
+        private Song selectedSong;
+        public List<bool> settingList = new()
+        {
+            Folder.Default.Respect,
+            Folder.Default.Portable1,
+            Folder.Default.Portable2,
+            Folder.Default.VExtension,
+            Folder.Default.EmotionalSense,
+            Folder.Default.Trilogy,
+            Folder.Default.Clazziquai,
+            Folder.Default.BlackSquare,
+            Folder.Default.Technika1,
+            Folder.Default.Technika2,
+            Folder.Default.Technika3,
+            Folder.Default.Portable3,
+            Folder.Default.GuiltyGear,
+            Folder.Default.GrooveCoaster,
+            Folder.Default.Deemo,
+            Folder.Default.Cytus,
+            Folder.Default.Frontline,
+            Folder.Default.Chunithm
+        };
         public static List<string> folderList = new() {"RP", "P1", "P2", "VE", "ES", "TR", "CE", "BS", "T1", "T2", "T3", "P3", "GG", "GC", "DM", "CY", "GF", "CHU"};
         public static ObservableCollection<Song> masterSongCollection = new();
         public static ObservableCollection<Song> filterSongCollection = new();
@@ -89,6 +111,9 @@ namespace DJMAX_Record_Keeper
             //Set sorting by song title, then bind ComboTitle
             filterList.SortDescriptions.Add(new SortDescription("Title", ListSortDirection.Ascending));
             ComboTitle.ItemsSource = filterList;
+
+            //Set difficulties for the initial song
+            CheckDifficulties(StackMode.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value));
         }
 
         //Retrieve songs from the specified series in masterSongCollection if the other condition is satisfied
@@ -102,7 +127,80 @@ namespace DJMAX_Record_Keeper
         private void LoadFilters()
         {
             for (int i = 0; i < folderList.Count; i += 1)
-                GetSongs(folderList[i], FolderWindow.settingList[i]);
+                GetSongs(folderList[i], settingList[i]);
+        }
+
+        //Reset selected difficulty to NM after changing songs and update selectable difficulties
+        private void ChangeSong(object sender, EventArgs e)
+        {
+            RadioNM.IsChecked = true;
+            CheckDifficulties(StackMode.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value));
+        }
+
+        //Prevent non-existent difficulties from being selected by the user
+        private void CheckDifficulties(RadioButton mode)
+        {
+            //Query selected song via LINQ
+            selectedSong = filterSongCollection.FirstOrDefault(s => s.Title == ComboTitle.Text);
+            //Do not run function on init
+            if (selectedSong != null)
+            {
+                //Disable HD, MX, and SC options
+                RadioHD.IsEnabled = false;
+                RadioMX.IsEnabled = false;
+                RadioSC.IsEnabled = false;
+
+                /* Main switch case body
+                 * Check the selected song's difficulty availability from its properties based on the selected mode
+                 * Note that all songs have a NM for each mode, so the existence of a NM never needs to be verified
+                 */
+                switch (mode.Name)
+                {
+                    case "Radio4":
+                        if (selectedSong.FourHD)
+                            RadioHD.IsEnabled = true;
+                        if (selectedSong.FourMX)
+                            RadioMX.IsEnabled = true;
+                        if (selectedSong.FourSC)
+                            RadioSC.IsEnabled = true;
+                        break;
+                    case "Radio5":
+                        if (selectedSong.FiveHD)
+                            RadioHD.IsEnabled = true;
+                        if (selectedSong.FiveMX)
+                            RadioMX.IsEnabled = true;
+                        if (selectedSong.FiveSC)
+                            RadioSC.IsEnabled = true;
+                        break;
+                    case "Radio6":
+                        if (selectedSong.SixHD)
+                            RadioHD.IsEnabled = true;
+                        if (selectedSong.SixMX)
+                            RadioMX.IsEnabled = true;
+                        if (selectedSong.SixSC)
+                            RadioSC.IsEnabled = true;
+                        break;
+                    case "Radio8":
+                        if (selectedSong.EightHD)
+                            RadioHD.IsEnabled = true;
+                        if (selectedSong.EightMX)
+                            RadioMX.IsEnabled = true;
+                        if (selectedSong.EightSC)
+                            RadioSC.IsEnabled = true;
+                        break;
+                    default:
+                        TextMessage.Text = "Something went wrong.";
+                        break;
+                }
+            }
+        }
+
+        //Update selectable difficulties upon changing modes
+        private void ModeClick(object sender, RoutedEventArgs e)
+        {
+            var mode = sender as RadioButton;
+            CheckDifficulties(mode);
+            
         }
 
         //Enforce non-null values for date by defaulting to EA start date
@@ -121,10 +219,14 @@ namespace DJMAX_Record_Keeper
             folder.Owner = this;
             folder.ShowDialog();
 
-            //Reset ComboTitle to first item if folders were updated
+            /* Reset ComboTitle to first item if folders were updated
+             * Difficulty also needs to be reset to NM and selectable difficulties are to be verified for the updated list's top item
+             */
             if (isRefresh)
             {
                 ComboTitle.SelectedIndex = 0;
+                RadioNM.IsChecked = true;
+                CheckDifficulties(StackMode.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value));
                 isRefresh = false;
             }
         }
@@ -140,17 +242,18 @@ namespace DJMAX_Record_Keeper
                 return;
             }
 
+            //Query the matching song object via LINQ
+            selectedSong = filterSongCollection.FirstOrDefault(s => s.Title == ComboTitle.Text);
+
             //Variable definitions
-            string title = ComboTitle.Text;
+            string title = selectedSong.Title;
             //Here we probe for the radio option selected in both stack groups and ensure they have values
             string selMode = StackMode.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value).Content.ToString();
             string selDiff = StackDifficulty.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value).Content.ToString();
             //Generate pattern string
             string pattern = title + " " + selMode + selDiff;
-
-            //filterSongCollection was never sorted, so we need to query the right metadata via LINQ
-            string artist = filterSongCollection.FirstOrDefault(s => s.Title == title).Artist;
-            string series = filterSongCollection.FirstOrDefault(s => s.Title == title).Series;
+            string artist = selectedSong.Artist;
+            string series = selectedSong.Series;
             int score = (int)(IntegerScore.Value);
             double rate = (double)(DoubleRate.Value);
             int breaks = (int)(IntegerBreak.Value);
@@ -175,6 +278,8 @@ namespace DJMAX_Record_Keeper
             IntegerBreak.Value = 0;
 
             PickedDate.Value = new DateTime(2019, 12, 18);
+
+            CheckDifficulties(StackMode.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value));
 
             TextMessage.Text = ("All fields have been reset to their defaults.");
         }

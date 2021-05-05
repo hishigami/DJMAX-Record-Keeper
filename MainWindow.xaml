@@ -13,21 +13,21 @@
                 <GroupBox Header="Record Information" Height="350" Width="375" Canvas.Left="22" Canvas.Top="10"/>
                 <Label Content="Song Title:" Canvas.Left="40" Canvas.Top="36" />
                 <ComboBox x:Name="ComboTitle" Width="200" Canvas.Left="175" Canvas.Top="40" SelectedIndex="0" DisplayMemberPath="Title"
-                          IsTextSearchEnabled="True" ScrollViewer.CanContentScroll="False"/>
+                          IsTextSearchEnabled="True" ScrollViewer.CanContentScroll="False" DropDownClosed="ChangeSong"/>
                 <GroupBox Header="Game Mode" Height="55" Width="335" Canvas.Left="40" Canvas.Top="80">
                     <StackPanel x:Name="StackMode" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
-                        <RadioButton x:Name="Radio4" Content="4B" IsChecked="True" Margin="25 5"/>
-                        <RadioButton x:Name="Radio5" Content="5B" Margin="25 5"/>
-                        <RadioButton x:Name="Radio6" Content="6B" Margin="25 5"/>
-                        <RadioButton x:Name="Radio8" Content="8B" Margin="25 5"/>
+                        <RadioButton x:Name="Radio4" Content="4B" Checked="ModeClick" IsChecked="True" Margin="25 5"/>
+                        <RadioButton x:Name="Radio5" Content="5B" Checked="ModeClick" Margin="25 5"/>
+                        <RadioButton x:Name="Radio6" Content="6B" Checked="ModeClick" Margin="25 5"/>
+                        <RadioButton x:Name="Radio8" Content="8B" Checked="ModeClick" Margin="25 5"/>
                     </StackPanel>
                 </GroupBox>
                 <GroupBox Header="Pattern Difficulty" Height="55" Width="335" Canvas.Left="40" Canvas.Top="160">
                     <StackPanel x:Name="StackDifficulty" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
                         <RadioButton x:Name="RadioNM" Content="NM" IsChecked="True" Margin="23 5"/>
-                        <RadioButton x:Name="RadioHD" Content="HD" Margin="23 5"/>
-                        <RadioButton x:Name="RadioMX" Content="MX" Margin="23 5"/>
-                        <RadioButton x:Name="RadioSC" Content="SC" Margin="23 5"/>
+                        <RadioButton x:Name="RadioHD" Content="HD" IsEnabled="False" Margin="23 5"/>
+                        <RadioButton x:Name="RadioMX" Content="MX" IsEnabled="False" Margin="23 5"/>
+                        <RadioButton x:Name="RadioSC" Content="SC" IsEnabled="False" Margin="23 5"/>
                     </StackPanel>
                 </GroupBox>
                 <Label Content="Score:" Canvas.Left="40" Canvas.Top="221" />
@@ -123,7 +123,7 @@
                     Click on any record to view more information about that entry. <LineBreak/>
                     All record save/loads are performed locally through Records.json.
                     If an update happens to touch the song record's structure, you may need to move/delete that file
-                    if the program won't start after updating. I don't believe the record structure needs anymore changes, however.<LineBreak/>
+                    if the program won't start after updating.<LineBreak/>
                     <LineBreak/>
                     Created by Pyonta/Hishigami for non-commercial use. All images belong to their respective copyright holders, etcetc.
                 </TextBlock>

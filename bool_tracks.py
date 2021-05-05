@@ -67,6 +67,27 @@ def diffToBool(convert):
         else:
             song["8BSC"] = True
 
+def renameKeys(rename):
+    for song in rename:
+        #Pop all difficulty keys so they don't start with a number
+        song["FourNM"] = song.pop("4BNM")
+        song["FourHD"] = song.pop("4BHD")
+        song["FourMX"] = song.pop("4BMX")
+        song["FourSC"] = song.pop("4BSC")
+        song["FiveNM"] = song.pop("5BNM")
+        song["FiveHD"] = song.pop("5BHD")
+        song["FiveMX"] = song.pop("5BMX")
+        song["FiveSC"] = song.pop("5BSC")
+        song["SixNM"] = song.pop("6BNM")
+        song["SixHD"] = song.pop("6BHD")
+        song["SixMX"] = song.pop("6BMX")
+        song["SixSC"] = song.pop("6BSC")
+        song["EightNM"] = song.pop("8BNM")
+        song["EightHD"] = song.pop("8BHD")
+        song["EightMX"] = song.pop("8BMX")
+        song["EightSC"] = song.pop("8BSC")
+
+
 def csvToJson(csvFilePath, jsonFilePath):
     jsonArray = []
       
@@ -119,6 +140,9 @@ def conversion(jsonFilePath):
 
     #Next, convert all (non)-existent difficulties to bools
     diffToBool(toConvert)
+
+    #And regenerate the difficulty keys
+    renameKeys(toConvert)
 
     #Write all changes to JSON
     with open(jsonFilePath, 'w', encoding='utf-8-sig') as jsonOut:

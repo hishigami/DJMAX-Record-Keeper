@@ -6,10 +6,13 @@
         xmlns:local="clr-namespace:DJMAX_Record_Keeper"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d"
-        Title="DJMAX Respect V Record Keeper" Height="450" Width="800" ResizeMode="NoResize">
+        Title="DJMAX Respect V Record Keeper" Height="450" Width="800" ResizeMode="NoResize" Icon=".\icon.ico">
     <TabControl>
         <TabItem Header="Record Entry">
             <Canvas>
+                <Canvas.Background>
+                    <ImageBrush ImageSource="images/dreamit.jpg" Opacity="0.25"/>
+                </Canvas.Background>
                 <GroupBox Header="Record Information" Height="350" Width="375" Canvas.Left="22" Canvas.Top="10"/>
                 <Label Content="Song Title:" Canvas.Left="40" Canvas.Top="36" />
                 <ComboBox x:Name="ComboTitle" Width="200" Canvas.Left="175" Canvas.Top="40" SelectedIndex="0" DisplayMemberPath="Title"
@@ -60,6 +63,9 @@
         </TabItem>
         <TabItem Header="View Records">
             <Canvas>
+                <Canvas.Background>
+                    <ImageBrush ImageSource="images/analys.jpg" Opacity="0.3"/>
+                </Canvas.Background>
                 <DataGrid x:Name="DataGridRecords" AutoGenerateColumns="False" Canvas.Left="114" Canvas.Top="20" Width="566" Height="300"
                           SelectionMode="Single" SelectionUnit="FullRow" CanUserReorderColumns="False" CanUserResizeColumns="False"
                           CanUserResizeRows="False" CanUserSortColumns="True">
@@ -104,6 +110,8 @@
                         IsEnabled="{Binding ElementName=DataGridRecords, Path=SelectedItems.Count}">
                     <TextBlock FontWeight="Bold">Delete Record</TextBlock>
                 </Button>
+                <CheckBox x:Name="CheckQuick" Content="Quick Delete" Canvas.Left="466" Canvas.Top="325"
+                          ToolTip="Skip confirmation when deleting a selected record. Be careful!"/>
                 <GroupBox Header="Notification" Height="55" Width="200" Canvas.Left="575" Canvas.Top="326">
                     <TextBlock x:Name="TextNotification" TextWrapping="Wrap" Height="28" />
                 </GroupBox>
@@ -111,9 +119,14 @@
         </TabItem>
         <TabItem Header="Help">
             <DockPanel>
-                <TextBlock FontSize="16" TextWrapping="Wrap" Width="600">
+                <DockPanel.Background>
+                    <ImageBrush ImageSource="images/raisemeup.jpg" Opacity="0.25"/>
+                </DockPanel.Background>
+                <TextBlock FontSize="16" TextWrapping="Wrap" Width="750">
                     <Bold>Record Entry</Bold><LineBreak/>
-                    Set your folder filters on the top right to update the songlist selection. <LineBreak/>
+                    Set your folder filters on the top right to update the songlist selection.<LineBreak/>
+                    Note that this program also adheres to Respect's DLC restrictions on special songs
+                    (e.g. no Trilogy = can't select Nevermind).<LineBreak/>
                     There might be slight lag in loading song entries if you include a bunch/all of the folders,
                     so if you want to reduce load times, you can try including only folders containing songs you <Italic>really</Italic>
                     want to track. <LineBreak/>
@@ -127,7 +140,6 @@
                     <LineBreak/>
                     Created by Pyonta/Hishigami for non-commercial use. All images belong to their respective copyright holders, etcetc.
                 </TextBlock>
-                <Image Source="/images/VExtension.png" DockPanel.Dock="Right" Height="150" />
             </DockPanel>
         </TabItem>
     </TabControl>

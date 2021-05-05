@@ -20,29 +20,8 @@ namespace DJMAX_Record_Keeper
     /// </summary>
     public partial class FolderWindow : Window
     {
-        //Globals
+        //Global
         public ObservableCollection<CheckBox> checkCollection = new();
-        public static List<bool> settingList = new()
-        {
-            Folder.Default.Respect,
-            Folder.Default.Portable1,
-            Folder.Default.Portable2,
-            Folder.Default.VExtension,
-            Folder.Default.EmotionalSense,
-            Folder.Default.Trilogy,
-            Folder.Default.Clazziquai,
-            Folder.Default.BlackSquare,
-            Folder.Default.Technika1,
-            Folder.Default.Technika2,
-            Folder.Default.Technika3,
-            Folder.Default.Portable3,
-            Folder.Default.GuiltyGear,
-            Folder.Default.GrooveCoaster,
-            Folder.Default.Deemo,
-            Folder.Default.Cytus,
-            Folder.Default.Frontline,
-            Folder.Default.Chunithm
-        };
 
         public FolderWindow()
         {

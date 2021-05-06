@@ -353,16 +353,24 @@ namespace DJMAX_Record_Keeper
             TextNotification.Text = "Records have been saved to disk.";
         }
 
-        //Delete record after accepting warning
+        //Delete record after accepting warning or if quick delete option is enabled
         private void DeleteClick(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult confirmDel = MessageBox.Show("Are you sure you want to delete this record?\n" +
-                "This cannot be undone!", "Confirm Record Delete", MessageBoxButton.YesNo, MessageBoxImage.Warning);
-            if(confirmDel == MessageBoxResult.Yes)
+            if ((bool)CheckQuick.IsChecked)
             {
                 scoreCollection.Remove(DataGridRecords.SelectedItem as ScoreRecord);
+                TextNotification.Text = "Record has been deleted.";
             }
-            TextNotification.Text = "Record has been deleted.";
+            else
+            {
+                MessageBoxResult confirmDel = MessageBox.Show("Are you sure you want to delete this record?\n" +
+                "This cannot be undone!", "Confirm Record Delete", MessageBoxButton.YesNo, MessageBoxImage.Warning);
+                if (confirmDel == MessageBoxResult.Yes)
+                {
+                    scoreCollection.Remove(DataGridRecords.SelectedItem as ScoreRecord);
+                    TextNotification.Text = "Record has been deleted.";
+                }
+            }
         }
         
     }

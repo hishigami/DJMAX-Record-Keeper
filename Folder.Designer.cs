@@ -12,7 +12,7 @@ namespace DJMAX_Record_Keeper {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.8.1.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.10.0.0")]
     internal sealed partial class Folder : global::System.Configuration.ApplicationSettingsBase {
         
         private static Folder defaultInstance = ((Folder)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Folder())));
@@ -236,6 +236,18 @@ namespace DJMAX_Record_Keeper {
             }
             set {
                 this["Chunithm"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Estimate {
+            get {
+                return ((bool)(this["Estimate"]));
+            }
+            set {
+                this["Estimate"] = value;
             }
         }
     }

@@ -12,6 +12,7 @@ translationDict = {
     "비상 ~Stay With Me~": "Soar ~Stay With Me~",
     "설레임": "HeartBeat",
     "설레임 Part.2": "Heart Beat Part.2",
+    "안아줘": "pit-a-pet",
     "아침형 인간": "Every Morning",
     "염라": "Karma",
     "영원": "Forever",
@@ -21,7 +22,7 @@ translationDict = {
     "혜성": "comet",
     "Eternal Fantasy ~유니의 꿈~": "Eternal Fantasy",
     "Eternal Memory ~소녀의 꿈~": "Eternal Memory",
-    "I want You ~반짝★반짝 Sunshine~": "I want You ~Twinkle Twinkle Sunshine~"
+    "I want You ~반짝★반짝 Sunshine~": "I want You ~Twinkle Twinkle Sunshine~",
 }
 
 def diffToBool(convert):

@@ -49,6 +49,7 @@ namespace DJMAX_Record_Keeper
             checkCollection.Add(CheckCytus);
             checkCollection.Add(CheckFrontline);
             checkCollection.Add(CheckChunithm);
+            checkCollection.Add(CheckEstimate);
 
             //Load user settings from memory
             LoadSettings();
@@ -130,6 +131,7 @@ namespace DJMAX_Record_Keeper
             checkCollection[15].IsChecked = Folder.Default.Cytus;
             checkCollection[16].IsChecked = Folder.Default.Frontline;
             checkCollection[17].IsChecked = Folder.Default.Chunithm;
+            checkCollection[18].IsChecked = Folder.Default.Estimate;
         }
 
         //Save checked settings
@@ -156,6 +158,7 @@ namespace DJMAX_Record_Keeper
             Folder.Default.Cytus = (bool)checkCollection[15].IsChecked;
             Folder.Default.Frontline = (bool)checkCollection[16].IsChecked;
             Folder.Default.Chunithm = (bool)checkCollection[17].IsChecked;
+            Folder.Default.Estimate = (bool)checkCollection[18].IsChecked;
 
             Folder.Default.Save();
         }

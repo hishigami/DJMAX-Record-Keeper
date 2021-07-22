@@ -51,9 +51,10 @@ namespace DJMAX_Record_Keeper
             Folder.Default.Deemo,
             Folder.Default.Cytus,
             Folder.Default.Frontline,
-            Folder.Default.Chunithm
+            Folder.Default.Chunithm,
+            Folder.Default.Estimate
         };
-        public static List<string> folderList = new() {"RP", "P1", "P2", "VE", "ES", "TR", "CE", "BS", "T1", "T2", "T3", "P3", "GG", "GC", "DM", "CY", "GF", "CHU"};
+        public static List<string> folderList = new() {"RP", "P1", "P2", "VE", "ES", "TR", "CE", "BS", "T1", "T2", "T3", "P3", "GG", "GC", "DM", "CY", "GF", "CHU", "ESTI"};
         public static ObservableCollection<Song> masterSongCollection = new();
         public static ObservableCollection<Song> filterSongCollection = new();
 

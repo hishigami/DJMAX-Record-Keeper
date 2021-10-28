@@ -4,27 +4,45 @@ import json
 translationDict = {
     "고백, 꽃, 늑대": "Proposed, Flower, Wolf",
     "고백, 꽃, 늑대 part.2": "Proposed, Flower, Wolf part.2",
+    "공성전 ~Pierre Blanche Remix~": "The Siege warfare ~Pierre Blanche Remix~",
+    "광명의 루 : 루 라바다": "Lugh Lamhfada",
     "내게로 와": "Come to me",
     "너로피어오라": "Flowering",
     "너에게": "To You",
     "바람에게 부탁해": "Ask to Wind",
     "바람에게 부탁해 ~Live Mix~": "Ask to Wind ~Live Mix~",
     "바람의 기억": "Memory of Wind",
+    "부여성 ~Blosso Remix~": "Buyeo Fortress ~Blosso Remix~",
     "비상 ~Stay With Me~": "Soar ~Stay With Me~",
     "서울여자": "SOUL LADY",
     "설레임": "HeartBeat",
     "설레임 Part.2": "Heart Beat Part.2",
-    "안아줘": "pit-a-pet",
+    "소년 모험가 ~SiNA Remix~": "Young Adventurer ~SiNA Remix~",
     "아침형 인간": "Every Morning",
+    "안아줘": "pit-a-pet",
+    "어릴 적 할머니가 들려주신 옛 전설": "An old story from Grandma",
+    "연합군과 제국군": "Alliance x Empire",
     "염라": "Karma",
     "영원": "Forever",
     "유령": "Ghost",
+    "전설이 시작된 곳 ~VoidRover Remix~": "Where Legend Begin ~VoidRover Remix~",
+    "죽음의 신 : 크로우 크루아흐": "Cromm Cruaich",
+    "최종무곡": "The Final Dance",
+    "카트라이더 Mashup ~Cosmograph Remix~": "Kartrider Mashup ~Cosmograph Remix~",
+    "카트라이더 Mashup ~Pure 100% Remix~": "Kartrider Mashup ~Pure 100% Remix~",
+    "카트라이더, 크레이지아케이드, 버블파이터 Main theme ~CHUCK Remix~": "Kartrider, Crazyarcade, Bubblefighter Main theme ~CHUCK Remix~",
     "태권부리": "Taekwonburi",
     "피아노 협주곡 1번": "Piano Concerto No. 1",
     "혜성": "comet",
     "Eternal Fantasy ~유니의 꿈~": "Eternal Fantasy",
     "Eternal Memory ~소녀의 꿈~": "Eternal Memory",
     "I want You ~반짝★반짝 Sunshine~": "I want You ~Twinkle Twinkle Sunshine~",
+}
+
+artistDict = {
+    "김동현": "Kim Dong Hyun",
+    "정영걸": "Jung Young Gul",
+    "이궐": "Lee Geol",
 }
 
 def diffToBool(convert):
@@ -137,14 +155,16 @@ def conversion(jsonFilePath):
     with open(jsonFilePath, encoding='utf-8-sig') as jsonf:
         toConvert = json.load(jsonf)
     
-    # Translate KR titles to their EN equivalents
-    # We can loop through the entire song list and swap KR titles to their corresponding translation in translationDict
-    # This is independent of entry ordering and shouldn't change much even with Technika Q's Starlight Garden
-    # Note that this is completely reliant on DJMAX Random Selector's AllTrackData.csv entries
+    # Translate KR titles + artists to their EN equivalents
+    # We can loop through the entire song list and swap the Korean entries to their corresponding translation in translationDict
+    # This is independent of entry ordering inside AllTrackData.csv
     for song in toConvert:
         krTitle = song['Title']
+        krArtist = song['Artist']
         if krTitle in translationDict:
             song['Title'] = translationDict[krTitle]
+        if krArtist in artistDict:
+            song['Artist'] = artistDict[krArtist]
 
     # Next, convert all (non)-existent difficulties to bools
     diffToBool(toConvert)

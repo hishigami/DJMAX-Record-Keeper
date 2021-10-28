@@ -50,6 +50,7 @@ namespace DJMAX_Record_Keeper
             checkCollection.Add(CheckFrontline);
             checkCollection.Add(CheckChunithm);
             checkCollection.Add(CheckEstimate);
+            checkCollection.Add(CheckNexon);
 
             //Load user settings from memory
             LoadSettings();
@@ -132,6 +133,7 @@ namespace DJMAX_Record_Keeper
             checkCollection[16].IsChecked = Folder.Default.Frontline;
             checkCollection[17].IsChecked = Folder.Default.Chunithm;
             checkCollection[18].IsChecked = Folder.Default.Estimate;
+            checkCollection[19].IsChecked = Folder.Default.Nexon;
         }
 
         //Save checked settings
@@ -159,6 +161,7 @@ namespace DJMAX_Record_Keeper
             Folder.Default.Frontline = (bool)checkCollection[16].IsChecked;
             Folder.Default.Chunithm = (bool)checkCollection[17].IsChecked;
             Folder.Default.Estimate = (bool)checkCollection[18].IsChecked;
+            Folder.Default.Nexon = (bool)checkCollection[19].IsChecked;
 
             Folder.Default.Save();
         }

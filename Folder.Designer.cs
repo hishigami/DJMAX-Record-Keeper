@@ -250,5 +250,17 @@ namespace DJMAX_Record_Keeper {
                 this["Estimate"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool Nexon {
+            get {
+                return ((bool)(this["Nexon"]));
+            }
+            set {
+                this["Nexon"] = value;
+            }
+        }
     }
 }

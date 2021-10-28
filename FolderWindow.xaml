@@ -41,6 +41,7 @@
                 <CheckBox x:Name="CheckFrontline" Content="Frontline"  Margin="23 5"/>
                 <CheckBox x:Name="CheckChunithm" Content="Chunithm"  Margin="23 5"/>
                 <CheckBox x:Name="CheckEstimate" Content="ESTiMATE"  Margin="23 5"/>
+                <CheckBox x:Name="CheckNexon" Content="NEXON"  Margin="23 5"/>
             </WrapPanel>
         </GroupBox>
 

@@ -262,5 +262,17 @@ namespace DJMAX_Record_Keeper {
                 this["Nexon"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool VExtension2 {
+            get {
+                return ((bool)(this["VExtension2"]));
+            }
+            set {
+                this["VExtension2"] = value;
+            }
+        }
     }
 }

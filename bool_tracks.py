@@ -4,10 +4,12 @@ import json
 translationDict = {
     "고백, 꽃, 늑대": "Proposed, Flower, Wolf",
     "고백, 꽃, 늑대 part.2": "Proposed, Flower, Wolf part.2",
-    "공성전 ~Pierre Blanche Remix~": "The Siege warfare ~Pierre Blanche Remix~",
+    "공성전 ~Pierre Blanche, Yonce Remix~": "The Siege warfare ~Pierre Blanche, Yonce Remix~",
     "광명의 루 : 루 라바다": "Lugh Lamhfada",
+    "꿈의 기억 (feat. Jisun)": "Memories of dreams",
     "내게로 와": "Come to me",
     "너로피어오라": "Flowering",
+    "너로피어오라 ~Original Ver.~": "Flowering ~Original Ver.~",
     "너에게": "To You",
     "바람에게 부탁해": "Ask to Wind",
     "바람에게 부탁해 ~Live Mix~": "Ask to Wind ~Live Mix~",

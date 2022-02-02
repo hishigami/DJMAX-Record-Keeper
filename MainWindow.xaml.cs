@@ -46,6 +46,7 @@ namespace DJMAX_Record_Keeper
             Folder.Default.Technika2,
             Folder.Default.Technika3,
             Folder.Default.Portable3,
+            Folder.Default.VExtension2,
             Folder.Default.GuiltyGear,
             Folder.Default.GrooveCoaster,
             Folder.Default.Deemo,
@@ -55,7 +56,7 @@ namespace DJMAX_Record_Keeper
             Folder.Default.Estimate,
             Folder.Default.Nexon
         };
-        public static List<string> folderList = new() {"RP", "P1", "P2", "VE", "ES", "TR", "CE", "BS", "T1", "T2", "T3", "P3", "GG", "GC", "DM", "CY", "GF", "CHU", "ESTI", "NXN"};
+        public static List<string> folderList = new() {"RP", "P1", "P2", "VE", "ES", "TR", "CE", "BS", "T1", "T2", "T3", "P3", "VE2", "GG", "GC", "DM", "CY", "GF", "CHU", "ESTI", "NXN"};
         public static ObservableCollection<Song> masterSongCollection = new();
         public static ObservableCollection<Song> filterSongCollection = new();
 
@@ -125,7 +126,7 @@ namespace DJMAX_Record_Keeper
                     filterSongCollection.Add(s);
         }
 
-        //Remove Respect/Link Disc songs if their conditions are not satisfied
+        //Remove Respect/Link Disc/V Link songs if their conditions are not satisfied
         private void FilterSpecialSongs()
         {
             //Respect originals
@@ -171,6 +172,12 @@ namespace DJMAX_Record_Keeper
             if (!Folder.Default.BlackSquare && !Folder.Default.Clazziquai)
             {
                 filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "SON OF SUN ~Extended Mix~"));
+            }
+
+            //V Link
+            if (!Folder.Default.VExtension)
+            {
+                filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "Flowering ~Original Ver.~"));
             }
         }
 

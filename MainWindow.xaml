@@ -19,10 +19,10 @@
                           IsTextSearchEnabled="True" ScrollViewer.CanContentScroll="False" DropDownClosed="ChangeSong"/>
                 <GroupBox Header="Game Mode" Height="55" Width="335" Canvas.Left="40" Canvas.Top="80">
                     <StackPanel x:Name="StackMode" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
-                        <RadioButton x:Name="Radio4" Content="4B" Checked="ModeClick" IsChecked="True" Margin="25 5"/>
-                        <RadioButton x:Name="Radio5" Content="5B" Checked="ModeClick" Margin="25 5"/>
-                        <RadioButton x:Name="Radio6" Content="6B" Checked="ModeClick" Margin="25 5"/>
-                        <RadioButton x:Name="Radio8" Content="8B" Checked="ModeClick" Margin="25 5"/>
+                        <RadioButton x:Name="Radio4" Content="4B" Click="ModeClick" IsChecked="True" Margin="25 5"/>
+                        <RadioButton x:Name="Radio5" Content="5B" Click="ModeClick" Margin="25 5"/>
+                        <RadioButton x:Name="Radio6" Content="6B" Click="ModeClick" Margin="25 5"/>
+                        <RadioButton x:Name="Radio8" Content="8B" Click="ModeClick" Margin="25 5"/>
                     </StackPanel>
                 </GroupBox>
                 <GroupBox Header="Pattern Difficulty" Height="55" Width="335" Canvas.Left="40" Canvas.Top="160">

@@ -119,14 +119,20 @@ namespace DJMAX_Record_Keeper
             CheckDifficulties(StackMode.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value));
         }
 
-        //Retrieve songs from the specified series in masterSongCollection if the other condition is satisfied
+        /// <summary>
+        /// Retrieve songs from the specified series in masterSongCollection if the appropriate setting is enabled.
+        /// </summary>
+        /// <param name="series">Song's series</param>
+        /// <param name="condition">Series setting</param>
         public static void GetSongs(string series, bool condition)
         {
             foreach (Song s in masterSongCollection) if (s.Series == series && condition)
                     filterSongCollection.Add(s);
         }
 
-        //Remove Respect/Link Disc/V Link songs if their conditions are not satisfied
+        /// <summary>
+        /// Removes Respect/Link Disc/V Link songs if their DLC ownership conditions are not satisfied.
+        /// </summary>
         private void FilterSpecialSongs()
         {
             //Respect originals
@@ -181,7 +187,9 @@ namespace DJMAX_Record_Keeper
             }
         }
 
-        //Add songs from masterSongCollection based on previous settings, then remove special songs as necessary
+        /// <summary>
+        /// Add songs from masterSongCollection based on previous settings, then removes special songs as necessary.
+        /// </summary>
         private void LoadFilters()
         {
             for (int i = 0; i < folderList.Count; i += 1)
@@ -189,14 +197,32 @@ namespace DJMAX_Record_Keeper
             FilterSpecialSongs();
         }
 
-        //Reset selected difficulty to NM after changing songs and update selectable difficulties
-        private void ChangeSong(object sender, EventArgs e)
+        /// <summary>
+        /// Defaults the selected difficulty to NM if the previously selected difficulty doesn't actually exist for the current song and mode.
+        /// </summary>
+        private void DefaultToNM()
         {
-            RadioNM.IsChecked = true;
-            CheckDifficulties(StackMode.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value));
+            
+            var selDiff = StackDifficulty.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value);
+            if (selDiff.IsEnabled == false)
+            {
+                RadioNM.IsChecked = true;
+            }
         }
 
-        //Prevent non-existent difficulties from being selected by the user
+        /// <summary>
+        /// Updates selectable difficulties after changing songs.
+        /// </summary>
+        private void ChangeSong(object sender, EventArgs e)
+        {
+            CheckDifficulties(StackMode.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value));
+            DefaultToNM();
+        }
+
+        /// <summary>
+        /// Disables non-existent difficulties for the chosen song and mode from being selected.
+        /// </summary>
+        /// <param name="mode">The current mode to check difficulties against.</param>
         private void CheckDifficulties(RadioButton mode)
         {
             //Query selected song via LINQ
@@ -254,15 +280,19 @@ namespace DJMAX_Record_Keeper
             }
         }
 
-        //Update selectable difficulties upon changing modes
+        /// <summary>
+        /// Updates selectable difficulties upon changing modes.
+        /// </summary>
         private void ModeClick(object sender, RoutedEventArgs e)
         {
             var mode = sender as RadioButton;
             CheckDifficulties(mode);
-            
+            DefaultToNM();
         }
 
-        //Enforce non-null values for date by defaulting to EA start date
+        /// <summary>
+        /// Defaults the date field to Respect V's EA start date if it's left blank by the user.
+        /// </summary>
         private void CheckDate(object sender, RoutedEventArgs e)
         {
             if (PickedDate.Value == null)
@@ -271,7 +301,9 @@ namespace DJMAX_Record_Keeper
             }
         }
 
-        //Open folders window
+        /// <summary>
+        /// Opens the folders window.
+        /// </summary>
         private void FolderClick(object sender, RoutedEventArgs e)
         {
             FolderWindow folder = new();
@@ -285,13 +317,15 @@ namespace DJMAX_Record_Keeper
             {
                 FilterSpecialSongs();
                 ComboTitle.SelectedIndex = 0;
-                RadioNM.IsChecked = true;
                 CheckDifficulties(StackMode.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value));
+                DefaultToNM();
                 isRefresh = false;
             }
         }
 
-        //Add score
+        /// <summary>
+        /// Adds the score record using all fields' values to the score list.
+        /// </summary>
         private void AddClick(object sender, RoutedEventArgs e)
         {
             //Null value check
@@ -325,7 +359,9 @@ namespace DJMAX_Record_Keeper
             TextMessage.Text = ("Record successfully added.");
         }
 
-        //Reset all fields to default values
+        /// <summary>
+        /// Resets all fields to their default values.
+        /// </summary>
         private void ResetClick(object sender, RoutedEventArgs e)
         {
             ComboTitle.SelectedIndex = 0;
@@ -344,13 +380,17 @@ namespace DJMAX_Record_Keeper
             TextMessage.Text = ("All fields have been reset to their defaults.");
         }
 
-        //Refresh list for search queries
+        /// <summary>
+        /// Refreshes the score list for search queries
+        /// </summary>
         private void SearchRecords(object sender, RoutedEventArgs e)
         {
             scoreList.Refresh();
         }
 
-        //Save all records to JSON
+        /// <summary>
+        /// Saves all records locally to JSON.
+        /// </summary>
         private void SaveClick(object sender, RoutedEventArgs e)
         {
             var options = new JsonSerializerOptions
@@ -362,7 +402,9 @@ namespace DJMAX_Record_Keeper
             TextNotification.Text = "Records have been saved to disk.";
         }
 
-        //Delete record after accepting warning or if quick delete option is enabled
+        /// <summary>
+        /// Deletes the selected record after accepting warning or if the quick delete option is enabled.
+        /// </summary>
         private void DeleteClick(object sender, RoutedEventArgs e)
         {
             if ((bool)CheckQuick.IsChecked)

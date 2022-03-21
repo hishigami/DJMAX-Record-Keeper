@@ -8,6 +8,7 @@ translationDict = {
     "광명의 루 : 루 라바다": "Lugh Lamhfada",
     "꿈의 기억 (feat. Jisun)": "Memories of dreams",
     "내게로 와": "Come to me",
+    "너랑 있으면": "To Be With You",
     "너로피어오라": "Flowering",
     "너로피어오라 ~Original Ver.~": "Flowering ~Original Ver.~",
     "너에게": "To You",

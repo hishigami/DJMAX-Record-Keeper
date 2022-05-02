@@ -274,5 +274,17 @@ namespace DJMAX_Record_Keeper {
                 this["VExtension2"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool MuseDash {
+            get {
+                return ((bool)(this["MuseDash"]));
+            }
+            set {
+                this["MuseDash"] = value;
+            }
+        }
     }
 }

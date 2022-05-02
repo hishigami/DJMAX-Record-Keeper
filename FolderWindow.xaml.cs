@@ -52,6 +52,7 @@ namespace DJMAX_Record_Keeper
             checkCollection.Add(CheckChunithm);
             checkCollection.Add(CheckEstimate);
             checkCollection.Add(CheckNexon);
+            checkCollection.Add(CheckMuseDash);
 
             //Load user settings from memory
             LoadSettings();
@@ -136,6 +137,7 @@ namespace DJMAX_Record_Keeper
             checkCollection[18].IsChecked = Folder.Default.Chunithm;
             checkCollection[19].IsChecked = Folder.Default.Estimate;
             checkCollection[20].IsChecked = Folder.Default.Nexon;
+            checkCollection[21].IsChecked = Folder.Default.MuseDash;
         }
 
         //Save checked settings
@@ -165,6 +167,7 @@ namespace DJMAX_Record_Keeper
             Folder.Default.Chunithm = (bool)checkCollection[18].IsChecked;
             Folder.Default.Estimate = (bool)checkCollection[19].IsChecked;
             Folder.Default.Nexon = (bool)checkCollection[20].IsChecked;
+            Folder.Default.MuseDash = (bool)checkCollection[21].IsChecked;
 
             Folder.Default.Save();
         }

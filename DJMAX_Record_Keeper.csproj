@@ -3,7 +3,7 @@
   <PropertyGroup>
 	<NoWarn>NU1701</NoWarn>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net5.0-windows</TargetFramework>
+    <TargetFramework>net6.0-windows</TargetFramework>
 	<SatelliteResourceLanguages>en-US</SatelliteResourceLanguages>
     <UseWPF>true</UseWPF>
     <ApplicationIcon>icon.ico</ApplicationIcon>
@@ -11,27 +11,27 @@
 
   <ItemGroup>
     <None Remove="icon.ico" />
-    <None Remove="images\analys.jpg" />
-    <None Remove="images\dreamit.jpg" />
-    <None Remove="images\misty.jpg" />
-    <None Remove="images\raisemeup.jpg" />
-    <None Remove="SongData.json" />
+    <None Remove="Images\analys.jpg" />
+    <None Remove="Images\dreamit.jpg" />
+    <None Remove="Images\misty.jpg" />
+    <None Remove="Images\raisemeup.jpg" />
+    <None Remove="Data\SongData.json" />
   </ItemGroup>
 
   <ItemGroup>
-    <Content Include="images\analys.jpg">
+    <Content Include="Images\analys.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="images\dreamit.jpg">
+    <Content Include="Images\dreamit.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="images\misty.jpg">
+    <Content Include="Images\misty.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="images\raisemeup.jpg">
+    <Content Include="Images\raisemeup.jpg">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="SongData.json">
+    <Content Include="Data\SongData.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
@@ -41,7 +41,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Resource Include="icon.ico" />
+    <Resource Include="icon.ico">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
   </ItemGroup>
 
   <ItemGroup>
@@ -57,7 +59,7 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Folder.Designer.cs</LastGenOutput>
     </None>
-    <None Update="images\VExtension.png">
+    <None Update="Images\VExtension.png">
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </None>
   </ItemGroup>

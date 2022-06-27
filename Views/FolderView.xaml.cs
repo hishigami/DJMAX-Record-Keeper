@@ -18,12 +18,12 @@ namespace DJMAX_Record_Keeper
     /// <summary>
     /// Interaction logic for FolderWindow.xaml
     /// </summary>
-    public partial class FolderWindow : Window
+    public partial class FolderView : Window
     {
         //Global
         public ObservableCollection<CheckBox> checkCollection = new();
 
-        public FolderWindow()
+        public FolderView()
         {
             InitializeComponent();
 
@@ -87,11 +87,11 @@ namespace DJMAX_Record_Keeper
             }
 
             //Purge previous list
-            MainWindow.filterSongCollection.Clear();
+            MainView.filterSongCollection.Clear();
 
             //Add songs from master to filter based on selected check boxes
             for(int c = 0; c < checkCollection.Count(); c += 1)
-                MainWindow.GetSongs(MainWindow.folderList[c], (bool)checkCollection[c].IsChecked);
+                MainView.GetSongs(MainView.folderList[c], (bool)checkCollection[c].IsChecked);
 
             //Save all set checkboxes
             SaveSettings();
@@ -99,7 +99,7 @@ namespace DJMAX_Record_Keeper
             MessageBoxResult confirmUpdate = MessageBox.Show("Successfully updated song title filters.", 
                 "Update filters", MessageBoxButton.OK, MessageBoxImage.Information);
             
-            MainWindow.isRefresh = true;
+            MainView.isRefresh = true;
             Owner.Activate();
             Close();
         }

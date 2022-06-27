@@ -2,7 +2,7 @@
     {
         "Title": "Proposed, Flower, Wolf",
         "Artist": "ReX",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -23,7 +23,7 @@
     {
         "Title": "Proposed, Flower, Wolf part.2",
         "Artist": "ReX",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -44,7 +44,7 @@
     {
         "Title": "The Siege warfare ~Pierre Blanche, Yonce Remix~",
         "Artist": "Pierre Blanche, Yonce",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -65,7 +65,7 @@
     {
         "Title": "Lugh Lamhfada",
         "Artist": "Studio EIM",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -86,11 +86,11 @@
     {
         "Title": "Memories of dreams",
         "Artist": "Pory",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
-        "FourSC": false,
+        "FourSC": true,
         "FiveNM": true,
         "FiveHD": true,
         "FiveMX": true,
@@ -102,12 +102,12 @@
         "EightNM": true,
         "EightHD": true,
         "EightMX": false,
-        "EightSC": false
+        "EightSC": true
     },
     {
         "Title": "Come to me",
         "Artist": "CLAZZIQUAI",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -128,28 +128,7 @@
     {
         "Title": "To Be With You",
         "Artist": "STARTRACK",
-        "Series": "RP",
-        "FourNM": true,
-        "FourHD": true,
-        "FourMX": true,
-        "FourSC": true,
-        "FiveNM": true,
-        "FiveHD": true,
-        "FiveMX": true,
-        "FiveSC": true,
-        "SixNM": true,
-        "SixHD": true,
-        "SixMX": false,
-        "SixSC": false,
-        "EightNM": true,
-        "EightHD": true,
-        "EightMX": false,
-        "EightSC": false
-    },
-    {
-        "Title": "To Be With You",
-        "Artist": "STARTRACK",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -170,7 +149,7 @@
     {
         "Title": "Flowering",
         "Artist": "ampstyle",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -191,7 +170,7 @@
     {
         "Title": "Flowering ~Original Ver.~",
         "Artist": "ampstyle",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -212,7 +191,7 @@
     {
         "Title": "To You",
         "Artist": "Sweetune",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -233,7 +212,7 @@
     {
         "Title": "Ask to Wind",
         "Artist": "Forte Escape",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -254,7 +233,7 @@
     {
         "Title": "Ask to Wind ~Live Mix~",
         "Artist": "Forte Escape",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -275,7 +254,7 @@
     {
         "Title": "Memory of Wind",
         "Artist": "Forte Escape",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -296,7 +275,7 @@
     {
         "Title": "Buyeo Fortress ~Blosso Remix~",
         "Artist": "Blosso",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -317,7 +296,7 @@
     {
         "Title": "Soar ~Stay With Me~",
         "Artist": "Mycin.T",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -338,7 +317,7 @@
     {
         "Title": "SOUL LADY",
         "Artist": "ESTi",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -359,7 +338,7 @@
     {
         "Title": "HeartBeat",
         "Artist": "ND Lee",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -380,7 +359,7 @@
     {
         "Title": "Heart Beat Part.2",
         "Artist": "ND Lee",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -401,7 +380,7 @@
     {
         "Title": "Young Adventurer ~SiNA Remix~",
         "Artist": "SiNA",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -422,7 +401,7 @@
     {
         "Title": "Every Morning",
         "Artist": "ND Lee",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -443,7 +422,7 @@
     {
         "Title": "pit-a-pet",
         "Artist": "TAK / seibin",
-        "Series": "ESTI",
+        "Category": "ESTI",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -464,7 +443,7 @@
     {
         "Title": "An old story from Grandma",
         "Artist": "HanStone",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -485,7 +464,7 @@
     {
         "Title": "Alliance x Empire",
         "Artist": "NEXON",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -506,7 +485,7 @@
     {
         "Title": "Karma",
         "Artist": "ampstyle",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -527,7 +506,7 @@
     {
         "Title": "Forever",
         "Artist": "BEXTER",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -548,7 +527,7 @@
     {
         "Title": "Ghost",
         "Artist": "STi",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -569,7 +548,7 @@
     {
         "Title": "Where Legend Begin ~VoidRover Remix~",
         "Artist": "VoidRover",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -590,7 +569,7 @@
     {
         "Title": "Cromm Cruaich",
         "Artist": "Studio EIM",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -611,7 +590,7 @@
     {
         "Title": "The Final Dance",
         "Artist": "HanStone",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -632,7 +611,7 @@
     {
         "Title": "Kartrider Mashup ~Cosmograph Remix~",
         "Artist": "Cosmograph",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -653,7 +632,7 @@
     {
         "Title": "Kartrider Mashup ~Pure 100% Remix~",
         "Artist": "Pure 100%",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -674,133 +653,7 @@
     {
         "Title": "Kartrider, Crazyarcade, Bubblefighter Main theme ~CHUCK Remix~",
         "Artist": "CHUCK",
-        "Series": "NXN",
-        "FourNM": true,
-        "FourHD": true,
-        "FourMX": false,
-        "FourSC": true,
-        "FiveNM": true,
-        "FiveHD": true,
-        "FiveMX": true,
-        "FiveSC": true,
-        "SixNM": true,
-        "SixHD": false,
-        "SixMX": true,
-        "SixSC": false,
-        "EightNM": true,
-        "EightHD": false,
-        "EightMX": true,
-        "EightSC": false
-    },
-    {
-        "Title": "Where Legend Begin ~VoidRover Remix~",
-        "Artist": "VoidRover",
-        "Series": "NXN",
-        "FourNM": true,
-        "FourHD": false,
-        "FourMX": true,
-        "FourSC": true,
-        "FiveNM": true,
-        "FiveHD": true,
-        "FiveMX": true,
-        "FiveSC": false,
-        "SixNM": true,
-        "SixHD": true,
-        "SixMX": true,
-        "SixSC": true,
-        "EightNM": true,
-        "EightHD": false,
-        "EightMX": true,
-        "EightSC": true
-    },
-    {
-        "Title": "Cromm Cruaich",
-        "Artist": "Studio EIM",
-        "Series": "NXN",
-        "FourNM": true,
-        "FourHD": false,
-        "FourMX": true,
-        "FourSC": false,
-        "FiveNM": true,
-        "FiveHD": true,
-        "FiveMX": true,
-        "FiveSC": false,
-        "SixNM": true,
-        "SixHD": true,
-        "SixMX": false,
-        "SixSC": false,
-        "EightNM": true,
-        "EightHD": true,
-        "EightMX": true,
-        "EightSC": true
-    },
-    {
-        "Title": "The Final Dance",
-        "Artist": "HanStone",
-        "Series": "NXN",
-        "FourNM": true,
-        "FourHD": true,
-        "FourMX": false,
-        "FourSC": false,
-        "FiveNM": true,
-        "FiveHD": true,
-        "FiveMX": true,
-        "FiveSC": true,
-        "SixNM": true,
-        "SixHD": true,
-        "SixMX": true,
-        "SixSC": true,
-        "EightNM": true,
-        "EightHD": true,
-        "EightMX": true,
-        "EightSC": true
-    },
-    {
-        "Title": "Kartrider Mashup ~Cosmograph Remix~",
-        "Artist": "Cosmograph",
-        "Series": "NXN",
-        "FourNM": true,
-        "FourHD": true,
-        "FourMX": false,
-        "FourSC": true,
-        "FiveNM": true,
-        "FiveHD": true,
-        "FiveMX": true,
-        "FiveSC": true,
-        "SixNM": true,
-        "SixHD": true,
-        "SixMX": true,
-        "SixSC": false,
-        "EightNM": true,
-        "EightHD": true,
-        "EightMX": true,
-        "EightSC": true
-    },
-    {
-        "Title": "Kartrider Mashup ~Pure 100% Remix~",
-        "Artist": "Pure 100%",
-        "Series": "NXN",
-        "FourNM": true,
-        "FourHD": false,
-        "FourMX": true,
-        "FourSC": true,
-        "FiveNM": true,
-        "FiveHD": true,
-        "FiveMX": true,
-        "FiveSC": false,
-        "SixNM": true,
-        "SixHD": true,
-        "SixMX": true,
-        "SixSC": true,
-        "EightNM": true,
-        "EightHD": false,
-        "EightMX": true,
-        "EightSC": false
-    },
-    {
-        "Title": "Kartrider, Crazyarcade, Bubblefighter Main theme ~CHUCK Remix~",
-        "Artist": "CHUCK",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -821,7 +674,7 @@
     {
         "Title": "Taekwonburi",
         "Artist": "xxdbxx",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -842,7 +695,7 @@
     {
         "Title": "Piano Concerto No. 1",
         "Artist": "Wav Factory",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -863,7 +716,7 @@
     {
         "Title": "comet",
         "Artist": "Mycin.T",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -884,7 +737,7 @@
     {
         "Title": "2Nite",
         "Artist": "ND Lee",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -905,7 +758,7 @@
     {
         "Title": "A Lie",
         "Artist": "makou",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -926,7 +779,7 @@
     {
         "Title": "A Lie ~Deep Inside Mix~",
         "Artist": "Electronic Boutique",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -947,7 +800,7 @@
     {
         "Title": "A Life With You",
         "Artist": "makou",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -968,7 +821,7 @@
     {
         "Title": "A.I",
         "Artist": "Forte Escape",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -989,7 +842,7 @@
     {
         "Title": "Access",
         "Artist": "Sphazer",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1010,7 +863,7 @@
     {
         "Title": "AD2222",
         "Artist": "Croove",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1031,7 +884,7 @@
     {
         "Title": "AD2222 ~Extended Mix~",
         "Artist": "Croove",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1052,7 +905,7 @@
     {
         "Title": "Airlock",
         "Artist": "XeoN",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1073,7 +926,7 @@
     {
         "Title": "Airwave",
         "Artist": "ReX",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1094,7 +947,7 @@
     {
         "Title": "Airwave ~Extended Mix~",
         "Artist": "ReX",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1115,7 +968,7 @@
     {
         "Title": "ALiCE",
         "Artist": "seibin",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1136,7 +989,7 @@
     {
         "Title": "Alone [Marshmello]",
         "Artist": "Marshmello",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -1157,7 +1010,7 @@
     {
         "Title": "Alone [Nauts]",
         "Artist": "Nauts",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -1178,7 +1031,7 @@
     {
         "Title": "Always",
         "Artist": "YUGI / Mool",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -1199,7 +1052,7 @@
     {
         "Title": "ANALYS",
         "Artist": "HAYAKO",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1220,7 +1073,7 @@
     {
         "Title": "Angel",
         "Artist": "Laurent Newfield & Ravenant",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1241,7 +1094,7 @@
     {
         "Title": "Angelic Sphere",
         "Artist": "3R2",
-        "Series": "DM",
+        "Category": "DM",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1260,9 +1113,30 @@
         "EightSC": false
     },
     {
+        "Title": "Angelic Tears",
+        "Artist": "SHIKI",
+        "Category": "RP",
+        "FourNM": true,
+        "FourHD": true,
+        "FourMX": true,
+        "FourSC": true,
+        "FiveNM": true,
+        "FiveHD": true,
+        "FiveMX": true,
+        "FiveSC": true,
+        "SixNM": true,
+        "SixHD": true,
+        "SixMX": true,
+        "SixSC": true,
+        "EightNM": true,
+        "EightHD": true,
+        "EightMX": true,
+        "EightSC": true
+    },
+    {
         "Title": "ANiMA",
         "Artist": "xi",
-        "Series": "DM",
+        "Category": "DM",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1283,7 +1157,7 @@
     {
         "Title": "Another DAY",
         "Artist": "Forte Escape",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1304,7 +1178,7 @@
     {
         "Title": "Apparition",
         "Artist": "ESTi",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1325,7 +1199,7 @@
     {
         "Title": "Arcade Love (feat. KNVWN)",
         "Artist": "Newton / KNVWN",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -1333,20 +1207,20 @@
         "FiveNM": true,
         "FiveHD": true,
         "FiveMX": false,
-        "FiveSC": false,
+        "FiveSC": true,
         "SixNM": true,
         "SixHD": false,
         "SixMX": true,
-        "SixSC": false,
+        "SixSC": true,
         "EightNM": true,
         "EightHD": true,
         "EightMX": false,
-        "EightSC": false
+        "EightSC": true
     },
     {
         "Title": "Area 7",
         "Artist": "Sphazer",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -1367,7 +1241,7 @@
     {
         "Title": "Armored Phantom",
         "Artist": "ned",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -1388,7 +1262,7 @@
     {
         "Title": "Astro Fight",
         "Artist": "Forte Escape",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -1409,7 +1283,7 @@
     {
         "Title": "Attack",
         "Artist": "Mr.Funky",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1421,7 +1295,7 @@
         "SixNM": true,
         "SixHD": true,
         "SixMX": true,
-        "SixSC": false,
+        "SixSC": true,
         "EightNM": true,
         "EightHD": true,
         "EightMX": true,
@@ -1430,7 +1304,7 @@
     {
         "Title": "Aurora Borealis",
         "Artist": "Electronic Boutique",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1451,7 +1325,7 @@
     {
         "Title": "AXION",
         "Artist": "sakuzyo",
-        "Series": "CY",
+        "Category": "CY",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -1472,7 +1346,7 @@
     {
         "Title": "Bamboo on Bamboo",
         "Artist": "Sampling Masters MEGA",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1493,7 +1367,7 @@
     {
         "Title": "Bang!!",
         "Artist": "BOOGEY VOXX",
-        "Series": "MD",
+        "Category": "MD",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -1514,7 +1388,7 @@
     {
         "Title": "Barbarous Funera",
         "Artist": "Rikako Watanabe (Basicape)",
-        "Series": "GF",
+        "Category": "GF",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1535,7 +1409,7 @@
     {
         "Title": "Beat U Down",
         "Artist": "makou",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1556,7 +1430,7 @@
     {
         "Title": "Beautiful Day",
         "Artist": "ND Lee",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1577,7 +1451,7 @@
     {
         "Title": "Become Myself",
         "Artist": "Kibum / Yohan",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -1598,7 +1472,7 @@
     {
         "Title": "BEE-U-TIFUL",
         "Artist": "FIRST AID",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -1619,7 +1493,7 @@
     {
         "Title": "Beyond the Future",
         "Artist": "7 Sequence",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1640,7 +1514,7 @@
     {
         "Title": "Beyond Yourself",
         "Artist": "Mycin.T",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -1661,7 +1535,7 @@
     {
         "Title": "Binary World",
         "Artist": "Tsukasa",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1682,7 +1556,7 @@
     {
         "Title": "BLACK GOLD",
         "Artist": "Cranky",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1703,7 +1577,7 @@
     {
         "Title": "Black MInD",
         "Artist": "COSIO",
-        "Series": "GC",
+        "Category": "GC",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1724,7 +1598,7 @@
     {
         "Title": "Black Swan",
         "Artist": "TAK",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1745,7 +1619,7 @@
     {
         "Title": "BlackCat",
         "Artist": "BEXTER",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -1766,7 +1640,7 @@
     {
         "Title": "Bleed",
         "Artist": "Axol & The Tech Thieves",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -1787,7 +1661,7 @@
     {
         "Title": "BlythE",
         "Artist": "M2U",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1808,7 +1682,7 @@
     {
         "Title": "Boom!",
         "Artist": "BEXTER",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1829,7 +1703,7 @@
     {
         "Title": "Brain Storm",
         "Artist": "Croove",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -1850,7 +1724,7 @@
     {
         "Title": "Brandnew Days",
         "Artist": "Planetboom",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -1871,7 +1745,7 @@
     {
         "Title": "Brave it Out",
         "Artist": "BEXTER",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -1892,7 +1766,7 @@
     {
         "Title": "Break a Spell",
         "Artist": "Daisuke Ishiwatari",
-        "Series": "GG",
+        "Category": "GG",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1913,7 +1787,7 @@
     {
         "Title": "Break!",
         "Artist": "Mr.Funky",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1934,7 +1808,7 @@
     {
         "Title": "Bright Dream",
         "Artist": "M2U",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -1955,7 +1829,7 @@
     {
         "Title": "Bullet, Wanted!",
         "Artist": "Mycin.T",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -1976,7 +1850,7 @@
     {
         "Title": "Burn it Down",
         "Artist": "P'sycho-Remi",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -1997,7 +1871,7 @@
     {
         "Title": "Bye Bye Love",
         "Artist": "3rd Coast",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2018,7 +1892,7 @@
     {
         "Title": "Bye Bye Love ~Nu Jazz Mix~",
         "Artist": "Electronic Boutique",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2039,7 +1913,7 @@
     {
         "Title": "Can We Talk",
         "Artist": "Forte Escape",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2060,7 +1934,7 @@
     {
         "Title": "can you feel it",
         "Artist": "MK",
-        "Series": "MD",
+        "Category": "MD",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2081,7 +1955,7 @@
     {
         "Title": "Catch Me",
         "Artist": "Forte Escape",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2102,7 +1976,7 @@
     {
         "Title": "Catch You",
         "Artist": "Forte Escape",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2123,7 +1997,7 @@
     {
         "Title": "Chain of Gravity",
         "Artist": "Tsukasa",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2144,7 +2018,7 @@
     {
         "Title": "Chemical Slave",
         "Artist": "XeoN",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2165,7 +2039,7 @@
     {
         "Title": "Cherokee",
         "Artist": "xxdbxx",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2186,7 +2060,7 @@
     {
         "Title": "Child of Night",
         "Artist": "GOTH",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2207,7 +2081,7 @@
     {
         "Title": "Chrono Breakers",
         "Artist": "NieN",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2228,7 +2102,7 @@
     {
         "Title": "Chrysanthemum",
         "Artist": "Kanallia",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2249,7 +2123,7 @@
     {
         "Title": "Closer",
         "Artist": "3rd Coast",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -2270,7 +2144,7 @@
     {
         "Title": "CnP",
         "Artist": "CRooFE",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2291,7 +2165,7 @@
     {
         "Title": "Coastal Tempo",
         "Artist": "3rd Coast",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2312,15 +2186,15 @@
     {
         "Title": "Cocked Pistol",
         "Artist": "Pierre Blanche",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
-        "FourSC": false,
+        "FourSC": true,
         "FiveNM": true,
         "FiveHD": true,
         "FiveMX": true,
-        "FiveSC": false,
+        "FiveSC": true,
         "SixNM": true,
         "SixHD": false,
         "SixMX": true,
@@ -2333,7 +2207,7 @@
     {
         "Title": "CODE NAME : ZERO",
         "Artist": "NeLiME",
-        "Series": "CY",
+        "Category": "CY",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2354,7 +2228,7 @@
     {
         "Title": "Color",
         "Artist": "CLAZZIQUAI",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -2375,7 +2249,7 @@
     {
         "Title": "Colours of Sorrow",
         "Artist": "Tsukasa",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -2396,7 +2270,7 @@
     {
         "Title": "Comet Coaster",
         "Artist": "DJ Noriken & Aran",
-        "Series": "MD",
+        "Category": "MD",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2417,7 +2291,7 @@
     {
         "Title": "conflict",
         "Artist": "Cranky + siromaru",
-        "Series": "CY",
+        "Category": "CY",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2438,7 +2312,7 @@
     {
         "Title": "Constant Moderato",
         "Artist": "Mitsukiyo",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2459,7 +2333,7 @@
     {
         "Title": "Cosmic Elevator",
         "Artist": "Forte Escape",
-        "Series": "ES",
+        "Category": "ES",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2480,7 +2354,7 @@
     {
         "Title": "Cosmic Fantastic Lovesong",
         "Artist": "DINY",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2501,7 +2375,7 @@
     {
         "Title": "Cozy Quilt",
         "Artist": "bermei.inazawa",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2522,7 +2396,7 @@
     {
         "Title": "Creator",
         "Artist": "CLAZZIQUAI",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2543,7 +2417,7 @@
     {
         "Title": "Cthugha",
         "Artist": "USAO",
-        "Series": "MD",
+        "Category": "MD",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2564,7 +2438,7 @@
     {
         "Title": "Cyberozar",
         "Artist": "sakuzyo",
-        "Series": "CHU",
+        "Category": "CHU",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -2585,7 +2459,7 @@
     {
         "Title": "Cypher Gate",
         "Artist": "7 Sequence",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2606,7 +2480,7 @@
     {
         "Title": "D2",
         "Artist": "FIRST AID",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -2627,7 +2501,7 @@
     {
         "Title": "Dance of the Dead",
         "Artist": "GOTH",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2648,7 +2522,7 @@
     {
         "Title": "DARK ENVY",
         "Artist": "Sugardonut",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2669,7 +2543,7 @@
     {
         "Title": "Dark Prism",
         "Artist": "Tsukasa",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2690,7 +2564,7 @@
     {
         "Title": "DataErr0r",
         "Artist": "Cosmograph",
-        "Series": "MD",
+        "Category": "MD",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2711,7 +2585,7 @@
     {
         "Title": "Daydream",
         "Artist": "Mycin.T x SiNA",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2732,7 +2606,7 @@
     {
         "Title": "Daylight",
         "Artist": "CROOVE",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2753,7 +2627,7 @@
     {
         "Title": "Dear my Lady",
         "Artist": "Oriental ST8",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2774,7 +2648,7 @@
     {
         "Title": "Desperado",
         "Artist": "Croove",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2795,7 +2669,7 @@
     {
         "Title": "Desperado ~Nu Skool Mix~",
         "Artist": "Paul Bazooka",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2816,7 +2690,7 @@
     {
         "Title": "DIVINE SERVICE",
         "Artist": "Electronic Boutique",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2837,7 +2711,7 @@
     {
         "Title": "DJMAX",
         "Artist": "Humming Urban Stereo",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2858,15 +2732,15 @@
     {
         "Title": "Do it",
         "Artist": "House Rulez",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
-        "FourSC": false,
+        "FourSC": true,
         "FiveNM": true,
         "FiveHD": false,
         "FiveMX": true,
-        "FiveSC": false,
+        "FiveSC": true,
         "SixNM": true,
         "SixHD": true,
         "SixMX": false,
@@ -2874,12 +2748,12 @@
         "EightNM": true,
         "EightHD": true,
         "EightMX": false,
-        "EightSC": false
+        "EightSC": true
     },
     {
         "Title": "Do you want it",
         "Artist": "House Rulez",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -2900,7 +2774,7 @@
     {
         "Title": "Don't Die",
         "Artist": "Paul Bazooka",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2921,7 +2795,7 @@
     {
         "Title": "Dreadnought",
         "Artist": "EarBreaker",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2942,7 +2816,7 @@
     {
         "Title": "Dream",
         "Artist": "Rabpit",
-        "Series": "DM",
+        "Category": "DM",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -2963,7 +2837,7 @@
     {
         "Title": "Dream Again",
         "Artist": "DINY",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -2984,7 +2858,7 @@
     {
         "Title": "Dream it",
         "Artist": "BEXTER",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3005,7 +2879,7 @@
     {
         "Title": "Dream of Winds",
         "Artist": "XeoN",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3026,7 +2900,7 @@
     {
         "Title": "Dream of You",
         "Artist": "makou",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3047,7 +2921,7 @@
     {
         "Title": "Dual Strikers",
         "Artist": "7 Sequence",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3068,7 +2942,7 @@
     {
         "Title": "Dysthymia",
         "Artist": "a_hisa",
-        "Series": "MD",
+        "Category": "MD",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3089,7 +2963,7 @@
     {
         "Title": "EGG",
         "Artist": "Nauts",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3110,7 +2984,7 @@
     {
         "Title": "EGG ~Extended Mix~",
         "Artist": "Nauts",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3131,7 +3005,7 @@
     {
         "Title": "Elastic Star",
         "Artist": "Forte Escape",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3152,7 +3026,7 @@
     {
         "Title": "Electronics",
         "Artist": "CLAZZIQUAI",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3173,7 +3047,7 @@
     {
         "Title": "EMber",
         "Artist": "SIHanatsuka",
-        "Series": "CY",
+        "Category": "CY",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3194,7 +3068,7 @@
     {
         "Title": "Emblem",
         "Artist": "makou",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3215,7 +3089,7 @@
     {
         "Title": "End of Mythology",
         "Artist": "Alice Schach and the Magic Orchestra",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3236,7 +3110,7 @@
     {
         "Title": "End of the Moonlight",
         "Artist": "Forte Escape",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3257,7 +3131,7 @@
     {
         "Title": "Enemy Storm",
         "Artist": "Croove",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3278,7 +3152,7 @@
     {
         "Title": "Enemy Storm ~Dark Jungle Mix~",
         "Artist": "Paul Bazooka",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -3299,7 +3173,7 @@
     {
         "Title": "ENERGY SYNERGY MATRIX",
         "Artist": "Tanchiky",
-        "Series": "MD",
+        "Category": "MD",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3320,7 +3194,7 @@
     {
         "Title": "Enter The Universe",
         "Artist": "GOTH",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3341,7 +3215,7 @@
     {
         "Title": "Entrance",
         "Artist": "Ice",
-        "Series": "CY",
+        "Category": "CY",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -3362,7 +3236,7 @@
     {
         "Title": "Eternal Fantasy",
         "Artist": "XeoN",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3383,7 +3257,7 @@
     {
         "Title": "Eternal Memory",
         "Artist": "M2U",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3404,7 +3278,7 @@
     {
         "Title": "Everything",
         "Artist": "3rd Coast",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3425,7 +3299,7 @@
     {
         "Title": "Extreme Z4",
         "Artist": "Forte Escape",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3446,7 +3320,7 @@
     {
         "Title": "Fallen Angel",
         "Artist": "DJ Mocha",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3467,7 +3341,7 @@
     {
         "Title": "Fallin' in LUV",
         "Artist": "3rd Coast",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3488,7 +3362,7 @@
     {
         "Title": "FALLING IN LOVE",
         "Artist": "NieN",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3496,7 +3370,7 @@
         "FiveNM": true,
         "FiveHD": true,
         "FiveMX": true,
-        "FiveSC": false,
+        "FiveSC": true,
         "SixNM": true,
         "SixHD": true,
         "SixMX": true,
@@ -3504,12 +3378,12 @@
         "EightNM": true,
         "EightHD": true,
         "EightMX": true,
-        "EightSC": false
+        "EightSC": true
     },
     {
         "Title": "Fancy Night",
         "Artist": "SiNA x CHUCK",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3517,7 +3391,7 @@
         "FiveNM": true,
         "FiveHD": true,
         "FiveMX": true,
-        "FiveSC": false,
+        "FiveSC": true,
         "SixNM": true,
         "SixHD": true,
         "SixMX": true,
@@ -3525,12 +3399,12 @@
         "EightNM": true,
         "EightHD": false,
         "EightMX": true,
-        "EightSC": false
+        "EightSC": true
     },
     {
         "Title": "Far East Princess",
         "Artist": "Nauts",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3551,7 +3425,7 @@
     {
         "Title": "Fate",
         "Artist": "STi",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3572,7 +3446,7 @@
     {
         "Title": "FEAR",
         "Artist": "Supbaby",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3593,7 +3467,7 @@
     {
         "Title": "Feel",
         "Artist": "DJ Mocha",
-        "Series": "ES",
+        "Category": "ES",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3614,7 +3488,7 @@
     {
         "Title": "Feel Ma Beat",
         "Artist": "NieN",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3635,7 +3509,7 @@
     {
         "Title": "Fentanest",
         "Artist": "EarBreaker & Eszett",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3656,7 +3530,7 @@
     {
         "Title": "Fermion",
         "Artist": "makou",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3677,7 +3551,7 @@
     {
         "Title": "Fever GJ",
         "Artist": "xxdbxx",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3698,7 +3572,7 @@
     {
         "Title": "Fever Pitch Girl",
         "Artist": "Nikacha",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3719,7 +3593,7 @@
     {
         "Title": "FIGHT NIGHT (feat. Calyae)",
         "Artist": "Messier",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3740,7 +3614,7 @@
     {
         "Title": "First Kiss",
         "Artist": "BJJ",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3761,7 +3635,7 @@
     {
         "Title": "Flea",
         "Artist": "CLAZZIQUAI",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3782,7 +3656,7 @@
     {
         "Title": "Fly Away",
         "Artist": "XeoN",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3803,7 +3677,7 @@
     {
         "Title": "For Seasons",
         "Artist": "makou",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3824,7 +3698,7 @@
     {
         "Title": "For Seasons ~Air Guitar Mix~",
         "Artist": "Planetboom",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3845,7 +3719,7 @@
     {
         "Title": "For the IKARUS",
         "Artist": "NieN",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3866,11 +3740,11 @@
     {
         "Title": "Forgotten",
         "Artist": "Paul Bazooka",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
-        "FourSC": false,
+        "FourSC": true,
         "FiveNM": true,
         "FiveHD": false,
         "FiveMX": true,
@@ -3878,7 +3752,7 @@
         "SixNM": true,
         "SixHD": true,
         "SixMX": false,
-        "SixSC": false,
+        "SixSC": true,
         "EightNM": true,
         "EightHD": true,
         "EightMX": false,
@@ -3887,7 +3761,7 @@
     {
         "Title": "Freedom",
         "Artist": "CLAZZIQUAI",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3908,7 +3782,7 @@
     {
         "Title": "Frontline",
         "Artist": "B@kamin / M2U",
-        "Series": "GF",
+        "Category": "GF",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3929,7 +3803,7 @@
     {
         "Title": "FTR",
         "Artist": "Supbaby",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3950,7 +3824,7 @@
     {
         "Title": "Funky Chups",
         "Artist": "Forte Escape",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -3971,7 +3845,7 @@
     {
         "Title": "Fury",
         "Artist": "Sugardonut",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -3992,7 +3866,7 @@
     {
         "Title": "Futurism",
         "Artist": "Forte Escape",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4013,7 +3887,7 @@
     {
         "Title": "Garakuta Doll Play",
         "Artist": "t+pazolite",
-        "Series": "CHU",
+        "Category": "CHU",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4034,7 +3908,7 @@
     {
         "Title": "Get Down",
         "Artist": "BJJ",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4055,7 +3929,7 @@
     {
         "Title": "Get Jinxed",
         "Artist": "Agnete K",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4076,7 +3950,7 @@
     {
         "Title": "Get on Top",
         "Artist": "Planetboom",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4097,7 +3971,7 @@
     {
         "Title": "GET OUT",
         "Artist": "ND Lee",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4118,7 +3992,7 @@
     {
         "Title": "GET OUT ~Hip Noodle Mix~",
         "Artist": "DJ.EON",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4139,7 +4013,7 @@
     {
         "Title": "Ghost Voices",
         "Artist": "Virtual Self",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4160,7 +4034,7 @@
     {
         "Title": "Give Me 5",
         "Artist": "ND Lee",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -4181,7 +4055,7 @@
     {
         "Title": "glory day",
         "Artist": "BEXTER x Mycin.T",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4202,7 +4076,7 @@
     {
         "Title": "glory day (Mintorment Remix)",
         "Artist": "Mintorment",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -4223,7 +4097,7 @@
     {
         "Title": "glory day -JHS Remix-",
         "Artist": "JHS",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4244,7 +4118,7 @@
     {
         "Title": "Gone Astray",
         "Artist": "makou",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -4265,7 +4139,7 @@
     {
         "Title": "Good Bye",
         "Artist": "Ruby Tuesday",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4286,7 +4160,7 @@
     {
         "Title": "Good Night, Bad Luck.",
         "Artist": "t+pazolite",
-        "Series": "GC",
+        "Category": "GC",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -4307,7 +4181,7 @@
     {
         "Title": "Got more raves?",
         "Artist": "E.G.G.",
-        "Series": "GC",
+        "Category": "GC",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4328,7 +4202,7 @@
     {
         "Title": "Grave Consequence",
         "Artist": "Tsukasa",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4349,7 +4223,7 @@
     {
         "Title": "Grid System",
         "Artist": "Tsukasa",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4370,7 +4244,7 @@
     {
         "Title": "Groove Prayer",
         "Artist": "COSIO",
-        "Series": "GC",
+        "Category": "GC",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4391,7 +4265,7 @@
     {
         "Title": "Groovin Up",
         "Artist": "Mycin.T",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4412,7 +4286,7 @@
     {
         "Title": "HAMSIN",
         "Artist": "makou",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -4433,7 +4307,7 @@
     {
         "Title": "Hanz Up!",
         "Artist": "Mr.Funky",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -4454,7 +4328,7 @@
     {
         "Title": "HB-axeleration",
         "Artist": "Tsukasa Yatoki",
-        "Series": "GC",
+        "Category": "GC",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4475,7 +4349,7 @@
     {
         "Title": "Heart of Witch",
         "Artist": "ReX",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4496,7 +4370,7 @@
     {
         "Title": "Heavenly",
         "Artist": "makou",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4517,7 +4391,7 @@
     {
         "Title": "HELIX",
         "Artist": "ESTi",
-        "Series": "ESTI",
+        "Category": "ESTI",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -4538,7 +4412,7 @@
     {
         "Title": "Hello Pinky",
         "Artist": "NieN",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4559,7 +4433,7 @@
     {
         "Title": "Here in the Moment",
         "Artist": "Ruby Tuesday",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4580,7 +4454,7 @@
     {
         "Title": "Here in the Moment ~Extended Mix~",
         "Artist": "Ruby Tuesday",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4601,7 +4475,7 @@
     {
         "Title": "HEXAD",
         "Artist": "Electronic Boutique",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4622,7 +4496,7 @@
     {
         "Title": "Higher",
         "Artist": "Supbaby",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4643,7 +4517,7 @@
     {
         "Title": "Holy Orders (Be Just Or Be Dead)",
         "Artist": "Daisuke Ishiwatari",
-        "Series": "GG",
+        "Category": "GG",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4664,7 +4538,7 @@
     {
         "Title": "Honeymoon",
         "Artist": "Humming Urban Stereo",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4685,7 +4559,7 @@
     {
         "Title": "I want You",
         "Artist": "Lin-G",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4706,7 +4580,7 @@
     {
         "Title": "I want You ~Twinkle Twinkle Sunshine~",
         "Artist": "Studio LAY-BACK",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4727,7 +4601,7 @@
     {
         "Title": "I've got a feeling",
         "Artist": "LeeZu",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4748,7 +4622,7 @@
     {
         "Title": "IF",
         "Artist": "Vanilla Unity",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4769,7 +4643,7 @@
     {
         "Title": "Ikazuchi",
         "Artist": "Takenobu Mitsuyoshi",
-        "Series": "CHU",
+        "Category": "CHU",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -4790,7 +4664,7 @@
     {
         "Title": "Imaginary dance",
         "Artist": "CHUCK",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4811,7 +4685,7 @@
     {
         "Title": "In my Dream",
         "Artist": "ND Lee",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4832,7 +4706,7 @@
     {
         "Title": "In My Heart",
         "Artist": "Tsukasa",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -4853,7 +4727,7 @@
     {
         "Title": "In My Heart ~ESTi Remix~",
         "Artist": "ESTi",
-        "Series": "ESTI",
+        "Category": "ESTI",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4874,7 +4748,7 @@
     {
         "Title": "It's my war now",
         "Artist": "Kim Dong Hyun",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -4895,7 +4769,7 @@
     {
         "Title": "JBG",
         "Artist": "Croove",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4916,7 +4790,7 @@
     {
         "Title": "Jealousy",
         "Artist": "3rd Coast",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4937,7 +4811,7 @@
     {
         "Title": "Jupiter Driving",
         "Artist": "xxdbxx",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -4958,11 +4832,11 @@
     {
         "Title": "Kensei",
         "Artist": "Pure 100%",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
-        "FourSC": false,
+        "FourSC": true,
         "FiveNM": true,
         "FiveHD": true,
         "FiveMX": true,
@@ -4974,12 +4848,12 @@
         "EightNM": true,
         "EightHD": true,
         "EightMX": true,
-        "EightSC": false
+        "EightSC": true
     },
     {
         "Title": "Keys to the World",
         "Artist": "Planetboom",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5000,7 +4874,7 @@
     {
         "Title": "KILLER BEE",
         "Artist": "GOTH",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5021,7 +4895,7 @@
     {
         "Title": "Kingdom",
         "Artist": "Phantom sage",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -5042,7 +4916,7 @@
     {
         "Title": "Knowledge System",
         "Artist": "Forte Escape",
-        "Series": "ES",
+        "Category": "ES",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5063,7 +4937,7 @@
     {
         "Title": "Koi no Moonlight",
         "Artist": "REDALiCE",
-        "Series": "MD",
+        "Category": "MD",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5084,7 +4958,7 @@
     {
         "Title": "KUDA",
         "Artist": "Gonzo",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5105,7 +4979,7 @@
     {
         "Title": "Kung Brother",
         "Artist": "Paul Bazooka",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5126,7 +5000,7 @@
     {
         "Title": "Kung-Fu Rider",
         "Artist": "AstroKid",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5147,7 +5021,7 @@
     {
         "Title": "L",
         "Artist": "Ice",
-        "Series": "CY",
+        "Category": "CY",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5168,7 +5042,7 @@
     {
         "Title": "La Campanella : Nu Rave",
         "Artist": "Cranky",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5189,7 +5063,7 @@
     {
         "Title": "Lacheln, The City of Dreams",
         "Artist": "NEXON",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5210,7 +5084,7 @@
     {
         "Title": "Ladymade Star",
         "Artist": "ESTi",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5231,7 +5105,7 @@
     {
         "Title": "Landscape",
         "Artist": "Tsukasa",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5252,7 +5126,7 @@
     {
         "Title": "Leave me alone",
         "Artist": "NieN",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5273,7 +5147,7 @@
     {
         "Title": "Legacy",
         "Artist": "switchworks",
-        "Series": "DM",
+        "Category": "DM",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5294,7 +5168,7 @@
     {
         "Title": "Lemonade",
         "Artist": "M2U",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": false,
         "FourMX": false,
@@ -5315,7 +5189,7 @@
     {
         "Title": "Les Parfums de L'Amour",
         "Artist": "naotyu-",
-        "Series": "CY",
+        "Category": "CY",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -5336,7 +5210,7 @@
     {
         "Title": "Let's Go Baby",
         "Artist": "3rd Coast",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5357,7 +5231,7 @@
     {
         "Title": "Liar",
         "Artist": "zts",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5378,7 +5252,7 @@
     {
         "Title": "Lift You Up",
         "Artist": "makou",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5399,7 +5273,7 @@
     {
         "Title": "Light House",
         "Artist": "xxdbxx",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5420,7 +5294,7 @@
     {
         "Title": "Lights of Muse",
         "Artist": "Ayatsugu_Otowa",
-        "Series": "MD",
+        "Category": "MD",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5441,7 +5315,7 @@
     {
         "Title": "Lisrim",
         "Artist": "onoken",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5462,7 +5336,7 @@
     {
         "Title": "Long Vacation",
         "Artist": "ESTi",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5483,7 +5357,7 @@
     {
         "Title": "Lost n' found",
         "Artist": "bermei.inazawa",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5504,7 +5378,7 @@
     {
         "Title": "Lost Serenity",
         "Artist": "Benicx",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5516,16 +5390,16 @@
         "SixNM": true,
         "SixHD": true,
         "SixMX": true,
-        "SixSC": false,
+        "SixSC": true,
         "EightNM": true,
         "EightHD": true,
         "EightMX": false,
-        "EightSC": false
+        "EightSC": true
     },
     {
         "Title": "Lost Temple",
         "Artist": "IMLAY",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5546,7 +5420,7 @@
     {
         "Title": "Love is Beautiful",
         "Artist": "Electronic Boutique",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5567,7 +5441,7 @@
     {
         "Title": "Love Mode",
         "Artist": "CLAZZIQUAI",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5588,7 +5462,7 @@
     {
         "Title": "Lovely hands",
         "Artist": "Planetboom",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -5609,7 +5483,7 @@
     {
         "Title": "Lover (BS Style)",
         "Artist": "ND Lee",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5630,7 +5504,7 @@
     {
         "Title": "Lover (CE Style)",
         "Artist": "ND Lee",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5651,7 +5525,7 @@
     {
         "Title": "Luv Flow",
         "Artist": "3rd Coast",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5672,7 +5546,7 @@
     {
         "Title": "Luv Flow ~Funky House Mix~",
         "Artist": "Paul Bazooka",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -5693,7 +5567,7 @@
     {
         "Title": "Luv is True",
         "Artist": "3rd Coast",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5714,7 +5588,7 @@
     {
         "Title": "Magnolia",
         "Artist": "M2U",
-        "Series": "DM",
+        "Category": "DM",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5735,7 +5609,7 @@
     {
         "Title": "Maharajah -fenomeno edition-",
         "Artist": "Alice Schach and the Magic Orchestra",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5751,12 +5625,12 @@
         "EightNM": true,
         "EightHD": true,
         "EightMX": true,
-        "EightSC": false
+        "EightSC": true
     },
     {
         "Title": "Mammal",
         "Artist": "Teikyou",
-        "Series": "CY",
+        "Category": "CY",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5777,7 +5651,7 @@
     {
         "Title": "Marionette",
         "Artist": "Daisuke Ishiwatari",
-        "Series": "GG",
+        "Category": "GG",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5798,7 +5672,7 @@
     {
         "Title": "Marry me, Nightmare",
         "Artist": "t+pazolite",
-        "Series": "GC",
+        "Category": "GC",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5819,7 +5693,7 @@
     {
         "Title": "MASAI",
         "Artist": "Croove",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5840,7 +5714,7 @@
     {
         "Title": "MASAI ~Electro House Mix~",
         "Artist": "Croove",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5861,7 +5735,7 @@
     {
         "Title": "Mellow D Fantasy",
         "Artist": "NieN",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -5882,7 +5756,7 @@
     {
         "Title": "Melody",
         "Artist": "bermei.inazawa",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -5903,11 +5777,11 @@
     {
         "Title": "Melonaid",
         "Artist": "KATOMORI",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
-        "FourSC": false,
+        "FourSC": true,
         "FiveNM": true,
         "FiveHD": true,
         "FiveMX": true,
@@ -5915,7 +5789,7 @@
         "SixNM": true,
         "SixHD": true,
         "SixMX": true,
-        "SixSC": false,
+        "SixSC": true,
         "EightNM": true,
         "EightHD": true,
         "EightMX": false,
@@ -5924,7 +5798,7 @@
     {
         "Title": "Memoirs",
         "Artist": "M2U",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5945,7 +5819,7 @@
     {
         "Title": "Memory of Beach",
         "Artist": "M2U",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5966,7 +5840,7 @@
     {
         "Title": "Mess it Up",
         "Artist": "Nauts",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -5987,7 +5861,7 @@
     {
         "Title": "Midnight Blood",
         "Artist": "NieN",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6008,7 +5882,7 @@
     {
         "Title": "Miles",
         "Artist": "Electronic Boutique",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6029,7 +5903,7 @@
     {
         "Title": "Mind Control",
         "Artist": "NieN",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6050,7 +5924,7 @@
     {
         "Title": "Minimal Life",
         "Artist": "EarBreaker",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6071,7 +5945,7 @@
     {
         "Title": "Minus 3",
         "Artist": "Croove",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6092,7 +5966,7 @@
     {
         "Title": "Misty Er'A",
         "Artist": "Mycin.T x jam-jam",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6113,7 +5987,7 @@
     {
         "Title": "MonoXide",
         "Artist": "Planetboom",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6134,28 +6008,28 @@
     {
         "Title": "Move Yourself",
         "Artist": "IMLAY / YESEO",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
-        "FourSC": false,
+        "FourSC": true,
         "FiveNM": true,
         "FiveHD": true,
         "FiveMX": true,
-        "FiveSC": false,
+        "FiveSC": true,
         "SixNM": true,
         "SixHD": true,
         "SixMX": true,
-        "SixSC": false,
+        "SixSC": true,
         "EightNM": true,
         "EightHD": true,
         "EightMX": true,
-        "EightSC": false
+        "EightSC": true
     },
     {
         "Title": "Mulch",
         "Artist": "Sampling Masters MEGA",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6176,7 +6050,7 @@
     {
         "Title": "MUSEDASH!!!!",
         "Artist": "Dan@Yomi",
-        "Series": "MD",
+        "Category": "MD",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -6197,7 +6071,7 @@
     {
         "Title": "My Alias",
         "Artist": "Dayz",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6218,7 +6092,7 @@
     {
         "Title": "My Heart, My Soul",
         "Artist": "3rd Coast",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6239,7 +6113,7 @@
     {
         "Title": "My Jealousy",
         "Artist": "3rd Coast",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6260,7 +6134,7 @@
     {
         "Title": "Myosotis",
         "Artist": "M2U",
-        "Series": "CY",
+        "Category": "CY",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6281,7 +6155,7 @@
     {
         "Title": "NANAIRO",
         "Artist": "HAYAKO",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6302,7 +6176,7 @@
     {
         "Title": "NANO RISK",
         "Artist": "Dayz",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": false,
         "FourMX": false,
@@ -6323,7 +6197,7 @@
     {
         "Title": "NB Girls",
         "Artist": "NieN",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6344,7 +6218,7 @@
     {
         "Title": "NB POWER",
         "Artist": "NieN",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6365,7 +6239,7 @@
     {
         "Title": "NB RANGER",
         "Artist": "M2U",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6386,7 +6260,7 @@
     {
         "Title": "NB RANGER - Virgin Force",
         "Artist": "NieN",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6407,7 +6281,7 @@
     {
         "Title": "NB Ranger : Nonstop Remix",
         "Artist": "Paul Bazooka",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -6428,7 +6302,7 @@
     {
         "Title": "NB Rangers -Returns-",
         "Artist": "NieN",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6449,7 +6323,7 @@
     {
         "Title": "Negative Nature",
         "Artist": "Electronic Boutique",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6470,7 +6344,7 @@
     {
         "Title": "NEON 1989 (ESTi Remix)",
         "Artist": "OREO",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6491,11 +6365,11 @@
     {
         "Title": "Never Die",
         "Artist": "Paul Bazooka",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
-        "FourSC": false,
+        "FourSC": true,
         "FiveNM": true,
         "FiveHD": true,
         "FiveMX": true,
@@ -6503,7 +6377,7 @@
         "SixNM": true,
         "SixHD": true,
         "SixMX": true,
-        "SixSC": false,
+        "SixSC": true,
         "EightNM": true,
         "EightHD": true,
         "EightMX": true,
@@ -6512,7 +6386,7 @@
     {
         "Title": "Never let you go",
         "Artist": "Blosso",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6524,16 +6398,16 @@
         "SixNM": true,
         "SixHD": true,
         "SixMX": true,
-        "SixSC": false,
+        "SixSC": true,
         "EightNM": true,
         "EightHD": false,
         "EightMX": true,
-        "EightSC": false
+        "EightSC": true
     },
     {
         "Title": "Never Say",
         "Artist": "ND Lee",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6554,7 +6428,7 @@
     {
         "Title": "Nevermind",
         "Artist": "Paul Bazooka",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6575,7 +6449,7 @@
     {
         "Title": "Nightmare",
         "Artist": "M2U",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6596,7 +6470,7 @@
     {
         "Title": "Nine Point Eight",
         "Artist": "Mili",
-        "Series": "DM",
+        "Category": "DM",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6617,7 +6491,7 @@
     {
         "Title": "Nova ~Mr.Funky Remix~",
         "Artist": "Mr.Funky",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6638,7 +6512,7 @@
     {
         "Title": "Now a NEW Day",
         "Artist": "Sui.Jay",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6659,7 +6533,7 @@
     {
         "Title": "Obelisque",
         "Artist": "ESTi & M2U",
-        "Series": "ESTI",
+        "Category": "ESTI",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -6680,7 +6554,7 @@
     {
         "Title": "OBLIVION",
         "Artist": "ESTi",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6701,7 +6575,7 @@
     {
         "Title": "OBLIVION ~Rockin' Night Style~",
         "Artist": "NieN",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6722,7 +6596,7 @@
     {
         "Title": "Odysseus",
         "Artist": "XeoN",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6743,7 +6617,7 @@
     {
         "Title": "Old Gold",
         "Artist": "Cranky",
-        "Series": "CY",
+        "Category": "CY",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6764,7 +6638,7 @@
     {
         "Title": "ON",
         "Artist": "ND Lee",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6785,7 +6659,7 @@
     {
         "Title": "One the Love",
         "Artist": "xxdbxx",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6806,7 +6680,7 @@
     {
         "Title": "Only for you",
         "Artist": "NieN",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6827,7 +6701,7 @@
     {
         "Title": "OPEN FIRE",
         "Artist": "JC",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6848,7 +6722,7 @@
     {
         "Title": "OrBiTal",
         "Artist": "Paul Bazooka",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6869,7 +6743,7 @@
     {
         "Title": "ouroboros -twin stroke of the end-",
         "Artist": "Cranky vs MASAKI",
-        "Series": "GC",
+        "Category": "GC",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6890,7 +6764,7 @@
     {
         "Title": "Out Law",
         "Artist": "Croove",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6911,7 +6785,7 @@
     {
         "Title": "Out Law : Reborn",
         "Artist": "Mr.Funky",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6932,7 +6806,7 @@
     {
         "Title": "Out of CTRL",
         "Artist": "Mr.Funky",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -6953,7 +6827,7 @@
     {
         "Title": "Over Me",
         "Artist": "SSOMbo",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -6974,7 +6848,7 @@
     {
         "Title": "OVER THE NIGHT",
         "Artist": "REDALiCE",
-        "Series": "GC",
+        "Category": "GC",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -6995,7 +6869,7 @@
     {
         "Title": "Over the Rainbow",
         "Artist": "Tsukasa",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7016,7 +6890,7 @@
     {
         "Title": "Over Your Dream",
         "Artist": "xxdbxx",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7037,7 +6911,7 @@
     {
         "Title": "Pancake is Love",
         "Artist": "3R2",
-        "Series": "MD",
+        "Category": "MD",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7058,7 +6932,7 @@
     {
         "Title": "Para-Q",
         "Artist": "Forte Escape",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7079,7 +6953,7 @@
     {
         "Title": "PDM",
         "Artist": "Trish",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7100,7 +6974,7 @@
     {
         "Title": "Phantom Of Sky",
         "Artist": "M2U",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7121,7 +6995,7 @@
     {
         "Title": "plastic method",
         "Artist": "zts",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7142,7 +7016,7 @@
     {
         "Title": "Play the Future",
         "Artist": "Urbatronic Chopsticks",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7163,7 +7037,7 @@
     {
         "Title": "POP/STARS",
         "Artist": "K/DA",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7184,7 +7058,7 @@
     {
         "Title": "Put'Em Up",
         "Artist": "makou",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7205,7 +7079,7 @@
     {
         "Title": "PUPA",
         "Artist": "Morimori Atsushi",
-        "Series": "MD",
+        "Category": "MD",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7226,7 +7100,7 @@
     {
         "Title": "Puzzler",
         "Artist": "Electronic Boutique",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -7247,7 +7121,7 @@
     {
         "Title": "quixotic",
         "Artist": "bermei.inazawa",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7268,7 +7142,7 @@
     {
         "Title": "Rage Of Demon",
         "Artist": "NieN",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7289,7 +7163,7 @@
     {
         "Title": "Raise me up",
         "Artist": "Planetboom",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7310,7 +7184,7 @@
     {
         "Title": "Ray of Illuminati",
         "Artist": "ESTi",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7331,7 +7205,7 @@
     {
         "Title": "Ray Tuning",
         "Artist": "NayutalieN",
-        "Series": "CHU",
+        "Category": "CHU",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7352,7 +7226,7 @@
     {
         "Title": "Ready Now",
         "Artist": "Ruby Tuesday",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7373,7 +7247,7 @@
     {
         "Title": "Real Over Drive",
         "Artist": "NieN",
-        "Series": "ES",
+        "Category": "ES",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -7394,7 +7268,7 @@
     {
         "Title": "RED",
         "Artist": "Croove",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7415,7 +7289,7 @@
     {
         "Title": "Red Eyes",
         "Artist": "Cosmograph",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -7436,7 +7310,7 @@
     {
         "Title": "Relation Again (ESTi's Remix)",
         "Artist": "Tsukasa & ESTi",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7457,7 +7331,7 @@
     {
         "Title": "Remains Of Doom",
         "Artist": "NieN",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7478,7 +7352,7 @@
     {
         "Title": "Remember",
         "Artist": "Lin-G",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7499,7 +7373,7 @@
     {
         "Title": "Remember Me",
         "Artist": "NieN",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7520,7 +7394,7 @@
     {
         "Title": "Reminiscence",
         "Artist": "Nauts",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7541,7 +7415,7 @@
     {
         "Title": "REVENGE",
         "Artist": "ND Lee",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -7562,7 +7436,7 @@
     {
         "Title": "Right Back",
         "Artist": "TANUKI",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7583,7 +7457,7 @@
     {
         "Title": "Right Now",
         "Artist": "makou",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7604,7 +7478,7 @@
     {
         "Title": "Rising The Sonic",
         "Artist": "Dayz",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7625,7 +7499,7 @@
     {
         "Title": "Road Of Death",
         "Artist": "NieN",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7646,7 +7520,7 @@
     {
         "Title": "Rock Or Die",
         "Artist": "NieN",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": false,
         "FourMX": false,
@@ -7667,7 +7541,7 @@
     {
         "Title": "Rocka-a-doodle-doo",
         "Artist": "makou",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7688,7 +7562,7 @@
     {
         "Title": "RockSTAR",
         "Artist": "Mr.Funky",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7709,7 +7583,7 @@
     {
         "Title": "Rolling On the Duck",
         "Artist": "NieN",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7730,7 +7604,7 @@
     {
         "Title": "Royal Clown",
         "Artist": "bermei.inazawa",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7751,7 +7625,7 @@
     {
         "Title": "Runaway",
         "Artist": "LeeZu",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7772,7 +7646,7 @@
     {
         "Title": "Running girl",
         "Artist": "Mycin.T",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7793,7 +7667,7 @@
     {
         "Title": "Ruti'n",
         "Artist": "BEXTER",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7814,7 +7688,7 @@
     {
         "Title": "Ruti'n (GOTH Wild Electro Remix)",
         "Artist": "GOTH",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7835,7 +7709,7 @@
     {
         "Title": "Sad Machine",
         "Artist": "Porter Robinson",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7856,7 +7730,7 @@
     {
         "Title": "Sairai",
         "Artist": "Shinichi Kobayashi",
-        "Series": "DM",
+        "Category": "DM",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -7877,7 +7751,7 @@
     {
         "Title": "Satisfiction",
         "Artist": "t+pazolite",
-        "Series": "GC",
+        "Category": "GC",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7898,7 +7772,7 @@
     {
         "Title": "Save My Dream",
         "Artist": "Forte Escape",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7919,7 +7793,7 @@
     {
         "Title": "Say it from your heart",
         "Artist": "makou",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7940,7 +7814,7 @@
     {
         "Title": "Season (Warm Mix)",
         "Artist": "makou",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -7961,7 +7835,7 @@
     {
         "Title": "Secret Dejavu",
         "Artist": "DINY",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -7982,7 +7856,7 @@
     {
         "Title": "Secret World",
         "Artist": "Sweetune",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8003,7 +7877,7 @@
     {
         "Title": "Seeker",
         "Artist": "M2U",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8024,7 +7898,7 @@
     {
         "Title": "Shadow Flower",
         "Artist": "ned",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8045,7 +7919,7 @@
     {
         "Title": "Shoot out",
         "Artist": "Tsukasa",
-        "Series": "CY",
+        "Category": "CY",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8066,7 +7940,7 @@
     {
         "Title": "Shoreline",
         "Artist": "Oriental ST8",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8087,7 +7961,7 @@
     {
         "Title": "Showdown",
         "Artist": "LeeZu",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8108,7 +7982,7 @@
     {
         "Title": "Showtime",
         "Artist": "Ruby Tuesday",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8129,7 +8003,7 @@
     {
         "Title": "SigNalize",
         "Artist": "Paul Bazooka",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8150,7 +8024,7 @@
     {
         "Title": "SIN",
         "Artist": "ESTi",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8171,7 +8045,7 @@
     {
         "Title": "SIN ~The Last Scene~",
         "Artist": "ESTi",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8192,7 +8066,7 @@
     {
         "Title": "Smoky Quartz",
         "Artist": "makou",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8213,7 +8087,7 @@
     {
         "Title": "So Happy",
         "Artist": "Raven & Kreyn",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -8234,7 +8108,7 @@
     {
         "Title": "sO mUCH iN LUV",
         "Artist": "3rd Coast",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8255,7 +8129,7 @@
     {
         "Title": "sO mUCH iN LUV ~Melodic Twisted Mix~",
         "Artist": "Forte Escape",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8276,7 +8150,7 @@
     {
         "Title": "Someday",
         "Artist": "NieN",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8297,7 +8171,7 @@
     {
         "Title": "SON OF SUN",
         "Artist": "Hosoe Shinji",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8318,7 +8192,7 @@
     {
         "Title": "SON OF SUN ~Extended Mix~",
         "Artist": "Hosoe Shinji",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8339,11 +8213,11 @@
     {
         "Title": "Space Challenger",
         "Artist": "Bagagee Viphex13",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
-        "FourSC": false,
+        "FourSC": true,
         "FiveNM": true,
         "FiveHD": true,
         "FiveMX": true,
@@ -8355,12 +8229,12 @@
         "EightNM": true,
         "EightHD": true,
         "EightMX": false,
-        "EightSC": false
+        "EightSC": true
     },
     {
         "Title": "Space of Soul",
         "Artist": "M2U",
-        "Series": "ES",
+        "Category": "ES",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8381,7 +8255,7 @@
     {
         "Title": "SQUEEZE",
         "Artist": "Oriental ST8",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8402,7 +8276,7 @@
     {
         "Title": "STALKER",
         "Artist": "ND Lee",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8423,7 +8297,7 @@
     {
         "Title": "StarFish",
         "Artist": "Planetboom",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8444,7 +8318,7 @@
     {
         "Title": "Start The Adventure ~SOPHI Remix~",
         "Artist": "SOPHI",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8465,7 +8339,7 @@
     {
         "Title": "Stay with me",
         "Artist": "Ruby Tuesday",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8486,7 +8360,7 @@
     {
         "Title": "STOP",
         "Artist": "3rd Coast",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8507,7 +8381,7 @@
     {
         "Title": "Streetlight",
         "Artist": "Nauts",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8528,7 +8402,7 @@
     {
         "Title": "Sunny Side",
         "Artist": "Croove",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8549,7 +8423,7 @@
     {
         "Title": "Sunny Side ~Deepn' Soul Mix~",
         "Artist": "makou",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8570,7 +8444,7 @@
     {
         "Title": "Sunset Rider",
         "Artist": "Nauts",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8591,7 +8465,7 @@
     {
         "Title": "Super Lovely",
         "Artist": "EarBreaker",
-        "Series": "ES",
+        "Category": "ES",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8612,7 +8486,7 @@
     {
         "Title": "SuperNova",
         "Artist": "Cranky",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -8633,7 +8507,7 @@
     {
         "Title": "SuperSonic",
         "Artist": "Planetboom",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8654,7 +8528,7 @@
     {
         "Title": "SuperSonic ~Mr.Funky Dirty Planet Remix~",
         "Artist": "Mr.Funky",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8675,7 +8549,7 @@
     {
         "Title": "Supersonic 2011",
         "Artist": "Planetboom / Sound LAB",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8696,7 +8570,7 @@
     {
         "Title": "Sweet Dream",
         "Artist": "Lin-G",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8717,11 +8591,11 @@
     {
         "Title": "Sweet On You",
         "Artist": "jam-jam",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
-        "FourSC": false,
+        "FourSC": true,
         "FiveNM": true,
         "FiveHD": true,
         "FiveMX": false,
@@ -8733,12 +8607,12 @@
         "EightNM": true,
         "EightHD": true,
         "EightMX": false,
-        "EightSC": false
+        "EightSC": true
     },
     {
         "Title": "Sweet Shining Shooting Star",
         "Artist": "Croove",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8759,7 +8633,7 @@
     {
         "Title": "Syriana",
         "Artist": "BEXTER",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8780,7 +8654,7 @@
     {
         "Title": "Syriana ~Blast Wave Mix~",
         "Artist": "DJ.EON",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8801,7 +8675,7 @@
     {
         "Title": "Talk! Talk!",
         "Artist": "xxdbxx",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8822,7 +8696,7 @@
     {
         "Title": "tape/stop/night",
         "Artist": "Sugar & Co.",
-        "Series": "MD",
+        "Category": "MD",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8843,7 +8717,7 @@
     {
         "Title": "Tayberrs - Collapsed Paradise",
         "Artist": "Jung Young Gul",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8864,7 +8738,7 @@
     {
         "Title": "Tell Me",
         "Artist": "Lee Geol",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8885,7 +8759,7 @@
     {
         "Title": "Temptation",
         "Artist": "S-TRO",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8906,7 +8780,7 @@
     {
         "Title": "The 90's Decision",
         "Artist": "MYUKKE.",
-        "Series": "MD",
+        "Category": "MD",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8927,7 +8801,7 @@
     {
         "Title": "The Clear Blue Sky",
         "Artist": "Tsukasa",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8948,7 +8822,7 @@
     {
         "Title": "The Feelings",
         "Artist": "Supbaby",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -8969,7 +8843,7 @@
     {
         "Title": "The Guilty",
         "Artist": "P'sycho-Remi",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -8990,7 +8864,7 @@
     {
         "Title": "The Last Dance",
         "Artist": "Urbatronic Chopsticks",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -9011,7 +8885,7 @@
     {
         "Title": "The Little Adventurer",
         "Artist": "Studio EIM",
-        "Series": "NXN",
+        "Category": "NXN",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9032,7 +8906,7 @@
     {
         "Title": "The Lost Story",
         "Artist": "NEOWIZ Bless Soundteam",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9053,7 +8927,7 @@
     {
         "Title": "The Night Stage",
         "Artist": "CLAZZIQUAI",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9074,7 +8948,7 @@
     {
         "Title": "The Obliterator",
         "Artist": "GOTH",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9095,7 +8969,7 @@
     {
         "Title": "The One",
         "Artist": "Paul Bazooka",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9116,7 +8990,7 @@
     {
         "Title": "The Rain Maker",
         "Artist": "Paul Bazooka",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -9137,7 +9011,7 @@
     {
         "Title": "The wheel to the right",
         "Artist": "Sampling Masters MEGA",
-        "Series": "CHU",
+        "Category": "CHU",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9158,7 +9032,7 @@
     {
         "Title": "Thor",
         "Artist": "XeoN",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9179,7 +9053,7 @@
     {
         "Title": "Thor ~Extended Mix~",
         "Artist": "XeoN",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9200,7 +9074,7 @@
     {
         "Title": "Tok! Tok! Tok!",
         "Artist": "STARTRACK",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9221,7 +9095,7 @@
     {
         "Title": "Trip",
         "Artist": "NieN",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9242,7 +9116,7 @@
     {
         "Title": "Triple Zoe",
         "Artist": "Forte Escape",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9263,7 +9137,7 @@
     {
         "Title": "Trrricksters!!",
         "Artist": "s-don vs. Hino Isuka",
-        "Series": "CHU",
+        "Category": "CHU",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -9284,7 +9158,7 @@
     {
         "Title": "U.A.D",
         "Artist": "HAYAKO",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9305,7 +9179,7 @@
     {
         "Title": "Underwater Castle",
         "Artist": "Nauts",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9326,7 +9200,7 @@
     {
         "Title": "Undo",
         "Artist": "Yuk-cheung Chun",
-        "Series": "DM",
+        "Category": "DM",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9347,7 +9221,7 @@
     {
         "Title": "U-NIVUS",
         "Artist": "ESTi",
-        "Series": "ESTI",
+        "Category": "ESTI",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9368,7 +9242,7 @@
     {
         "Title": "Urban Night [CE]",
         "Artist": "hYO",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9389,7 +9263,7 @@
     {
         "Title": "Urban Night [ES]",
         "Artist": "Electronic Boutique",
-        "Series": "ES",
+        "Category": "ES",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9410,7 +9284,7 @@
     {
         "Title": "Utopiosphere",
         "Artist": "Mili",
-        "Series": "DM",
+        "Category": "DM",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9431,7 +9305,7 @@
     {
         "Title": "v o l d e n u i t",
         "Artist": "Cuve",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9452,7 +9326,7 @@
     {
         "Title": "Ventilator",
         "Artist": "Cycle75",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9473,11 +9347,11 @@
     {
         "Title": "Vertical Floating",
         "Artist": "Tsukasa",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
-        "FourSC": false,
+        "FourSC": true,
         "FiveNM": true,
         "FiveHD": true,
         "FiveMX": false,
@@ -9489,12 +9363,12 @@
         "EightNM": true,
         "EightHD": false,
         "EightMX": true,
-        "EightSC": false
+        "EightSC": true
     },
     {
         "Title": "Ververg",
         "Artist": "onoken",
-        "Series": "CY",
+        "Category": "CY",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -9515,7 +9389,7 @@
     {
         "Title": "Vile Requiem",
         "Artist": "GOTH",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9536,7 +9410,7 @@
     {
         "Title": "Void",
         "Artist": "Kobayashi Tetsuya",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9557,7 +9431,7 @@
     {
         "Title": "Voyage [T1]",
         "Artist": "makou",
-        "Series": "T1",
+        "Category": "T1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9578,7 +9452,7 @@
     {
         "Title": "Voyage [VE2]",
         "Artist": "SOPHI",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9599,7 +9473,7 @@
     {
         "Title": "waiting for me",
         "Artist": "Croove",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9620,7 +9494,7 @@
     {
         "Title": "Waiting for the Sun",
         "Artist": "MindCube",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -9641,7 +9515,7 @@
     {
         "Title": "Waiting for you",
         "Artist": "Mycin.T",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9662,7 +9536,7 @@
     {
         "Title": "Wanna Be Your Lover",
         "Artist": "Laurent Newfield & Ravenant",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9683,7 +9557,7 @@
     {
         "Title": "Warrior",
         "Artist": "Cranky",
-        "Series": "GC",
+        "Category": "GC",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9704,7 +9578,7 @@
     {
         "Title": "Watch Your Step",
         "Artist": "XeoN",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -9725,7 +9599,7 @@
     {
         "Title": "welcome to the space (feat. Jisun)",
         "Artist": "Pory",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9746,7 +9620,7 @@
     {
         "Title": "We're All Gonna Die",
         "Artist": "Paul Bazooka",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9767,7 +9641,7 @@
     {
         "Title": "What am I fighting for?",
         "Artist": "Haloweak",
-        "Series": "GF",
+        "Category": "GF",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9788,7 +9662,7 @@
     {
         "Title": "WhiteBlue",
         "Artist": "zts",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9809,7 +9683,7 @@
     {
         "Title": "WHY",
         "Artist": "Nauts",
-        "Series": "RP",
+        "Category": "RP",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -9830,11 +9704,11 @@
     {
         "Title": "WONDER $LOT 777",
         "Artist": "MYUKKE.",
-        "Series": "VE",
+        "Category": "VE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
-        "FourSC": false,
+        "FourSC": true,
         "FiveNM": true,
         "FiveHD": true,
         "FiveMX": true,
@@ -9846,12 +9720,12 @@
         "EightNM": true,
         "EightHD": true,
         "EightMX": true,
-        "EightSC": false
+        "EightSC": true
     },
     {
         "Title": "Won't Back Down",
         "Artist": "Pure 100% / KASA",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9859,20 +9733,20 @@
         "FiveNM": true,
         "FiveHD": true,
         "FiveMX": true,
-        "FiveSC": false,
+        "FiveSC": true,
         "SixNM": true,
         "SixHD": true,
         "SixMX": true,
-        "SixSC": false,
+        "SixSC": true,
         "EightNM": true,
         "EightHD": true,
         "EightMX": true,
-        "EightSC": false
+        "EightSC": true
     },
     {
         "Title": "Xeus",
         "Artist": "XeoN",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9893,7 +9767,7 @@
     {
         "Title": "XING",
         "Artist": "ginkiha",
-        "Series": "MD",
+        "Category": "MD",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9914,7 +9788,7 @@
     {
         "Title": "XLASHER",
         "Artist": "Hosoe Shinji",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9935,7 +9809,7 @@
     {
         "Title": "Y (BS Style)",
         "Artist": "ND Lee",
-        "Series": "BS",
+        "Category": "BS",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9956,7 +9830,7 @@
     {
         "Title": "Y (CE Style)",
         "Artist": "ND Lee",
-        "Series": "CE",
+        "Category": "CE",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -9977,7 +9851,7 @@
     {
         "Title": "Y ~Extended Mix~",
         "Artist": "ND Lee",
-        "Series": "T2",
+        "Category": "T2",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -9998,7 +9872,7 @@
     {
         "Title": "Ya! Party!",
         "Artist": "Forte Escape",
-        "Series": "P1",
+        "Category": "P1",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -10019,7 +9893,7 @@
     {
         "Title": "Yellowberry -AJ Mix-",
         "Artist": "Forte Escape",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -10040,7 +9914,7 @@
     {
         "Title": "Yo Creo Que Si",
         "Artist": "makou",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -10061,7 +9935,7 @@
     {
         "Title": "Yo Creo Que Si ~Live House Version~",
         "Artist": "BEXTER",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -10082,7 +9956,7 @@
     {
         "Title": "Yo! Max!",
         "Artist": "ND Lee",
-        "Series": "ES",
+        "Category": "ES",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -10103,7 +9977,7 @@
     {
         "Title": "You & Me",
         "Artist": "NieN",
-        "Series": "T3",
+        "Category": "T3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -10124,7 +9998,7 @@
     {
         "Title": "Your Own Miracle",
         "Artist": "Ruby Tuesday",
-        "Series": "P2",
+        "Category": "P2",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -10145,7 +10019,7 @@
     {
         "Title": "Your Own Miracle ~Disco House Mix~",
         "Artist": "makou",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": true,
@@ -10166,7 +10040,7 @@
     {
         "Title": "Your Smile",
         "Artist": "Cistrans (RoseLine)",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -10187,7 +10061,7 @@
     {
         "Title": "YUBIKIRI-GENMAN",
         "Artist": "Mili",
-        "Series": "DM",
+        "Category": "DM",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -10208,7 +10082,7 @@
     {
         "Title": "Zero to the hunnit",
         "Artist": "SiNA",
-        "Series": "VE2",
+        "Category": "VE2",
         "FourNM": true,
         "FourHD": false,
         "FourMX": true,
@@ -10229,7 +10103,7 @@
     {
         "Title": "ZET",
         "Artist": "BEXTER",
-        "Series": "TR",
+        "Category": "TR",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,
@@ -10250,7 +10124,7 @@
     {
         "Title": "ZET ~Mr.Funky Remix~",
         "Artist": "Mr.Funky",
-        "Series": "P3",
+        "Category": "P3",
         "FourNM": true,
         "FourHD": true,
         "FourMX": false,

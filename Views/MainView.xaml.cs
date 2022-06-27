@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DJMAX_Record_Keeper.DataTypes;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -22,14 +23,14 @@ namespace DJMAX_Record_Keeper
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainView : Window
     {
         //Globals
         public ObservableCollection<ScoreRecord> scoreCollection = new();
         ICollectionView scoreList;
         ICollectionView filterList;
-        const string recordsFile = "Records.json";
-        const string songsFile = "SongData.json";
+        const string recordsFile = "Data/RecordData.json";
+        const string songsFile = "Data/SongData.json";
         public static bool isRefresh = false;
         private Song selectedSong;
         public List<bool> settingList = new()
@@ -61,11 +62,11 @@ namespace DJMAX_Record_Keeper
         public static ObservableCollection<Song> masterSongCollection = new();
         public static ObservableCollection<Song> filterSongCollection = new();
 
-        public MainWindow()
+        public MainView()
         {
             InitializeComponent();
 
-            //Attempt to deserialize Records.json if it exists in base folder directory
+            //Attempt to deserialize RecordData.json if it exists in base folder directory
             if (File.Exists(recordsFile))
             {
                 string json = File.ReadAllText(recordsFile);
@@ -121,13 +122,13 @@ namespace DJMAX_Record_Keeper
         }
 
         /// <summary>
-        /// Retrieve songs from the specified series in masterSongCollection if the appropriate setting is enabled.
+        /// Retrieve songs from the specified category in masterSongCollection if the appropriate setting is enabled.
         /// </summary>
-        /// <param name="series">Song's series</param>
-        /// <param name="condition">Series setting</param>
-        public static void GetSongs(string series, bool condition)
+        /// <param name="category">Song's category</param>
+        /// <param name="condition">Category setting</param>
+        public static void GetSongs(string category, bool condition)
         {
-            foreach (Song s in masterSongCollection) if (s.Series == series && condition)
+            foreach (Song s in masterSongCollection) if (s.Category == category && condition)
                     filterSongCollection.Add(s);
         }
 
@@ -307,7 +308,7 @@ namespace DJMAX_Record_Keeper
         /// </summary>
         private void FolderClick(object sender, RoutedEventArgs e)
         {
-            FolderWindow folder = new();
+            FolderView folder = new();
             folder.Owner = this;
             folder.ShowDialog();
 
@@ -348,14 +349,14 @@ namespace DJMAX_Record_Keeper
             //Generate pattern string
             string pattern = title + " " + selMode + selDiff;
             string artist = selectedSong.Artist;
-            string series = selectedSong.Series;
+            string category = selectedSong.Category;
             int score = (int)(IntegerScore.Value);
             double rate = (double)(DoubleRate.Value);
             int breaks = (int)(IntegerBreak.Value);
             DateTime scoreDate = (DateTime)(PickedDate.Value);
 
             //Create ScoreRecord object and add to scoreCollection
-            ScoreRecord record = new(title, pattern, artist, series, score, rate, breaks, scoreDate);
+            ScoreRecord record = new(title, pattern, artist, category, score, rate, breaks, scoreDate);
             scoreCollection.Add(record);
             TextMessage.Text = ("Record successfully added.");
         }

@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DJMAX_Record_Keeper
+namespace DJMAX_Record_Keeper.DataTypes
 {
     public class Song
     {
         //Fields
         private string _title;
         private string _artist;
-        private string _series;
+        private string _category;
         private bool _fourNM;
         private bool _fourHD;
         private bool _fourMX;
@@ -32,7 +32,7 @@ namespace DJMAX_Record_Keeper
         //Properties
         public string Title { get => _title; set => _title = value; }
         public string Artist { get => _artist; set => _artist = value; }
-        public string Series { get => _series; set => _series = value; }
+        public string Category { get => _category; set => _category = value; }
         public bool FourNM { get => _fourNM; set => _fourNM = value; }
         public bool FourHD { get => _fourHD; set => _fourHD = value; }
         public bool FourMX { get => _fourMX; set => _fourMX = value; }
@@ -51,13 +51,13 @@ namespace DJMAX_Record_Keeper
         public bool EightSC { get => _eightSC; set => _eightSC = value; }
 
         //Constructor
-        public Song(string title, string artist, string series, bool fourNM, bool fourHD, bool fourMX, bool fourSC, 
-            bool fiveNM, bool fiveHD, bool fiveMX, bool fiveSC, bool sixNM, bool sixHD, bool sixMX, bool sixSC, 
+        public Song(string title, string artist, string category, bool fourNM, bool fourHD, bool fourMX, bool fourSC,
+            bool fiveNM, bool fiveHD, bool fiveMX, bool fiveSC, bool sixNM, bool sixHD, bool sixMX, bool sixSC,
             bool eightNM, bool eightHD, bool eightMX, bool eightSC)
         {
             Title = title;
             Artist = artist;
-            Series = series;
+            Category = category;
             FourNM = fourNM;
             FourHD = fourHD;
             FourMX = fourMX;

@@ -1,4 +1,4 @@
-﻿<Window x:Class="DJMAX_Record_Keeper.MainWindow"
+﻿<Window x:Class="DJMAX_Record_Keeper.MainView"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
@@ -6,12 +6,12 @@
         xmlns:local="clr-namespace:DJMAX_Record_Keeper"
         xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
         mc:Ignorable="d"
-        Title="DJMAX Respect V Record Keeper" Height="450" Width="800" ResizeMode="NoResize" Icon=".\icon.ico">
+        Title="DJMAX Respect V Record Keeper" Height="450" Width="800" ResizeMode="NoResize" Icon="..\icon.ico">
     <TabControl>
         <TabItem Header="Record Entry">
             <Canvas>
                 <Canvas.Background>
-                    <ImageBrush ImageSource="images/dreamit.jpg" Opacity="0.25"/>
+                    <ImageBrush ImageSource="../Images/dreamit.jpg" Opacity="0.25"/>
                 </Canvas.Background>
                 <GroupBox Header="Record Information" Height="350" Width="375" Canvas.Left="22" Canvas.Top="10"/>
                 <Label Content="Song Title:" Canvas.Left="40" Canvas.Top="36" />
@@ -64,7 +64,7 @@
         <TabItem Header="View Records">
             <Canvas>
                 <Canvas.Background>
-                    <ImageBrush ImageSource="images/analys.jpg" Opacity="0.3"/>
+                    <ImageBrush ImageSource="../Images/analys.jpg" Opacity="0.3"/>
                 </Canvas.Background>
                 <DataGrid x:Name="DataGridRecords" AutoGenerateColumns="False" Canvas.Left="60" Canvas.Top="20" Width="675" Height="300"
                           SelectionMode="Single" SelectionUnit="FullRow" CanUserReorderColumns="False" CanUserResizeColumns="False"
@@ -92,7 +92,7 @@
 
                                 <TextBlock Text="{Binding Title}" FontWeight="Bold" Grid.ColumnSpan="2" />
                                 <TextBlock Text="{Binding Artist}" FontWeight="Bold" Grid.ColumnSpan="2" Grid.Row="1" />
-                                <TextBlock Text="{Binding Series}" FontWeight="Bold" Grid.ColumnSpan="2" Grid.Row="2" />
+                                <TextBlock Text="{Binding Category}" FontWeight="Bold" Grid.ColumnSpan="2" Grid.Row="2" />
                                 <TextBlock Text="Breaks: " FontWeight="Bold" Grid.Row="3" />
                                 <TextBlock Text="{Binding Breaks}" Grid.Column="1" Grid.Row="3" />
                                 <TextBlock Text="Rank: " FontWeight="Bold" Grid.Row="4" />
@@ -120,7 +120,7 @@
         <TabItem Header="Help">
             <DockPanel>
                 <DockPanel.Background>
-                    <ImageBrush ImageSource="images/raisemeup.jpg" Opacity="0.25"/>
+                    <ImageBrush ImageSource="../Images/raisemeup.jpg" Opacity="0.25"/>
                 </DockPanel.Background>
                 <TextBlock FontSize="16" TextWrapping="Wrap" Width="750">
                     <Bold>Record Entry</Bold><LineBreak/>
@@ -134,7 +134,7 @@
                     For reference, Respect V's rank cutlines are: S: 97%, A: 90%, B: 80%.<LineBreak/>
                     <Bold>View Records</Bold><LineBreak/>
                     Click on any record to view more information about that entry. <LineBreak/>
-                    All record save/loads are performed locally through Records.json.
+                    All record save/loads are performed locally through RecordData.json.
                     If an update happens to touch the song record's structure, you may need to move/delete that file
                     if the program won't start after updating.<LineBreak/>
                     <LineBreak/>

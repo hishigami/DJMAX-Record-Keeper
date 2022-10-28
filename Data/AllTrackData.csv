@@ -9,16 +9,19 @@ Title,Artist,Category,4BNM,4BHD,4BMX,4BSC,5BNM,5BHD,5BMX,5BSC,6BNM,6BHD,6BMX,6BS
 너로피어오라,ampstyle,RP,6,9,13,0,7,13,0,11,7,10,13,11,7,11,13,11
 너로피어오라 ~Original Ver.~,ampstyle,VE2,6,9,13,0,7,13,0,11,7,11,13,0,4,9,13,11
 너에게,Sweetune,CE,3,6,0,8,2,0,8,8,2,5,9,0,2,7,0,0
+모차르트 교향곡 40번 1악장,김창훈,RP,5,9,12,8,4,7,10,10,5,9,11,10,5,8,12,12
 바람에게 부탁해,Forte Escape,P1,1,7,0,0,6,7,0,0,3,7,9,0,4,8,0,0
 바람에게 부탁해 ~Live Mix~,Forte Escape,P1,5,0,12,11,6,10,0,0,7,11,0,0,7,0,13,7
-바람의 기억,Forte Escape,TR,3,8,0,2,3,6,0,0,3,7,0,0,4,9,0,2
+바람의 기억,Forte Escape,TR,3,8,0,2,3,6,0,5,3,7,0,4,4,9,0,2
+별빛정원,vneld,TTQ,4,8,10,6,4,8,11,5,4,7,11,7,4,7,11,6
+복수혈전,ND Lee,P1,5,0,11,0,3,7,0,10,8,12,0,0,10,0,0,9
 부여성 ~Blosso Remix~,Blosso,NXN,7,10,12,0,5,10,13,0,7,10,12,11,8,13,0,8
-비상 ~Stay With Me~,Mycin.T,RP,4,7,0,0,6,10,0,0,6,10,11,0,7,11,0,0
+비상 ~Stay With Me~,Mycin.T,RP,4,7,0,7,6,10,0,8,6,10,11,8,7,11,0,10
 서울여자,ESTi,RP,5,8,12,0,6,0,12,5,5,8,12,5,5,11,13,9
 설레임,ND Lee,P2,3,5,0,3,4,8,0,0,4,7,9,5,6,9,0,0
 설레임 Part.2,ND Lee,T3,2,4,8,4,5,8,0,0,4,0,10,0,6,0,11,0
 소년 모험가 ~SiNA Remix~,SiNA,NXN,4,8,13,0,6,9,13,12,7,9,12,12,7,12,0,0
-아침형 인간,ND Lee,P1,4,8,0,0,8,9,0,0,6,9,0,0,8,10,0,0
+아침형 인간,ND Lee,P1,4,8,0,7,8,9,0,7,6,9,0,6,8,10,0,8
 안아줘,TAK / seibin,ESTI,3,7,0,5,5,9,12,7,5,9,0,0,6,0,11,0
 어릴 적 할머니가 들려주신 옛 전설,HanStone,NXN,2,9,0,2,6,10,0,3,4,9,0,0,5,9,0,0
 연합군과 제국군,NEXON,NXN,4,9,0,0,3,8,12,10,6,11,0,0,7,13,0,0
@@ -38,6 +41,7 @@ Title,Artist,Category,4BNM,4BHD,4BMX,4BSC,5BNM,5BHD,5BMX,5BSC,6BNM,6BHD,6BMX,6BS
 A Lie,makou,P2,2,5,0,0,5,9,0,0,4,6,12,0,7,9,0,0
 A Lie ~Deep Inside Mix~,Electronic Boutique,TR,4,9,0,0,6,0,11,0,4,11,0,0,6,10,0,0
 A Life With You,makou,T3,4,0,9,0,4,6,10,0,6,10,12,0,6,12,0,8
+A Song of Sixpence,makou,TTQ,3,7,10,5,3,6,10,6,2,4,8,5,3,6,10,5
 A.I,Forte Escape,P1,4,9,0,0,8,12,0,8,7,11,13,0,8,10,0,9
 Access,Sphazer,T1,2,4,7,4,3,6,0,4,3,0,12,0,5,7,11,0
 AD2222,Croove,T3,5,8,11,0,6,9,14,12,6,10,13,12,6,10,12,0
@@ -63,6 +67,7 @@ Astro Fight,Forte Escape,P1,8,13,0,0,8,11,0,13,7,13,14,0,8,12,0,11
 Attack,Mr.Funky,VE,4,7,10,7,5,9,0,11,5,10,13,7,6,8,14,11
 Aurora Borealis,Electronic Boutique,RP,5,9,14,0,5,9,13,0,7,11,0,13,6,0,13,11
 AXION,sakuzyo,CY,4,0,12,0,5,12,0,9,5,11,13,12,5,13,0,0
+Back to Life,CROOVE,TTQ,6,8,11,7,4,8,12,5,3,5,12,7,5,8,12,7
 Bamboo on Bamboo,Sampling Masters MEGA,T3,8,12,15,13,6,12,15,0,7,12,15,13,8,12,15,0
 Bang!!,BOOGEY VOXX,MD,3,0,10,6,4,7,11,0,3,8,0,8,5,10,12,6
 Barbarous Funera,Rikako Watanabe (Basicape),GF,4,8,11,0,5,9,12,0,6,9,12,12,7,0,13,11
@@ -89,8 +94,8 @@ Bright Dream,M2U,P1,2,4,0,0,5,8,0,0,4,7,10,0,6,9,0,0
 "Bullet, Wanted!",Mycin.T,RP,4,8,0,5,7,10,0,0,6,9,11,9,7,11,0,0
 Burn it Down,P'sycho-Remi,T2,4,7,9,0,4,9,0,0,4,8,11,0,5,7,12,0
 Bye Bye Love,3rd Coast,P2,2,8,0,0,6,7,0,0,6,9,11,0,6,8,0,0
-Bye Bye Love ~Nu Jazz Mix~,Electronic Boutique,TR,5,8,11,0,6,10,0,0,6,8,11,0,6,9,11,0
-Can We Talk,Forte Escape,P1,1,7,0,0,7,9,13,0,5,8,11,0,8,9,13,0
+Bye Bye Love ~Nu Jazz Mix~,Electronic Boutique,TR,5,8,11,8,6,10,0,6,6,8,11,8,6,9,11,9
+Can We Talk,Forte Escape,P1,1,7,0,6,7,9,13,8,5,8,11,7,8,9,13,9
 can you feel it,MK,MD,4,8,12,5,5,11,0,6,2,5,9,6,6,11,0,7
 Catch Me,Forte Escape,P1,3,6,0,0,6,0,0,5,7,8,0,0,8,12,0,6
 Catch You,Forte Escape,TR,3,8,0,5,6,8,10,0,4,8,0,6,6,8,12,0
@@ -125,6 +130,7 @@ DataErr0r,Cosmograph,MD,6,11,13,10,7,0,14,13,5,8,13,12,7,12,15,0
 Daydream,Mycin.T x SiNA,VE2,7,11,14,0,7,11,15,13,7,11,14,12,7,10,15,12
 Daylight,CROOVE,RP,6,10,14,15,6,10,14,13,6,11,14,13,6,11,14,13
 Dear my Lady,Oriental ST8,T1,5,9,0,8,5,7,10,0,5,7,11,5,4,7,10,0
+Deborah,Paul Bazooka,TTQ,5,9,13,9,5,10,13,11,4,7,11,10,6,9,12,10
 Desperado,Croove,BS,5,9,11,0,7,11,0,0,5,8,11,0,7,12,0,0
 Desperado ~Nu Skool Mix~,Paul Bazooka,P3,5,11,0,9,5,10,13,0,6,12,0,0,6,12,0,0
 DIVINE SERVICE,Electronic Boutique,P2,4,7,0,0,4,9,0,7,4,8,12,7,7,10,0,0
@@ -153,6 +159,7 @@ Enemy Storm ~Dark Jungle Mix~,Paul Bazooka,P3,8,0,14,0,5,12,15,14,8,0,14,13,7,13
 ENERGY SYNERGY MATRIX,Tanchiky,MD,6,11,14,13,6,10,14,13,5,10,14,0,6,11,14,11
 Enter The Universe,GOTH,RP,6,9,12,0,7,10,15,13,9,12,14,13,7,10,14,0
 Entrance,Ice,CY,7,0,15,0,7,13,0,0,9,0,15,14,6,12,15,14
+Eternal Fantasy (Miya Vocal Mix),XeoN,TTQ,3,6,8,3,3,6,9,5,3,5,7,4,3,6,11,6
 Eternal Fantasy ~유니의 꿈~,XeoN,T2,2,5,0,0,2,5,0,0,3,5,9,0,3,7,0,2
 Eternal Memory ~소녀의 꿈~,M2U,P1,2,6,0,0,3,9,0,0,2,7,0,0,5,7,0,0
 Everything,3rd Coast,P3,3,9,0,5,5,9,0,0,4,9,12,6,6,11,0,0
@@ -168,14 +175,15 @@ Feel,DJ Mocha,ES,4,7,0,3,4,9,0,0,5,0,10,5,6,0,11,0
 Feel Ma Beat,NieN,T3,7,11,14,0,9,11,14,0,8,11,14,9,8,11,14,12
 Fentanest,EarBreaker & Eszett,P2,4,10,0,8,6,9,0,0,7,11,0,8,6,9,0,0
 Fermion,makou,BS,8,11,14,0,7,9,14,13,8,12,14,0,7,10,15,12
+Festa Nova,TerraMycin,TTQ,6,10,12,8,5,9,12,8,7,9,12,12,6,10,14,13
 Fever GJ,xxdbxx,P1,3,7,0,0,3,6,0,0,3,7,9,0,7,0,0,0
 Fever Pitch Girl,Nikacha,BS,5,8,0,6,4,7,10,0,6,10,0,0,6,11,0,5
 FIGHT NIGHT (feat. Calyae),Messier,VE,5,8,13,10,6,10,13,0,6,10,13,0,8,12,14,9
 First Kiss,BJJ,CE,2,4,8,3,2,4,7,0,2,5,7,0,2,4,8,0
 Flea,CLAZZIQUAI,CE,4,9,12,0,4,9,12,0,5,9,12,8,6,0,13,0
-Fly Away,XeoN,RP,3,10,0,0,6,10,0,0,4,0,11,9,6,10,0,0
+Fly Away,XeoN,RP,3,10,0,7,6,10,0,8,4,0,11,9,6,10,0,9
 For Seasons,makou,P2,1,6,0,0,6,9,0,0,4,7,11,0,5,10,0,0
-For Seasons ~Air Guitar Mix~,Planetboom,TR,3,10,0,0,5,7,10,0,5,0,10,11,5,10,0,0
+For Seasons ~Air Guitar Mix~,Planetboom,TR,3,10,0,7,5,7,10,7,5,0,10,11,5,10,0,9
 For the IKARUS,NieN,P2,4,8,0,0,5,11,0,0,8,0,12,12,6,12,0,0
 Forgotten,Paul Bazooka,VE2,6,12,0,11,7,0,11,11,6,11,0,11,7,12,0,12
 Freedom,CLAZZIQUAI,CE,5,7,10,0,5,7,10,0,7,0,11,0,6,8,10,0
@@ -199,7 +207,7 @@ Gone Astray,makou,P3,8,0,14,14,6,11,14,0,8,12,14,12,6,12,14,0
 Good Bye,Ruby Tuesday,P2,5,7,0,7,4,9,0,0,7,0,12,9,6,9,0,0
 "Good Night, Bad Luck.",t+pazolite,GC,5,0,13,0,6,11,14,13,8,11,14,0,7,12,14,13
 Got more raves?,E.G.G.,GC,4,7,12,0,6,10,13,12,5,10,12,12,6,10,13,0
-Grave Consequence,Tsukasa,BS,6,10,14,0,6,10,13,0,7,12,0,13,7,10,14,0
+Grave Consequence,Tsukasa,BS,6,10,14,13,6,10,13,13,7,12,0,13,7,10,14,0
 Grid System,Tsukasa,RP,5,9,14,0,4,9,13,10,6,0,13,12,5,9,13,0
 Groove Prayer,COSIO,GC,3,5,8,11,5,8,11,0,5,0,11,0,4,9,11,7
 Groovin Up,Mycin.T,RP,3,6,0,0,5,9,0,0,5,8,11,0,5,9,0,0
@@ -207,7 +215,7 @@ HAMSIN,makou,P1,9,0,15,15,6,9,13,0,9,12,14,0,6,9,14,10
 Hanz Up!,Mr.Funky,P3,6,0,13,0,5,0,13,11,4,12,0,11,6,12,0,0
 HB-axeleration,Tsukasa Yatoki,GC,2,6,12,0,4,8,12,0,4,11,0,0,6,9,12,0
 Heart of Witch,ReX,BS,7,12,14,0,7,11,15,14,7,12,14,13,8,12,15,14
-Heavenly,makou,RP,5,7,0,0,4,8,0,0,5,9,12,0,4,9,0,0
+Heavenly,makou,RP,5,7,0,0,4,8,0,7,5,9,12,8,4,9,0,5
 HELIX,ESTi,ESTI,6,0,12,0,7,10,13,13,7,10,13,12,6,11,13,12
 Hello Pinky,NieN,P2,5,8,0,0,5,10,0,4,7,11,0,0,6,11,0,3
 Here in the Moment,Ruby Tuesday,CE,4,7,10,5,4,8,10,8,6,8,10,0,5,0,10,6
@@ -229,6 +237,7 @@ It's my war now,김동현,NXN,8,0,13,9,7,11,14,10,7,0,14,0,7,12,14,0
 JBG,Croove,P1,7,11,0,0,7,11,0,11,7,10,12,10,12,0,0,0
 Jealousy,3rd Coast,BS,3,7,0,3,3,7,9,0,4,0,9,0,3,8,9,0
 Jupiter Driving,xxdbxx,P1,5,9,0,6,5,11,0,0,5,8,0,7,7,12,0,0
+Kal_wrnw,LeeZu,TTQ,6,11,13,12,6,10,13,11,5,8,12,10,6,8,12,9
 Kensei,Pure 100%,VE,7,10,14,12,8,12,14,13,7,11,14,13,8,12,14,13
 Keys to the World,Planetboom,BS,5,8,12,9,6,9,13,0,6,11,0,11,6,10,13,0
 KILLER BEE,GOTH,RP,4,6,11,13,7,11,0,0,8,9,13,0,7,13,0,10
@@ -241,7 +250,7 @@ Kung-Fu Rider,AstroKid,T3,6,9,0,5,6,10,0,9,6,10,0,8,6,10,12,0
 L,Ice,CY,3,12,0,12,5,0,14,0,6,12,15,14,8,0,15,13
 La Campanella : Nu Rave,Cranky,T2,6,9,13,9,7,13,0,11,7,0,13,0,7,11,13,10
 "Lacheln, The City of Dreams",NEXON,NXN,5,7,0,0,6,11,0,0,6,0,11,7,4,10,0,4
-Ladymade Star,ESTi,P2,2,6,10,0,3,8,0,0,5,8,10,0,5,8,0,0
+Ladymade Star,ESTi,P2,2,6,10,7,3,8,0,7,5,8,10,7,5,8,0,7
 Landscape,Tsukasa,T1,6,9,0,0,6,8,11,9,5,9,12,11,7,9,13,12
 Leave me alone,NieN,P3,7,10,13,0,7,11,13,12,8,12,14,11,6,12,14,11
 Legacy,switchworks,DM,3,7,9,0,4,8,0,0,4,8,0,4,4,8,11,4
@@ -260,11 +269,13 @@ Lost Temple,IMLAY,VE,5,8,0,12,3,8,11,0,5,8,10,11,5,7,12,0
 Love is Beautiful,Electronic Boutique,T2,4,5,7,0,5,8,0,3,4,7,9,0,5,9,0,3
 Love Mode,CLAZZIQUAI,CE,3,8,0,2,2,6,9,0,4,9,0,6,2,6,10,0
 Lovely hands,Planetboom,BS,4,0,10,0,5,9,11,0,3,10,0,6,6,9,11,5
+LovePanic,hiyong,TTQ,4,8,10,5,3,7,10,5,5,8,10,6,4,8,11,7
 Lover (BS Style),ND Lee,BS,5,7,12,5,5,10,0,8,4,8,11,0,5,8,10,0
 Lover (CE Style),ND Lee,CE,5,8,10,0,5,11,0,4,5,8,11,0,4,8,10,7
 Luv Flow,3rd Coast,P1,1,5,0,0,3,6,0,0,1,5,0,0,6,8,0,0
 Luv Flow ~Funky House Mix~,Paul Bazooka,P3,3,0,11,0,4,9,0,6,4,8,11,0,5,12,0,0
 Luv is True,3rd Coast,P3,4,8,0,5,3,8,10,0,4,11,0,0,5,9,11,0
+Luv Yourself,ND Lee,TTQ,2,7,10,5,3,7,9,5,1,3,9,4,3,7,9,5
 Magnolia,M2U,DM,6,10,13,9,6,10,11,8,6,11,13,8,7,11,13,0
 Maharajah -fenomeno edition-,Alice Schach and the Magic Orchestra,VE,3,5,10,5,5,9,11,5,5,7,11,8,6,9,12,7
 Mammal,Teikyou,CY,6,12,15,0,6,12,15,13,6,12,14,0,8,12,15,13
@@ -280,21 +291,22 @@ Memory of Beach,M2U,P1,6,11,0,0,7,12,0,4,6,9,12,0,8,0,13,3
 Mess it Up,Nauts,P2,5,9,0,0,4,9,0,9,9,12,0,11,6,10,0,0
 Midnight Blood,NieN,P2,6,13,0,0,6,13,0,9,7,10,13,11,6,9,13,8
 Miles,Electronic Boutique,P2,4,10,0,6,5,10,13,0,4,9,13,9,4,11,13,0
-Mind Control,NieN,TR,8,10,13,0,9,11,0,12,9,12,14,0,9,11,14,12
+Mind Control,NieN,TR,8,10,13,12,9,11,0,12,9,12,14,13,9,11,14,12
 Minimal Life,EarBreaker,P1,5,7,0,12,7,9,0,11,8,12,0,0,8,10,14,0
 Minus 3,Croove,P2,8,11,0,9,6,12,0,0,10,0,13,0,7,12,0,10
 Misty Er'A,Mycin.T x jam-jam,VE,3,6,10,0,3,7,10,0,4,9,0,9,5,7,10,0
 MonoXide,Planetboom,T2,5,9,12,0,6,12,0,0,6,9,12,8,5,12,0,8
 Move Yourself,IMLAY / YESEO,VE,2,4,7,6,4,6,9,7,5,7,10,8,4,7,11,9
+Mukilteo Beach,CROOVE,TTQ,4,6,9,6,3,6,10,6,3,6,8,8,3,8,10,8
 Mulch,Sampling Masters MEGA,RP,6,12,0,0,7,0,14,14,8,12,14,13,7,0,15,0
 MUSEDASH!!!!,Dan@Yomi,MD,4,0,12,6,5,8,0,5,4,6,11,9,6,10,12,11
 My Alias,Dayz,P2,6,9,0,0,6,9,12,0,6,9,14,0,5,10,0,0
 "My Heart, My Soul",3rd Coast,T3,2,6,0,0,5,7,0,0,4,7,10,0,4,10,0,0
-My Jealousy,3rd Coast,TR,4,7,10,0,6,8,0,0,6,8,12,0,6,8,12,0
+My Jealousy,3rd Coast,TR,4,7,10,0,6,8,0,7,6,8,12,0,6,8,12,7
 Myosotis,M2U,CY,5,10,13,0,6,12,0,10,5,10,13,0,7,0,14,12
 NANAIRO,HAYAKO,VE,3,8,11,7,5,8,12,0,5,8,12,9,5,9,13,0
 NANO RISK,Dayz,P2,7,0,0,8,7,11,0,0,6,9,12,9,7,11,0,0
-NB Girls,NieN,TR,6,9,0,0,7,0,12,11,5,9,11,8,7,12,0,0
+NB Girls,NieN,TR,6,9,0,8,7,0,12,11,5,9,11,8,7,12,0,10
 NB POWER,NieN,P2,5,7,0,12,6,9,13,0,7,11,13,0,7,10,0,10
 NB RANGER,M2U,P1,8,12,0,0,7,12,0,11,7,10,13,12,9,13,0,0
 NB RANGER - Virgin Force,NieN,RP,5,10,0,12,7,12,15,0,7,12,14,12,7,11,15,0
@@ -303,9 +315,10 @@ NB Rangers -Returns-,NieN,P2,5,9,0,11,7,11,0,0,9,11,13,0,7,13,0,10
 Negative Nature,Electronic Boutique,P2,4,8,0,0,4,7,0,6,7,12,0,8,4,8,0,0
 NEON 1989 (ESTi Remix),OREO,RP,4,7,0,0,3,7,0,0,4,7,0,5,5,9,0,4
 Never Die,Paul Bazooka,VE,5,9,14,11,7,10,14,12,6,10,14,12,6,11,14,11
+Never Ending TECHNIKA,Studio LAY-BACK,TTQ,3,7,10,6,2,5,8,4,3,6,9,8,5,8,11,7
 Never let you go,Blosso,VE2,7,9,12,10,6,0,12,9,5,9,13,10,7,0,14,13
 Never Say,ND Lee,P1,3,6,0,0,6,7,0,9,2,7,12,0,8,0,0,8
-Nevermind,Paul Bazooka,RP,7,10,13,0,7,11,0,13,7,10,13,13,6,10,15,0
+Nevermind,Paul Bazooka,RP,7,10,13,13,7,11,0,13,7,10,13,13,6,10,15,15
 Nightmare,M2U,P2,9,12,0,15,8,13,15,15,8,13,15,0,8,12,15,15
 Nine Point Eight,Mili,DM,5,8,12,0,5,9,12,5,6,9,12,0,7,11,0,8
 Nova ~Mr.Funky Remix~,Mr.Funky,T2,5,7,0,7,6,10,0,6,7,10,12,0,6,0,12,0
@@ -327,7 +340,7 @@ Out of CTRL,Mr.Funky,T3,7,10,13,12,7,11,0,13,8,13,0,0,6,10,13,11
 Over Me,SSOMbo,VE2,6,0,14,0,7,10,14,14,8,0,13,13,7,0,14,13
 OVER THE NIGHT,REDALiCE,GC,5,8,0,9,6,9,0,0,5,0,11,12,7,12,0,0
 Over the Rainbow,Tsukasa,T3,7,12,0,12,5,9,12,0,7,10,12,12,7,13,0,0
-Over Your Dream,xxdbxx,RP,5,11,0,0,5,11,0,0,5,10,11,0,7,12,0,0
+Over Your Dream,xxdbxx,RP,5,11,0,7,5,11,0,9,5,10,11,8,7,12,0,9
 Pancake is Love,3R2,MD,5,8,10,0,7,12,0,3,4,7,0,4,5,10,12,0
 Para-Q,Forte Escape,P1,3,10,0,0,6,8,0,0,7,10,0,12,10,0,0,12
 PDM,Trish,BS,3,7,10,0,4,7,9,0,3,10,0,8,4,9,0,3
@@ -345,15 +358,16 @@ Ray of Illuminati,ESTi,P1,4,7,13,0,6,8,13,11,7,10,13,0,8,11,0,7
 Ray Tuning,NayutalieN,CHU,5,12,0,11,6,13,0,0,6,13,0,9,7,13,0,0
 Ready Now,Ruby Tuesday,BS,4,8,0,4,4,7,9,6,4,7,10,0,5,0,9,5
 Real Over Drive,NieN,ES,7,0,12,0,6,11,0,8,7,13,0,0,7,13,0,11
-RED,Croove,P1,4,6,0,0,5,13,0,0,6,9,12,0,8,13,0,0
+RED,Croove,P1,4,6,0,7,5,13,0,8,6,9,12,8,8,13,0,8
 Red Eyes,Cosmograph,VE2,7,0,14,0,9,0,15,14,8,0,14,13,8,12,15,13
 Relation Again (ESTi's Remix),Tsukasa & ESTi,RP,4,8,0,5,5,9,13,0,5,11,0,8,6,0,12,0
 Remains Of Doom,NieN,RP,7,13,0,0,6,9,14,14,9,12,15,0,6,10,13,12
 Remember,Lin-G,T1,3,8,10,0,4,7,10,4,4,7,11,0,5,0,11,5
 Remember Me,NieN,VE,7,10,12,0,6,10,13,10,7,11,13,0,7,11,14,9
 Reminiscence,Nauts,NXN,3,5,10,0,4,9,12,0,5,11,0,6,4,9,12,5
-REVENGE,ND Lee,P1,5,0,11,0,3,7,0,10,8,12,0,0,10,0,0,9
-Right Back,TANUKI,T3,8,11,14,0,8,0,13,0,7,10,14,0,5,10,14,11
+Renovation,XeoN,TTQ,7,10,13,10,6,11,14,13,6,10,13,12,6,9,13,10
+Retention,XeoN,TTQ,5,8,10,8,3,7,11,10,4,6,11,9,4,7,10,8
+Right Back,TANUKI,T3,8,11,14,0,8,0,13,9,7,10,14,10,5,10,14,11
 Right Now,makou,P2,1,5,0,0,4,8,0,0,4,8,11,0,6,9,0,0
 Rising The Sonic,Dayz,RP,4,9,12,0,5,10,13,7,5,9,13,11,5,10,14,0
 Road Of Death,NieN,P1,4,9,0,12,7,13,0,13,8,11,15,0,7,14,0,15
@@ -365,7 +379,7 @@ Royal Clown,bermei.inazawa,RP,6,8,14,0,7,11,0,10,7,10,13,11,7,10,14,0
 Runaway,LeeZu,RP,6,10,0,0,8,11,0,11,9,11,12,11,8,13,0,0
 Running girl,Mycin.T,RP,5,7,0,4,5,9,0,0,4,10,12,6,6,10,0,0
 Ruti'n,BEXTER,BS,4,10,0,0,5,8,11,0,4,9,11,0,5,10,0,0
-Ruti'n (GOTH Wild Electro Remix),GOTH,RP,6,10,0,0,4,10,0,0,7,10,13,0,7,12,0,0
+Ruti'n (GOTH Wild Electro Remix),GOTH,RP,6,10,0,11,4,10,0,12,7,10,13,11,7,12,0,12
 Sad Machine,Porter Robinson,RP,3,5,8,0,5,7,10,3,4,7,10,3,5,7,10,0
 Sairai,Shinichi Kobayashi,DM,3,0,8,4,3,6,9,0,5,0,9,3,5,7,12,0
 Satisfiction,t+pazolite,GC,5,8,0,8,6,9,11,8,7,11,14,0,5,10,13,0
@@ -376,32 +390,34 @@ Secret Dejavu,DINY,RP,4,6,10,9,5,10,0,0,6,8,11,11,5,10,0,0
 Secret World,Sweetune,BS,4,7,10,0,3,8,0,0,4,7,10,0,4,0,9,0
 Seeker,M2U,P2,5,9,0,11,8,0,14,0,5,9,13,11,7,13,0,0
 Shadow Flower,ned,RP,3,6,0,0,6,9,0,0,5,11,0,5,6,9,0,0
+Shining My Boy,AstroKid,TTQ,1,4,8,3,3,5,8,3,1,4,8,4,3,7,8,4
 Shoot out,Tsukasa,CY,3,8,12,0,4,11,13,0,4,10,13,0,5,9,13,0
 Shoreline,Oriental ST8,T1,4,8,10,0,6,11,0,0,6,11,0,8,6,8,12,9
 Showdown,LeeZu,T3,6,9,13,0,6,8,0,10,5,11,14,0,6,10,13,12
 Showtime,Ruby Tuesday,P2,6,10,0,6,6,9,0,0,8,12,0,0,6,10,0,7
 SigNalize,Paul Bazooka,T3,6,8,10,0,7,9,0,10,7,0,12,9,6,10,14,0
+Silent Clarity,Tsukasa,TTQ,5,8,13,10,6,9,13,9,6,8,12,12,6,9,13,10
 SIN,ESTi,P1,3,6,11,12,7,10,0,12,7,10,14,0,9,12,15,0
 SIN ~The Last Scene~,ESTi,P1,7,12,14,12,7,12,0,0,8,12,14,12,8,14,0,0
 Smoky Quartz,makou,P2,3,6,0,8,7,10,0,0,6,0,11,9,7,14,0,0
 So Happy,Raven & Kreyn,RP,5,0,10,5,5,9,0,0,4,7,11,0,5,10,12,8
 sO mUCH iN LUV,3rd Coast,P2,1,6,0,0,3,6,0,0,4,7,11,0,7,0,0,0
 sO mUCH iN LUV ~Melodic Twisted Mix~,Forte Escape,TR,5,8,0,0,5,8,0,0,4,7,10,0,6,8,10,0
-Someday,NieN,TR,3,5,9,5,4,8,10,0,5,7,11,8,4,6,10,0
+Someday,NieN,TR,3,5,9,5,4,8,10,8,5,7,11,8,4,6,10,8
 SON OF SUN,Hosoe Shinji,T1,7,10,14,0,7,10,14,13,7,11,14,0,7,10,15,14
 SON OF SUN ~Extended Mix~,Hosoe Shinji,T1,7,10,14,0,7,10,15,0,7,11,14,0,8,11,15,0
 Space Challenger,Bagagee Viphex13,VE,4,10,0,8,5,8,12,11,5,9,12,12,5,11,0,9
 Space of Soul,M2U,ES,6,10,14,0,7,12,14,12,7,12,14,13,7,12,14,0
 SQUEEZE,Oriental ST8,P2,4,9,0,12,7,11,0,0,8,10,12,0,7,12,0,8
 STALKER,ND Lee,P2,5,10,0,0,7,9,0,10,6,10,12,10,8,0,15,0
-StarFish,Planetboom,P2,6,9,0,0,7,10,0,0,6,10,0,0,6,9,0,0
+StarFish,Planetboom,P2,6,9,0,7,7,10,0,8,6,10,0,7,6,9,0,9
 Start The Adventure ~SOPHI Remix~,SOPHI,NXN,3,8,0,9,5,0,13,10,6,0,12,0,4,11,0,0
 Stay with me,Ruby Tuesday,P2,2,4,0,7,4,7,0,0,3,7,0,0,7,9,0,6
 STOP,3rd Coast,TR,6,10,0,0,8,0,13,8,7,9,11,0,6,9,13,0
 Streetlight,Nauts,TR,2,7,0,3,3,6,0,0,5,9,0,0,4,8,0,2
 Sunny Side,Croove,P1,4,8,0,0,5,9,0,0,5,8,11,0,9,0,0,0
 Sunny Side ~Deepn' Soul Mix~,makou,P1,7,10,0,5,7,11,0,0,7,0,11,5,8,10,0,0
-Sunset Rider,Nauts,P2,5,9,0,0,6,10,0,0,5,7,11,0,6,9,0,0
+Sunset Rider,Nauts,P2,5,9,0,6,6,10,0,8,5,7,11,7,6,9,0,9
 Super Lovely,EarBreaker,ES,7,11,15,0,6,12,15,14,6,11,15,14,6,12,15,0
 SuperNova,Cranky,T3,5,0,11,0,6,0,12,12,5,9,13,0,6,0,14,13
 SuperSonic,Planetboom,T1,4,7,11,0,5,8,12,9,6,9,12,0,6,10,13,0
@@ -411,10 +427,12 @@ Sweet Dream,Lin-G,T2,4,6,10,0,3,5,8,6,4,7,11,7,5,11,0,0
 Sweet On You,jam-jam,VE2,4,9,0,4,5,8,0,5,4,8,0,8,7,12,0,7
 Sweet Shining Shooting Star,Croove,T1,3,8,10,3,3,6,10,0,6,0,10,6,6,0,11,0
 Syriana,BEXTER,P2,6,9,0,0,6,9,0,7,6,9,13,0,5,9,0,7
-Syriana ~Blast Wave Mix~,DJ.EON,TR,8,10,0,0,8,10,12,0,8,11,0,8,8,10,13,0
+Syriana ~Blast Wave Mix~,DJ.EON,TR,8,10,0,8,8,10,12,9,8,11,0,8,8,10,13,11
 Talk! Talk!,xxdbxx,TR,5,10,13,0,6,8,13,0,8,11,13,0,7,9,12,0
 tape/stop/night,Sugar & Co.,MD,3,10,0,0,5,11,0,6,2,7,0,5,5,8,12,5
+Take on Me,Cuve,TTQ,5,8,12,7,5,7,12,7,3,6,11,9,4,8,12,7
 Tayberrs - Collapsed Paradise,정영걸,NXN,3,7,12,0,5,0,11,0,6,0,12,8,7,12,0,0
+Techno Racer,Paul Bazooka,RP,6,10,12,11,5,8,11,10,5,8,12,11,7,11,13,13
 Tell Me,이궐,CE,1,6,0,0,2,5,9,0,3,6,8,0,1,8,0,0
 Temptation,S-TRO,P1,4,10,0,0,4,10,0,0,6,0,12,0,9,0,0,0
 The 90's Decision,MYUKKE.,MD,5,11,13,6,6,11,13,9,5,9,12,0,6,11,13,9
@@ -424,12 +442,14 @@ The Guilty,P'sycho-Remi,T2,4,7,12,0,6,10,13,9,7,12,0,0,7,0,13,11
 The Last Dance,Urbatronic Chopsticks,T1,4,0,8,2,5,11,0,0,5,10,0,0,4,0,12,0
 The Little Adventurer,Studio EIM,NXN,4,7,0,3,7,9,0,3,6,10,0,0,3,10,0,0
 The Lost Story,NEOWIZ Bless Soundteam,RP,1,4,0,0,4,8,0,0,2,7,0,0,4,7,0,0
+The MAX,ND Lee,TTQ,3,8,10,6,3,6,9,5,4,7,10,8,4,8,11,8
 The Night Stage,CLAZZIQUAI,CE,3,6,0,3,3,7,0,0,3,8,0,0,3,7,10,0
 The Obliterator,GOTH,RP,5,8,0,8,7,11,0,0,8,0,13,0,7,11,0,10
 The One,Paul Bazooka,TR,5,10,0,9,5,9,11,11,7,10,12,10,6,9,12,0
 The Rain Maker,Paul Bazooka,P3,7,0,13,13,5,11,13,0,5,0,13,10,5,13,0,0
 The wheel to the right,Sampling Masters MEGA,CHU,6,11,14,0,7,13,0,12,6,12,15,12,6,13,15,0
 Thor,XeoN,T1,7,11,14,0,6,10,14,0,6,11,14,12,7,11,14,12
+Thor (Deepin’ Absonant Mix),XeoN,TTQ,5,9,14,10,4,10,14,11,5,8,12,11,5,11,14,13
 Thor ~Extended Mix~,XeoN,T2,5,11,14,0,6,10,15,0,6,11,14,0,8,0,14,12
 Tok! Tok! Tok!,STARTRACK,RP,4,7,0,0,4,7,0,0,4,6,10,4,5,8,11,8
 Trip,NieN,T2,1,4,6,2,2,5,8,0,3,5,8,0,3,5,8,0
@@ -443,11 +463,12 @@ Urban Night [CE],hYO,CE,4,8,0,0,5,8,0,0,3,8,0,0,3,0,8,0
 Urban Night [ES],Electronic Boutique,ES,5,13,0,0,5,12,0,9,6,0,13,11,6,0,13,0
 Utopiosphere,Mili,DM,4,6,10,0,4,8,0,4,4,8,12,0,5,11,0,3
 v o l d e n u i t,Cuve,RP,5,9,12,13,4,9,12,0,5,9,12,13,6,9,13,0
-Ventilator,Cycle75,TR,9,11,15,0,9,11,14,0,9,12,14,13,9,12,14,13
+Ventilator,Cycle75,TR,9,11,15,14,9,11,14,14,9,12,14,13,9,12,14,13
 Vertical Floating,Tsukasa,VE2,7,11,14,7,7,11,0,10,7,11,13,12,7,0,14,12
 Ververg,onoken,CY,4,0,9,4,4,0,12,8,4,10,0,0,4,12,0,0
 Vile Requiem,GOTH,VE,7,13,0,0,6,10,13,0,5,10,13,12,6,10,14,0
 Void,Kobayashi Tetsuya,RP,3,7,11,0,5,11,0,0,5,10,0,0,5,11,0,0
+VORTEX,Electronic Boutique,TTQ,4,11,13,10,5,11,13,11,6,10,12,11,4,9,13,11
 Voyage [T1],makou,T1,6,9,0,0,5,10,0,0,3,7,11,0,5,11,0,0
 Voyage [VE2],SOPHI,VE2,7,9,0,7,6,12,0,6,4,8,12,0,7,12,0,0
 waiting for me,Croove,RP,3,8,0,0,4,8,0,0,4,9,0,0,5,9,0,0
@@ -460,12 +481,12 @@ welcome to the space (feat. Jisun),Pory,VE,3,6,9,0,4,8,11,9,4,0,10,0,4,9,11,8
 We're All Gonna Die,Paul Bazooka,RP,8,12,14,0,8,13,0,15,11,13,15,14,8,13,15,0
 What am I fighting for?,Haloweak,GF,3,7,0,8,4,10,0,11,4,0,12,0,6,12,0,0
 WhiteBlue,zts,P2,7,9,13,0,6,10,13,10,7,11,13,11,8,11,13,0
-WHY,Nauts,RP,3,7,0,0,5,10,0,0,2,7,10,0,4,7,0,0
+WHY,Nauts,RP,3,7,0,3,5,10,0,0,2,7,10,0,4,7,0,5
 WONDER $LOT 777,MYUKKE.,VE,5,10,14,12,7,10,13,11,7,9,14,12,7,11,14,12
 Won't Back Down,Pure 100% / KASA,VE2,7,11,13,13,7,11,13,12,4,7,14,13,7,11,14,13
 Xeus,XeoN,T3,6,11,13,0,8,11,14,0,7,11,14,13,6,11,14,15
 XING,ginkiha,MD,5,10,12,12,6,10,14,0,8,11,0,12,5,10,13,9
-XLASHER,Hosoe Shinji,T2,4,8,11,0,5,10,13,13,4,8,13,0,6,10,13,0
+XLASHER,Hosoe Shinji,T2,4,8,11,11,5,10,13,13,4,8,13,10,6,10,13,13
 Y (BS Style),ND Lee,BS,5,8,11,5,4,7,0,4,4,8,12,0,4,8,12,0
 Y (CE Style),ND Lee,CE,5,8,11,7,5,10,0,0,5,8,11,0,5,9,13,0
 Y ~Extended Mix~,ND Lee,T2,6,0,12,8,6,10,12,0,6,9,12,0,6,10,13,0
@@ -480,5 +501,5 @@ Your Own Miracle ~Disco House Mix~,makou,TR,4,8,10,0,5,11,0,0,6,0,11,0,3,8,0,6
 Your Smile,Cistrans (RoseLine),P3,4,9,0,0,4,8,0,5,4,10,0,5,6,11,0,0
 YUBIKIRI-GENMAN,Mili,DM,5,10,0,0,5,0,11,0,4,0,10,0,4,0,10,3
 Zero to the hunnit,SiNA,VE2,7,0,13,12,8,0,13,0,3,9,12,0,7,0,13,13
-ZET,BEXTER,TR,7,10,0,0,7,10,0,11,7,9,13,0,8,11,13,8
+ZET,BEXTER,TR,7,10,0,8,7,10,0,11,7,9,13,10,8,11,13,8
 ZET ~Mr.Funky Remix~,Mr.Funky,P3,5,12,0,0,6,0,12,11,5,11,0,9,5,0,13,0

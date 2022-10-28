@@ -43,6 +43,7 @@ namespace DJMAX_Record_Keeper
             checkCollection.Add(CheckTechnika3);
             checkCollection.Add(CheckPortable3);
             checkCollection.Add(CheckVExtension2);
+            checkCollection.Add(CheckTechnikaTQ);
             //Collabs
             checkCollection.Add(CheckGuiltyGear);
             checkCollection.Add(CheckGrooveCoaster);
@@ -128,16 +129,17 @@ namespace DJMAX_Record_Keeper
             checkCollection[10].IsChecked = Folder.Default.Technika3;
             checkCollection[11].IsChecked = Folder.Default.Portable3;
             checkCollection[12].IsChecked = Folder.Default.VExtension2;
+            checkCollection[13].IsChecked = Folder.Default.TechnikaTQ;
             //Collabs
-            checkCollection[13].IsChecked = Folder.Default.GuiltyGear;
-            checkCollection[14].IsChecked = Folder.Default.GrooveCoaster;
-            checkCollection[15].IsChecked = Folder.Default.Deemo;
-            checkCollection[16].IsChecked = Folder.Default.Cytus;
-            checkCollection[17].IsChecked = Folder.Default.Frontline;
-            checkCollection[18].IsChecked = Folder.Default.Chunithm;
-            checkCollection[19].IsChecked = Folder.Default.Estimate;
-            checkCollection[20].IsChecked = Folder.Default.Nexon;
-            checkCollection[21].IsChecked = Folder.Default.MuseDash;
+            checkCollection[14].IsChecked = Folder.Default.GuiltyGear;
+            checkCollection[15].IsChecked = Folder.Default.GrooveCoaster;
+            checkCollection[16].IsChecked = Folder.Default.Deemo;
+            checkCollection[17].IsChecked = Folder.Default.Cytus;
+            checkCollection[18].IsChecked = Folder.Default.Frontline;
+            checkCollection[19].IsChecked = Folder.Default.Chunithm;
+            checkCollection[20].IsChecked = Folder.Default.Estimate;
+            checkCollection[21].IsChecked = Folder.Default.Nexon;
+            checkCollection[22].IsChecked = Folder.Default.MuseDash;
         }
 
         //Save checked settings
@@ -158,16 +160,17 @@ namespace DJMAX_Record_Keeper
             Folder.Default.Technika3 = (bool)checkCollection[10].IsChecked;
             Folder.Default.Portable3 = (bool)checkCollection[11].IsChecked;
             Folder.Default.VExtension2 = (bool)checkCollection[12].IsChecked;
+            Folder.Default.TechnikaTQ = (bool)checkCollection[13].IsChecked;
             //Collabs
-            Folder.Default.GuiltyGear = (bool)checkCollection[13].IsChecked;
-            Folder.Default.GrooveCoaster = (bool)checkCollection[14].IsChecked;
-            Folder.Default.Deemo = (bool)checkCollection[15].IsChecked;
-            Folder.Default.Cytus = (bool)checkCollection[16].IsChecked;
-            Folder.Default.Frontline = (bool)checkCollection[17].IsChecked;
-            Folder.Default.Chunithm = (bool)checkCollection[18].IsChecked;
-            Folder.Default.Estimate = (bool)checkCollection[19].IsChecked;
-            Folder.Default.Nexon = (bool)checkCollection[20].IsChecked;
-            Folder.Default.MuseDash = (bool)checkCollection[21].IsChecked;
+            Folder.Default.GuiltyGear = (bool)checkCollection[14].IsChecked;
+            Folder.Default.GrooveCoaster = (bool)checkCollection[15].IsChecked;
+            Folder.Default.Deemo = (bool)checkCollection[16].IsChecked;
+            Folder.Default.Cytus = (bool)checkCollection[17].IsChecked;
+            Folder.Default.Frontline = (bool)checkCollection[18].IsChecked;
+            Folder.Default.Chunithm = (bool)checkCollection[19].IsChecked;
+            Folder.Default.Estimate = (bool)checkCollection[20].IsChecked;
+            Folder.Default.Nexon = (bool)checkCollection[21].IsChecked;
+            Folder.Default.MuseDash = (bool)checkCollection[22].IsChecked;
 
             Folder.Default.Save();
         }

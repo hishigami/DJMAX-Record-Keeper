@@ -12,9 +12,12 @@ translationDict = {
     "너로피어오라": "Flowering",
     "너로피어오라 ~Original Ver.~": "Flowering ~Original Ver.~",
     "너에게": "To You",
+    "모차르트 교향곡 40번 1악장": "Mozart Symphony No.40 1st Mvt.",
     "바람에게 부탁해": "Ask to Wind",
     "바람에게 부탁해 ~Live Mix~": "Ask to Wind ~Live Mix~",
     "바람의 기억": "Memory of Wind",
+    "별빛정원": "Starlight Garden",
+    "복수혈전": "REVENGE",
     "부여성 ~Blosso Remix~": "Buyeo Fortress ~Blosso Remix~",
     "비상 ~Stay With Me~": "Soar ~Stay With Me~",
     "서울여자": "SOUL LADY",
@@ -44,6 +47,7 @@ translationDict = {
 
 artistDict = {
     "김동현": "Kim Dong Hyun",
+    "김창훈": "Kim Changhoon",
     "정영걸": "Jung Young Gul",
     "이궐": "Lee Geol",
 }

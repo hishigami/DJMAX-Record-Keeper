@@ -48,6 +48,7 @@ namespace DJMAX_Record_Keeper
             Folder.Default.Technika3,
             Folder.Default.Portable3,
             Folder.Default.VExtension2,
+            Folder.Default.TechnikaTQ,
             Folder.Default.GuiltyGear,
             Folder.Default.GrooveCoaster,
             Folder.Default.Deemo,
@@ -58,7 +59,7 @@ namespace DJMAX_Record_Keeper
             Folder.Default.Nexon,
             Folder.Default.MuseDash
         };
-        public static List<string> folderList = new() {"RP", "P1", "P2", "VE", "ES", "TR", "CE", "BS", "T1", "T2", "T3", "P3", "VE2", "GG", "GC", "DM", "CY", "GF", "CHU", "ESTI", "NXN", "MD"};
+        public static List<string> folderList = new() {"RP", "P1", "P2", "VE", "ES", "TR", "CE", "BS", "T1", "T2", "T3", "P3", "VE2", "TTQ", "GG", "GC", "DM", "CY", "GF", "CHU", "ESTI", "NXN", "MD"};
         public static ObservableCollection<Song> masterSongCollection = new();
         public static ObservableCollection<Song> filterSongCollection = new();
 
@@ -166,6 +167,10 @@ namespace DJMAX_Record_Keeper
             {
                 filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "glory day (Mintorment Remix)"));
                 filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "glory day -JHS Remix-"));
+            }
+            if (!Folder.Default.TechnikaTQ)
+            {
+                filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "Techno Racer"));
             }
 
             //Link Disc

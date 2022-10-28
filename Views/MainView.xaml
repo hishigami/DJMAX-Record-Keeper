@@ -15,8 +15,8 @@
                 </Canvas.Background>
                 <GroupBox Header="Record Information" Height="350" Width="375" Canvas.Left="22" Canvas.Top="10"/>
                 <Label Content="Song Title:" Canvas.Left="40" Canvas.Top="36" />
-                <ComboBox x:Name="ComboTitle" Width="200" Canvas.Left="175" Canvas.Top="40" SelectedIndex="0" DisplayMemberPath="Title"
-                          IsTextSearchEnabled="True" ScrollViewer.CanContentScroll="False" DropDownClosed="ChangeSong"/>
+                <ComboBox x:Name="ComboTitle" Width="220" Canvas.Left="155" Canvas.Top="40" SelectedIndex="0" DisplayMemberPath="Title"
+                          IsTextSearchEnabled="True" ScrollViewer.CanContentScroll="False" DropDownClosed="ChangeSong" HorizontalAlignment="Left" VerticalAlignment="Center"/>
                 <GroupBox Header="Game Mode" Height="55" Width="335" Canvas.Left="40" Canvas.Top="80">
                     <StackPanel x:Name="StackMode" Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center" >
                         <RadioButton x:Name="Radio4" Content="4B" Click="ModeClick" IsChecked="True" Margin="25 5"/>

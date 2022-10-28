@@ -30,6 +30,7 @@
                 <CheckBox x:Name="CheckTechnika3" Content="Technika 3" Margin="23 5"/>
                 <CheckBox x:Name="CheckPortable3" Content="Portable 3" Margin="23 5"/>
                 <CheckBox x:Name="CheckVExtension2" Content="V Extension 2" Margin="23 5"/>
+                <CheckBox x:Name="CheckTechnikaTQ" Content="Technika TQ" Margin="23 5"/>
             </WrapPanel>
         </GroupBox>
 

@@ -6,15 +6,15 @@ using System.Threading.Tasks;
 
 namespace DJMAX_Record_Keeper.DataTypes
 {
-    //Currently, the program only covers the game's standard modes and difficulties
+    // Currently, the program only covers the game's standard modes and difficulties
     public class ScoreRecord
     {
-        //Rank cutlines
+        // Rank cutlines
         private const double bMin = 80.0;
         private const double aMin = 90.0;
         private const double sMin = 97.0;
 
-        //Fields
+        // Fields
         private string _title;
         private string _patternName;
         private string _artist;
@@ -25,7 +25,7 @@ namespace DJMAX_Record_Keeper.DataTypes
         private int _breaks;
         private DateTime _date;
 
-        //Properties
+        // Properties
         public string Title { get => _title; set => _title = value; }
         public string PatternName { get => _patternName; set => _patternName = value; }
         public string Artist { get => _artist; set => _artist = value; }
@@ -37,7 +37,7 @@ namespace DJMAX_Record_Keeper.DataTypes
         public DateTime Date { get => _date; set => _date = value; }
 
 
-        //Constructor
+        // Constructor
         public ScoreRecord(string title, string patternName, string artist, string category, int score, double rate, int breaks, DateTime date)
         {
             Title = title;
@@ -51,14 +51,14 @@ namespace DJMAX_Record_Keeper.DataTypes
             Date = date;
         }
 
-        //Determine rank from rate and breaks
+        // Determine rank from rate and breaks
         private string measureRank(double rate, int breaks)
         {
-            //PP check
+            // PP check
             if (rate == 100.0 && breaks == 0)
                 return "PP";
 
-            //Not a PP. Begin constructing output rank
+            // Not a PP. Begin constructing output rank
             string output;
 
             if (rate >= sMin)
@@ -70,7 +70,7 @@ namespace DJMAX_Record_Keeper.DataTypes
             else
                 output = "C";
 
-            //MC check
+            // MC check
             if (breaks == 0)
                 output += " MC";
 

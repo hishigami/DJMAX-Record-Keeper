@@ -25,7 +25,7 @@ namespace DJMAX_Record_Keeper
     /// </summary>
     public partial class MainView : Window
     {
-        //Globals
+        // Globals
         public ObservableCollection<ScoreRecord> scoreCollection = new();
         ICollectionView scoreList;
         ICollectionView filterList;
@@ -38,7 +38,6 @@ namespace DJMAX_Record_Keeper
             Folder.Default.Respect,
             Folder.Default.Portable1,
             Folder.Default.Portable2,
-            Folder.Default.VExtension,
             Folder.Default.EmotionalSense,
             Folder.Default.Trilogy,
             Folder.Default.Clazziquai,
@@ -47,8 +46,10 @@ namespace DJMAX_Record_Keeper
             Folder.Default.Technika2,
             Folder.Default.Technika3,
             Folder.Default.Portable3,
-            Folder.Default.VExtension2,
             Folder.Default.TechnikaTQ,
+            Folder.Default.VExtension,
+            Folder.Default.VExtension2,
+            Folder.Default.VExtension3,
             Folder.Default.GuiltyGear,
             Folder.Default.GrooveCoaster,
             Folder.Default.Deemo,
@@ -57,9 +58,10 @@ namespace DJMAX_Record_Keeper
             Folder.Default.Chunithm,
             Folder.Default.Estimate,
             Folder.Default.Nexon,
-            Folder.Default.MuseDash
+            Folder.Default.MuseDash,
+            Folder.Default.EZ2ON
         };
-        public static List<string> folderList = new() {"RP", "P1", "P2", "VE", "ES", "TR", "CE", "BS", "T1", "T2", "T3", "P3", "VE2", "TTQ", "GG", "GC", "DM", "CY", "GF", "CHU", "ESTI", "NXN", "MD"};
+        public static List<string> folderList = new() {"RP", "P1", "P2", "ES", "TR", "CE", "BS", "T1", "T2", "T3", "P3", "TTQ", "VE", "VE2", "VE3", "GG", "GC", "DM", "CY", "GF", "CHU", "ESTI", "NXN", "MD", "EZ2"};
         public static ObservableCollection<Song> masterSongCollection = new();
         public static ObservableCollection<Song> filterSongCollection = new();
 
@@ -67,7 +69,7 @@ namespace DJMAX_Record_Keeper
         {
             InitializeComponent();
 
-            //Attempt to deserialize RecordData.json if it exists in base folder directory
+            // Attempt to deserialize RecordData.json if it exists in base folder directory
             if (File.Exists(recordsFile))
             {
                 string json = File.ReadAllText(recordsFile);
@@ -79,7 +81,7 @@ namespace DJMAX_Record_Keeper
                 TextMessage.Text = ("Successfully read saved records from disk.\n");
             }
 
-            //Deserialize SongData.json to masterSongCollection
+            // Deserialize SongData.json to masterSongCollection
             if (File.Exists(songsFile))
             {
                 string songs = File.ReadAllText(songsFile);
@@ -97,28 +99,28 @@ namespace DJMAX_Record_Keeper
                 Close();
             }
 
-            //Load folder settings to filterSongCollection
+            // Load folder settings to filterSongCollection
             LoadFilters();
 
-            //Set date on load to today
+            // Set date on load to today
             PickedDate.Value = DateTime.Today;
 
-            //Set-up collection views
+            // Set-up collection views
             var scoreSourceList = new CollectionViewSource { Source = scoreCollection };
             scoreList = scoreSourceList.View;
             var songFilterList = new CollectionViewSource { Source = filterSongCollection };
             filterList = songFilterList.View;
             
-            //Create Predicate and add to ScoreList before binding it to DataGridRecords
+            // Create Predicate and add to ScoreList before binding it to DataGridRecords
             var patternFilter = new Predicate<object>(pattern => ((ScoreRecord)pattern).PatternName.ToLower().Contains(TextSearch.Text.ToLower()));
             scoreList.Filter = patternFilter;
             DataGridRecords.ItemsSource = scoreList;
 
-            //Set sorting by song title, then bind ComboTitle
+            // Set sorting by song title, then bind ComboTitle
             filterList.SortDescriptions.Add(new SortDescription("Title", ListSortDirection.Ascending));
             ComboTitle.ItemsSource = filterList;
 
-            //Set difficulties for the initial song
+            // Set difficulties for the initial song
             CheckDifficulties(StackMode.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value));
         }
 
@@ -138,7 +140,7 @@ namespace DJMAX_Record_Keeper
         /// </summary>
         private void FilterSpecialSongs()
         {
-            //Respect originals
+            // Respect originals
             if (!Folder.Default.Trilogy)
             {
                 filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "Nevermind"));
@@ -173,7 +175,7 @@ namespace DJMAX_Record_Keeper
                 filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "Techno Racer"));
             }
 
-            //Link Disc
+            // Link Disc
             if (!Folder.Default.BlackSquare && !Folder.Default.Technika1)
             {
                 filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "Here in the Moment ~Extended Mix~"));
@@ -187,7 +189,7 @@ namespace DJMAX_Record_Keeper
                 filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "SON OF SUN ~Extended Mix~"));
             }
 
-            //V Link
+            // V Link
             if (!Folder.Default.VExtension)
             {
                 filterSongCollection.Remove(filterSongCollection.FirstOrDefault(s => s.Title == "Flowering ~Original Ver.~"));
@@ -232,12 +234,12 @@ namespace DJMAX_Record_Keeper
         /// <param name="mode">The current mode to check difficulties against.</param>
         private void CheckDifficulties(RadioButton mode)
         {
-            //Query selected song via LINQ
+            // Query selected song via LINQ
             selectedSong = filterSongCollection.FirstOrDefault(s => s.Title == ComboTitle.Text);
-            //Do not run function on init
+            // Do not run function on init
             if (selectedSong != null)
             {
-                //Disable HD, MX, and SC options
+                // Disable HD, MX, and SC options
                 RadioHD.IsEnabled = false;
                 RadioMX.IsEnabled = false;
                 RadioSC.IsEnabled = false;
@@ -335,7 +337,7 @@ namespace DJMAX_Record_Keeper
         /// </summary>
         private void AddClick(object sender, RoutedEventArgs e)
         {
-            //Null value check
+            // Null value check
             if (ComboTitle.Text == "" || PickedDate.Value == null)
             {
                 TextMessage.Text = ("A blank field was detected.\n" +
@@ -343,15 +345,15 @@ namespace DJMAX_Record_Keeper
                 return;
             }
 
-            //Query the matching song object via LINQ
+            // Query the matching song object via LINQ
             selectedSong = filterSongCollection.FirstOrDefault(s => s.Title == ComboTitle.Text);
 
-            //Variable definitions
+            // Variable definitions
             string title = selectedSong.Title;
-            //Here we probe for the radio option selected in both stack groups and ensure they have values
+            // Here we probe for the radio option selected in both stack groups and ensure they have values
             string selMode = StackMode.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value).Content.ToString();
             string selDiff = StackDifficulty.Children.OfType<RadioButton>().FirstOrDefault(r => r.IsChecked.HasValue && r.IsChecked.Value).Content.ToString();
-            //Generate pattern string
+            // Generate pattern string
             string pattern = title + " " + selMode + selDiff;
             string artist = selectedSong.Artist;
             string category = selectedSong.Category;
@@ -360,7 +362,7 @@ namespace DJMAX_Record_Keeper
             int breaks = (int)(IntegerBreak.Value);
             DateTime scoreDate = (DateTime)(PickedDate.Value);
 
-            //Create ScoreRecord object and add to scoreCollection
+            // Create ScoreRecord object and add to scoreCollection
             ScoreRecord record = new(title, pattern, artist, category, score, rate, breaks, scoreDate);
             scoreCollection.Add(record);
             TextMessage.Text = ("Record successfully added.");

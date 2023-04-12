@@ -8,7 +8,7 @@ namespace DJMAX_Record_Keeper.DataTypes
 {
     public class Song
     {
-        //Fields
+        // Fields
         private string _title;
         private string _artist;
         private string _category;
@@ -29,7 +29,7 @@ namespace DJMAX_Record_Keeper.DataTypes
         private bool _eightMX;
         private bool _eightSC;
 
-        //Properties
+        // Properties
         public string Title { get => _title; set => _title = value; }
         public string Artist { get => _artist; set => _artist = value; }
         public string Category { get => _category; set => _category = value; }
@@ -50,7 +50,7 @@ namespace DJMAX_Record_Keeper.DataTypes
         public bool EightMX { get => _eightMX; set => _eightMX = value; }
         public bool EightSC { get => _eightSC; set => _eightSC = value; }
 
-        //Constructor
+        // Constructor
         public Song(string title, string artist, string category, bool fourNM, bool fourHD, bool fourMX, bool fourSC,
             bool fiveNM, bool fiveHD, bool fiveMX, bool fiveSC, bool sixNM, bool sixHD, bool sixMX, bool sixSC,
             bool eightNM, bool eightHD, bool eightMX, bool eightSC)

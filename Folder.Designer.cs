@@ -298,5 +298,29 @@ namespace DJMAX_Record_Keeper {
                 this["TechnikaTQ"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool VExtension3 {
+            get {
+                return ((bool)(this["VExtension3"]));
+            }
+            set {
+                this["VExtension3"] = value;
+            }
+        }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("False")]
+        public bool EZ2ON {
+            get {
+                return ((bool)(this["EZ2ON"]));
+            }
+            set {
+                this["EZ2ON"] = value;
+            }
+        }
     }
 }

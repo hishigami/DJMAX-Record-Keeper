@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DJMAX_Record_Keeper"
         mc:Ignorable="d"
-        Title="Select Folders" Height="400" Width="500">
+        Title="Select Folders" Height="450" Width="500">
     <Canvas x:Name="CanvasFolder">
         <Canvas.Background>
             <ImageBrush ImageSource="../Images/misty.jpg" Opacity="0.3"/>
@@ -18,9 +18,8 @@
             </StackPanel>
         </GroupBox>
 
-        <GroupBox Header="DLC" Height="175" Width="285" Canvas.Left="185" Canvas.Top="10">
-            <WrapPanel x:Name="WrapDLC" Orientation="Vertical" VerticalAlignment="Center" Width="270">
-                <CheckBox x:Name="CheckVExtension" Content="V Extension" Margin="23 5"/>
+        <GroupBox Header="Legacy" Height="150" Width="285" Canvas.Left="185" Canvas.Top="10" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <WrapPanel x:Name="WrapLegacy" Orientation="Vertical" VerticalAlignment="Center" Width="270">
                 <CheckBox x:Name="CheckEmotionalSense" Content="Emotional Sense" Margin="23 5"/>
                 <CheckBox x:Name="CheckTrilogy" Content="Trilogy" Margin="23 5"/>
                 <CheckBox x:Name="CheckClazziquai" Content="Clazziquai" Margin="23 5"/>
@@ -29,12 +28,19 @@
                 <CheckBox x:Name="CheckTechnika2" Content="Technika 2" Margin="23 5"/>
                 <CheckBox x:Name="CheckTechnika3" Content="Technika 3" Margin="23 5"/>
                 <CheckBox x:Name="CheckPortable3" Content="Portable 3" Margin="23 5"/>
-                <CheckBox x:Name="CheckVExtension2" Content="V Extension 2" Margin="23 5"/>
                 <CheckBox x:Name="CheckTechnikaTQ" Content="Technika TQ" Margin="23 5"/>
             </WrapPanel>
         </GroupBox>
 
-        <GroupBox Header="Collabs" Height="150" Width="285" Canvas.Left="185" Canvas.Top="210">
+        <GroupBox Header="V Extension" Height="79" Width="285" Canvas.Left="185" Canvas.Top="169" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <WrapPanel x:Name="WrapExtension" Orientation="Vertical" VerticalAlignment="Center" Width="270">
+                <CheckBox x:Name="CheckVExtension" Content="V Extension" Margin="23 5"/>
+                <CheckBox x:Name="CheckVExtension2" Content="V Extension 2" Margin="23 5"/>
+                <CheckBox x:Name="CheckVExtension3" Content="V Extension 3" Margin="23 5"/>
+            </WrapPanel>
+        </GroupBox>
+
+        <GroupBox Header="Collabs" Height="150" Width="285" Canvas.Left="185" Canvas.Top="253" HorizontalAlignment="Center" VerticalAlignment="Top">
             <WrapPanel x:Name="WrapCollabs" Orientation="Vertical" VerticalAlignment="Center" Width="260">
                 <CheckBox x:Name="CheckGuiltyGear" Content="Guilty Gear" Margin="23 5" IsChecked="True"/>
                 <CheckBox x:Name="CheckGrooveCoaster" Content="Groove Coaster" Margin="23 5"/>
@@ -45,6 +51,7 @@
                 <CheckBox x:Name="CheckEstimate" Content="ESTiMATE"  Margin="23 5"/>
                 <CheckBox x:Name="CheckNexon" Content="NEXON"  Margin="23 5"/>
                 <CheckBox x:Name="CheckMuseDash" Content="Muse Dash"  Margin="23 5"/>
+                <CheckBox x:Name="CheckEZ2ON" Content="EZ2ON"  Margin="23 5"/>
             </WrapPanel>
         </GroupBox>
 

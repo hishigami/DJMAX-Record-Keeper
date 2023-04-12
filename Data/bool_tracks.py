@@ -12,10 +12,12 @@ translationDict = {
     "너로피어오라": "Flowering",
     "너로피어오라 ~Original Ver.~": "Flowering ~Original Ver.~",
     "너에게": "To You",
+    "느낌": "Feel [EZ2]",
     "모차르트 교향곡 40번 1악장": "Mozart Symphony No.40 1st Mvt.",
     "바람에게 부탁해": "Ask to Wind",
     "바람에게 부탁해 ~Live Mix~": "Ask to Wind ~Live Mix~",
     "바람의 기억": "Memory of Wind",
+    "밤비 (Bambi) - DJMAX Edit -": "Bambi - DJMAX Edit -",
     "별빛정원": "Starlight Garden",
     "복수혈전": "REVENGE",
     "부여성 ~Blosso Remix~": "Buyeo Fortress ~Blosso Remix~",
@@ -43,6 +45,7 @@ translationDict = {
     "Eternal Fantasy ~유니의 꿈~": "Eternal Fantasy",
     "Eternal Memory ~소녀의 꿈~": "Eternal Memory",
     "I want You ~반짝★반짝 Sunshine~": "I want You ~Twinkle Twinkle Sunshine~",
+    "NB RANGERS - 운명의 Destiny": "NB RANGERS - Destiny"
 }
 
 artistDict = {
@@ -52,91 +55,42 @@ artistDict = {
     "이궐": "Lee Geol",
 }
 
-def diffToBool(convert):
-    for song in convert:
-        # Every song in Respect has a NM chart for each mode, so those are set to true by default
-        song["4BNM"] = True
-        song["5BNM"] = True
-        song["6BNM"] = True
-        song["8BNM"] = True
+def diffToBool(song):
+    # Every song in Respect has a NM chart for each mode, so those are set to true by default
+    song["4BNM"] = True
+    song["5BNM"] = True
+    song["6BNM"] = True
+    song["8BNM"] = True
 
-        # Now we check if the other difficulties exist for that song and convert as appropriate
-        # AllTrackData.csv considers a difficulty to not exist if that col value is set to 0
-        # 4B
-        if(song["4BHD"] == "0"):
-            song["4BHD"] = False
+    # Now we check if the other difficulties exist for that song and convert as appropriate
+    # AllTrackData.csv considers a difficulty to not exist if that col value is set to 0
+    diffFilter = ("4BHD", "4BMX", "4BSC", "5BHD", "5BMX", "5BSC", "6BHD", "6BMX", "6BSC", "8BHD", "8BMX", "8BSC")
+    filteredSongDiffs = {diff : song[diff] for diff in diffFilter}
+    
+    for diff in filteredSongDiffs:
+        if filteredSongDiffs[diff] == "0":
+            song[diff] = False
         else:
-            song["4BHD"] = True
-        if(song["4BMX"] == "0"):
-            song["4BMX"] = False
-        else:
-            song["4BMX"] = True
-        if(song["4BSC"] == "0"):
-            song["4BSC"] = False
-        else:
-            song["4BSC"] = True
-        
-        # 5B
-        if(song["5BHD"] == "0"):
-            song["5BHD"] = False
-        else:
-            song["5BHD"] = True
-        if(song["5BMX"] == "0"):
-            song["5BMX"] = False
-        else:
-            song["5BMX"] = True
-        if(song["5BSC"] == "0"):
-            song["5BSC"] = False
-        else:
-            song["5BSC"] = True
-        
-        # 6B
-        if(song["6BHD"] == "0"):
-            song["6BHD"] = False
-        else:
-            song["6BHD"] = True
-        if(song["6BMX"] == "0"):
-            song["6BMX"] = False
-        else:
-            song["6BMX"] = True
-        if(song["6BSC"] == "0"):
-            song["6BSC"] = False
-        else:
-            song["6BSC"] = True
-        
-        # 8B
-        if(song["8BHD"] == "0"):
-            song["8BHD"] = False
-        else:
-            song["8BHD"] = True
-        if(song["8BMX"] == "0"):
-            song["8BMX"] = False
-        else:
-            song["8BMX"] = True
-        if(song["8BSC"] == "0"):
-            song["8BSC"] = False
-        else:
-            song["8BSC"] = True
+            song[diff] = True
 
-def renameKeys(rename):
-    for song in rename:
-        # Pop all difficulty keys so they don't start with a number
-        song["FourNM"] = song.pop("4BNM")
-        song["FourHD"] = song.pop("4BHD")
-        song["FourMX"] = song.pop("4BMX")
-        song["FourSC"] = song.pop("4BSC")
-        song["FiveNM"] = song.pop("5BNM")
-        song["FiveHD"] = song.pop("5BHD")
-        song["FiveMX"] = song.pop("5BMX")
-        song["FiveSC"] = song.pop("5BSC")
-        song["SixNM"] = song.pop("6BNM")
-        song["SixHD"] = song.pop("6BHD")
-        song["SixMX"] = song.pop("6BMX")
-        song["SixSC"] = song.pop("6BSC")
-        song["EightNM"] = song.pop("8BNM")
-        song["EightHD"] = song.pop("8BHD")
-        song["EightMX"] = song.pop("8BMX")
-        song["EightSC"] = song.pop("8BSC")
+def renameKeys(song):
+# Pop all difficulty keys so they don't start with a number
+    song["FourNM"] = song.pop("4BNM")
+    song["FourHD"] = song.pop("4BHD")
+    song["FourMX"] = song.pop("4BMX")
+    song["FourSC"] = song.pop("4BSC")
+    song["FiveNM"] = song.pop("5BNM")
+    song["FiveHD"] = song.pop("5BHD")
+    song["FiveMX"] = song.pop("5BMX")
+    song["FiveSC"] = song.pop("5BSC")
+    song["SixNM"] = song.pop("6BNM")
+    song["SixHD"] = song.pop("6BHD")
+    song["SixMX"] = song.pop("6BMX")
+    song["SixSC"] = song.pop("6BSC")
+    song["EightNM"] = song.pop("8BNM")
+    song["EightHD"] = song.pop("8BHD")
+    song["EightMX"] = song.pop("8BMX")
+    song["EightSC"] = song.pop("8BSC")
 
 
 def csvToJson(csvFilePath, jsonFilePath):
@@ -173,11 +127,11 @@ def conversion(jsonFilePath):
         if krArtist in artistDict:
             song['Artist'] = artistDict[krArtist]
 
-    # Next, convert all (non)-existent difficulties to bools
-    diffToBool(toConvert)
+        # Next, convert all (non)-existent difficulties to bools
+        diffToBool(song)
 
-    # And regenerate the difficulty keys
-    renameKeys(toConvert)
+        # And regenerate the difficulty keys
+        renameKeys(song)
 
     # Write all changes to JSON
     with open(jsonFilePath, 'w', encoding='utf-8-sig') as jsonOut:
